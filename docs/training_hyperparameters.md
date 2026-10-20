@@ -36,4 +36,4 @@ Qwen2.5-VL-72B teacher rationales (§3.3 of the paper).
 
 The λ sweep stopped at 5 (the boundary value was selected).
 
-![Training loss](../assets/figures/training_loss.png)
+![Training loss](../assets/figures/training_loss.jpg)

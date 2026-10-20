@@ -3,8 +3,8 @@
 
     python make_infer_csv.py --image_root /path/to/images --out infer_input.csv [--subset 728|unseen|all]
 
-Manifest paths start with `input_dataset/`. `--image_root` is the directory that
-contains that `input_dataset/` folder. See the README in this folder.
+Manifest paths start with `input_dataset/`, the directory containing the actual benchmark images.
+`--image_root` is the parent directory that contains that folder. See the README in this folder.
 """
 import argparse, os
 import pandas as pd

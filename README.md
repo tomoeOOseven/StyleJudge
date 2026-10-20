@@ -107,7 +107,7 @@ Teacher–student distillation, Qwen2.5-VL-72B → Qwen3.5-0.8B (Unsloth `FastVi
 
 Full tables: [`docs/training_hyperparameters.md`](docs/training_hyperparameters.md).
 
-![Training loss](assets/figures/training_loss.png)
+![Training loss](assets/figures/training_loss.jpg)
 
 ## Results
 

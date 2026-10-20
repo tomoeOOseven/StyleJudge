@@ -28,8 +28,9 @@ the other 150 are unseen-style rows (Acrylic, Pop Art).
 | `exemplar_a_source`, `exemplar_a_target`, `exemplar_b_source`, `exemplar_b_target` | The two exemplar pairs shown to the rater |
 
 All paths start with `input_dataset/` (for example `input_dataset/extracted-strips-part-2/pop_art/79/1.png`).
-Place the image folders under a directory named `input_dataset/` and pass its parent as `--image_root` to
-`make_infer_csv.py`. The image datasets are linked from the main README; images are not stored in this repository.
+This is the directory containing the actual benchmark images, not a placeholder: each manifest path resolves to
+an image file beneath it. Pass the parent directory of `input_dataset/` as `--image_root` to `make_infer_csv.py`.
+The image datasets are linked from the main README; images are not stored in this repository.
 
 ## Scoring a metric
 
