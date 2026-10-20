@@ -1,0 +1,21 @@
+# Core ML & Model Execution
+torch
+unsloth[colab-new]
+trl
+transformers>=5.3.0
+peft>=0.14.0
+accelerate>=1.13.0
+qwen-vl-utils>=0.0.8
+bitsandbytes>=0.43.3
+einops
+sentencepiece
+
+# Data & Utilities
+pandas
+pillow
+scikit-learn
+tqdm
+huggingface_hub
+safetensors
+kagglehub
+nvidia-ml-py

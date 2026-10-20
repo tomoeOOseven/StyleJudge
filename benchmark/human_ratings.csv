@@ -1,0 +1,887 @@
+Row_ID,Row_Index,Style,Username,Score,Reasoning,Timestamp
+c9bc868b-7a17-4bc3-bc05-95d0f2cdc9eb,0.0,pop_art,R-A,2.0,Style transfer is poor and unnecessary details are added,2026-07-24T18:11:57.494Z
+cc7ee506-d45d-4f3d-be6c-36947fe467a0,1.0,pop_art,R-A,7.0,well stylized,2026-07-24T18:13:25.656Z
+ecceb58b-0311-4dfa-ae2e-f6ebff7e646c,2.0,pop_art,R-A,3.0,the style remains almost unchanged and minor details are changed ,2026-07-24T18:19:53.292Z
+a999f4d0-0977-4445-8bbd-3e3b25ceb5db,3.0,pencil,R-A,4.0,style is almost same ,2026-07-24T18:20:52.867Z
+10946750-91fa-4a05-863b-87e6027ad182,4.0,pencil,R-A,5.0,partially stylized,2026-07-24T18:22:13.115Z
+c9ae7705-f7c0-4386-aed5-0eeb09b1be03,5.0,pencil,R-A,6.0,partially stylized,2026-07-24T18:23:15.987Z
+177dcfa9-caa4-41ff-8bdc-a9008d1ad3d2,6.0,pencil,R-A,3.0,"it does not align properly with the style 
+",2026-07-24T18:24:01.597Z
+06678273-2808-42ff-8285-c22ddecb8e59,7.0,pencil,R-A,2.0,it does not align properly with the style,2026-07-24T18:24:40.706Z
+5fa3f3aa-fe73-40ec-99a7-49845cfae901,8.0,pencil,R-A,9.0,perfectly stylized,2026-07-24T18:25:25.347Z
+64bc75bb-edbf-40c5-89f7-69769b9c6541,9.0,pencil,R-A,2.0,it does not align properly with the style,2026-07-24T18:26:10.705Z
+c4e40bb1-ed1f-4529-966d-9767796c2430,10.0,pencil,R-A,8.0,perfectly stylized but minor details are missing ,2026-07-24T18:27:03.470Z
+948a8bfd-80ba-4595-84e8-3edf7f603e35,11.0,pencil,R-A,3.0,it does not align with the style ,2026-07-24T18:28:47.946Z
+6b673e9e-b856-4981-bccf-e4c38ee6fc8d,12.0,abstract,R-A,3.0,"it does not align with the style
+",2026-07-24T18:30:12.696Z
+e652cd96-a553-4101-bcbb-7639e7949730,13.0,abstract,R-A,5.0,partially stylized,2026-07-24T18:31:35.641Z
+60fed0b0-f752-4658-a6ae-7aee83d399f2,14.0,abstract,R-A,2.0,it does not align with the style and also changed the details,2026-07-24T18:32:35.334Z
+676b0306-5739-4e68-af96-5f9676cd103d,15.0,abstract,R-A,8.0,excellant stylized,2026-07-24T18:33:41.437Z
+bdada897-4700-4f45-afa2-a3cd78f72d18,16.0,abstract,R-A,4.0,it does not align with the style,2026-07-24T18:34:19.503Z
+77180680-0176-4f5b-bbab-9a291047533c,17.0,abstract,R-A,3.0,it does not align with the stye and also changed some details ,2026-07-24T18:35:37.581Z
+fd1e1c87-3bf2-4d50-9bc3-8cb432751592,18.0,abstract,R-A,5.0,partially stylized,2026-07-24T18:37:09.912Z
+6f05605f-5c03-472b-bc5d-23723432b149,19.0,abstract,R-A,5.0,poor stylized,2026-07-24T18:38:24.799Z
+d026668f-2880-4f58-8943-f861b1a3b348,20.0,mosaic,R-A,2.0,it does not align with the style and also changed some details ,2026-07-24T18:39:54.673Z
+bc49684a-0875-45e8-b1b9-b6b9b8fb6184,21.0,mosaic,R-A,3.0,style does not changed at all,2026-07-24T18:41:51.489Z
+98e3a34c-ad5b-4d50-98e4-02eb82396fe8,22.0,mosaic,R-A,9.0,brilliant,2026-07-24T18:42:48.850Z
+db643ad6-ebc4-4617-a081-9c105577f94d,23.0,mosaic,R-A,4.0,it does not align with the style transfer,2026-07-24T18:43:41.211Z
+14419b15-9122-4aa4-a438-9fc1f208237b,24.0,mosaic,R-A,6.0,well stylized,2026-07-24T18:44:14.799Z
+6a56fffd-5661-4e38-9808-56bc7ad688fa,25.0,mosaic,R-A,4.0,it does not align with the style transfer,2026-07-24T18:45:26.866Z
+dd4df0c1-33e9-4d16-848d-eeaf96042587,26.0,mosaic,R-A,6.0,well stylized,2026-07-24T18:45:55.646Z
+a65fdf8b-82c2-468e-8704-0519e90b182a,27.0,mosaic,R-A,6.0,well stylized but some minor details are missing ,2026-07-24T18:47:20.394Z
+284d1128-fd7f-4c9a-9f10-6094279670ca,28.0,acrylic,R-A,5.0,well stylized,2026-07-24T18:48:13.908Z
+6434a84b-290c-4263-ae65-1720f669caf0,29.0,acrylic,R-A,5.0,well stylized but poor detailings,2026-07-24T18:50:16.750Z
+93ade6bc-c388-4026-8801-eb4390b14365,30.0,acrylic,R-A,9.0,Excellant,2026-07-24T18:50:42.688Z
+73f75c40-18a4-4259-a820-9b0533740901,31.0,acrylic,R-A,3.0,style does not changed ,2026-07-24T18:51:22.209Z
+542ff8b9-776c-4b97-9a2d-5f891456e792,32.0,acrylic,R-A,5.0,partially stylized,2026-07-24T18:52:05.030Z
+8a1bd919-a89f-4437-8d2b-1b7a15f17ed8,33.0,acrylic,R-A,6.0,well stylized,2026-07-24T18:55:36.245Z
+d58b1ea8-c04d-4f5f-b4e7-6e4aa604f07a,34.0,acrylic,R-A,8.0,excellant,2026-07-24T18:56:20.291Z
+75e146c7-ae00-4aaa-bd98-3eec320f39f4,35.0,acrylic,R-A,8.0,excellant,2026-07-24T18:56:33.685Z
+eaeae9c6-04af-4fcb-9cb9-cf749c6471c2,36.0,gouache,R-A,4.0,poor stylized,2026-07-24T18:57:11.605Z
+63656012-7949-42f5-b3b8-8589578c182a,37.0,gouache,R-A,9.0,fantastic,2026-07-24T18:57:38.083Z
+22f60ce9-200a-4cbc-aa9e-3c3eb8553bf6,38.0,gouache,R-A,5.0,partially stylized,2026-07-24T18:59:08.791Z
+ccdac248-b081-458a-a456-24ff2d7fab01,39.0,gouache,R-A,8.0,excellant,2026-07-24T18:59:28.452Z
+4284230e-ec5b-4361-8e42-fad8424e2b68,40.0,gouache,R-A,8.0,excellant,2026-07-24T18:59:38.840Z
+800451bc-b67e-48fd-b1da-70090fb3c213,41.0,gouache,R-A,7.0,details are missing,2026-07-24T19:00:16.145Z
+a85ac698-bd96-4bcb-8a23-cb614e9cd45f,42.0,gouache,R-A,5.0,partially align with the style,2026-07-24T19:01:22.084Z
+66395c98-c8c9-4c03-825b-348b7790a9f7,43.0,gouache,R-A,8.0,excellant,2026-07-24T19:01:43.822Z
+a7927f3f-0c15-4e32-a11e-ddd6aacb5cbf,44.0,impressionist,R-A,4.0,style is unchanged,2026-07-24T19:03:38.891Z
+909616a5-5672-4c0f-a22d-f4d8fa557cf1,45.0,impressionist,R-A,2.0,it does not align with the style,2026-07-24T19:04:35.104Z
+d9467fea-1fa8-463d-b7ce-5686cec98ae9,46.0,impressionist,R-A,8.0,excellant,2026-07-24T19:05:04.904Z
+aae2cb4a-f06d-40b4-a994-6121b66ab04d,47.0,impressionist,R-A,5.0,poor stylized,2026-07-24T19:05:59.785Z
+d356448a-b5bd-4546-8ac4-d5d69bee2809,48.0,impressionist,R-A,4.0,poor stylized,2026-07-24T19:06:55.011Z
+cfe19813-3f49-4606-b9b2-1739b6244d10,49.0,impressionist,R-A,4.0,poor stylized,2026-07-24T19:07:53.215Z
+c20ad680-c783-4fea-9f3d-358d372c9030,50.0,impressionist,R-A,3.0,it does not align with the style and some details are also missing,2026-07-24T19:09:11.594Z
+25132fb9-8361-4d86-9323-a5c4a597c791,51.0,impressionist,R-A,9.0,fantastic,2026-07-24T19:09:39.434Z
+ca563f05-beb0-459d-962c-0d0d6322c6de,52.0,expressive,R-A,3.0,it does not align with the style,2026-07-24T19:10:21.904Z
+a07ab214-78c3-4c39-931f-f11bdcf13711,53.0,expressive,R-A,9.0,brilliant,2026-07-24T19:10:46.074Z
+ae34e3c9-a6ca-4d18-a18f-efdaf6ee34c2,54.0,expressive,R-A,9.0,brilliant,2026-07-24T19:11:10.649Z
+ea3fa6af-c539-4dd5-b94f-663979fdbf20,55.0,expressive,R-A,5.0,partially stylized,2026-07-24T19:11:43.859Z
+ed01eeb3-eca6-4e9b-846c-e1f89c10e98b,56.0,expressive,R-A,5.0,partially stylized,2026-07-24T19:13:36.131Z
+b4438970-e32b-46e7-b42b-5dae6aeed9d1,57.0,expressive,R-A,6.0,partially stylized,2026-07-24T19:14:11.441Z
+1ff5ced5-898e-463b-afc8-668c832f58d2,58.0,expressive,R-A,8.0,excellant,2026-07-24T19:14:39.231Z
+70333ca9-0b15-4fca-bbc8-7e19616aae2e,59.0,expressive,R-A,7.0,well stylized,2026-07-24T19:15:13.599Z
+941a0629-ac6c-49c6-a502-ae3187e3a176,60.0,charcoal,R-A,1.0,it does not align with the style,2026-07-24T19:15:46.879Z
+8ac59cb6-1e0c-4d8f-a51b-f1ad43ad413a,61.0,charcoal,R-A,9.0,fantastic,2026-07-24T19:16:15.832Z
+80795cf7-0e4e-4cd9-b5ed-e558f2a40639,62.0,charcoal,R-A,4.0,does not align with the style,2026-07-24T19:16:54.789Z
+8e08a11b-4c17-4007-92a6-9353569b7b9b,63.0,charcoal,R-A,8.0,excellant,2026-07-24T19:17:16.511Z
+1587e943-959a-4ea6-8844-e8878b3ba970,64.0,charcoal,R-A,8.0,excellant,2026-07-24T19:17:38.629Z
+9f23c8f1-f6da-4508-a28b-72885bcdb577,65.0,charcoal,R-A,8.0,excellant,2026-07-24T19:17:50.535Z
+c263ea48-3f73-4d68-8ee8-35027c2f58a7,66.0,charcoal,R-A,3.0,does not align with the style,2026-07-24T19:18:25.064Z
+0bb25f00-8894-417b-86af-0773e379ccc2,67.0,charcoal,R-A,5.0,well stylized but poor detailings,2026-07-24T19:19:27.604Z
+f78dd049-2a0d-472d-a782-3aaec93a6735,68.0,cubist,R-A,5.0,partially stylized,2026-07-24T19:20:37.575Z
+551e2c76-a743-4006-b0fd-726143a089f6,69.0,cubist,R-A,5.0,partially stylized,2026-07-24T19:21:04.017Z
+34dd8ad8-3b29-412a-916f-46a0e8b9e876,70.0,cubist,R-A,3.0,does not align with the style,2026-07-24T19:21:54.711Z
+1b7f68f2-b366-49c6-ae23-35c2fff74ee7,71.0,cubist,R-A,7.0,balanced style transfer,2026-07-25T01:29:11.474Z
+a40c416c-aa2b-470c-8bf5-9c262e8e7cae,72.0,cubist,R-A,4.0,it does not align properly with the style,2026-07-25T01:30:00.334Z
+345d94ea-ab99-467a-b54a-8d049435e4c0,73.0,cubist,R-A,4.0,partially stylized,2026-07-25T01:30:40.966Z
+509c0bd2-d015-43ca-85fb-5c7d079d917a,74.0,cubist,R-A,8.0,excellant,2026-07-25T01:31:15.492Z
+c436962c-6bdb-4f1a-bfbf-186ed9bd1cba,75.0,cubist,R-A,4.0,partially stylized,2026-07-25T01:32:47.583Z
+fea1f33c-ac81-4e33-842c-d3dbf4789f76,76.0,minimalist,R-A,9.0,brilliant,2026-07-25T01:33:10.829Z
+23b55f98-8736-4c7d-8414-051acca5907d,77.0,minimalist,R-A,4.0,it does not align perfectly with the style transfer,2026-07-25T01:34:19.699Z
+17160ba4-8060-4a5e-a887-9b9f97130ef5,78.0,minimalist,R-A,8.0,excellant,2026-07-25T01:34:45.692Z
+eef4c3f5-b512-41a0-a224-5507b2caa982,79.0,minimalist,R-A,3.0,it does not align with the style,2026-07-25T01:35:57.683Z
+0d43b9a9-de7d-468d-80b7-78bed72f420a,80.0,minimalist,R-A,8.0,excellant,2026-07-25T01:36:13.024Z
+be586c1f-6b7c-4d55-8be8-f318e7265927,81.0,minimalist,R-A,8.0,minor details lossed,2026-07-25T01:36:51.322Z
+b1e178f7-f991-4c89-a9cf-90f992a01077,82.0,minimalist,R-A,9.0,perfectly stylized,2026-07-25T01:37:23.609Z
+81cf1af4-b083-429e-9982-b5dc9e599fde,83.0,minimalist,R-A,3.0,it does not align with the style,2026-07-25T01:37:55.725Z
+cdf9fba5-5c69-49d7-9a5b-e73e29687aff,84.0,minimalist,R-A,9.0,perfectly stylized,2026-07-25T01:38:23.297Z
+ca2d018f-dac2-4754-bd45-63d7bafa9125,85.0,impressionist,R-A,3.0,mostly unchanged appearance,2026-07-25T01:40:20.334Z
+7133840d-a85e-4cb9-ba45-7f073f5b8474,86.0,impressionist,R-A,8.0,excellant,2026-07-25T01:40:52.185Z
+b8251015-883e-40c5-abf1-770c4391bb69,87.0,impressionist,R-A,6.0,well stylized,2026-07-25T01:45:35.563Z
+48f96d03-76ad-4955-8512-d0f783fc3a24,88.0,impressionist,R-A,8.0,excellant,2026-07-25T01:45:50.331Z
+4219fde7-d76d-4f66-8af4-46e52901594e,89.0,impressionist,R-A,9.0,brilliant,2026-07-25T01:46:13.682Z
+a73a4dcb-36c6-4076-b6dc-4e2c5e741973,90.0,impressionist,R-A,3.0,mostly unchanged appearance,2026-07-25T01:47:30.989Z
+803f3c7e-3b1d-4324-8df8-29412e357f49,91.0,impressionist,R-A,8.0,excellant,2026-07-25T01:47:49.956Z
+e91717c2-829e-4f4b-a7ce-14a5b660ec21,92.0,impressionist,R-A,8.0,excellant,2026-07-25T01:48:24.022Z
+295f853c-2685-4d81-94d2-1c046f0a5c2c,93.0,impressionist,R-A,8.0,excellant,2026-07-25T01:48:51.622Z
+ab7da24c-30fc-468a-b117-e5c6f852413c,94.0,abstract,R-A,8.0,excellant,2026-07-25T01:49:23.116Z
+b2f0f476-ee47-47b4-883d-193d16eac9d2,95.0,abstract,R-A,3.0,it does not align with the style,2026-07-25T01:49:54.891Z
+482d377c-3d60-4fde-ac3e-9f5cefe32821,96.0,abstract,R-A,4.0,mostly unchanged appearance,2026-07-25T01:50:20.918Z
+dc898b2d-0d21-4103-bdad-6e8987980f30,97.0,abstract,R-A,8.0,excellant,2026-07-25T01:50:41.212Z
+089577ad-abe4-4983-8c37-ef7ce72403a2,98.0,abstract,R-A,8.0,excellant,2026-07-25T01:51:01.597Z
+245fa422-a572-4ef9-859e-e736a23370f8,99.0,abstract,R-A,8.0,excellant,2026-07-25T01:51:26.358Z
+ec394492-7935-413f-8b05-e67686d7c65a,100.0,abstract,R-A,6.0,well stylized but some part's style was not recommended,2026-07-25T01:54:32.690Z
+e5440276-d2c4-489a-92df-d7bd2ac3a411,101.0,abstract,R-A,2.0,it does not align with the syle,2026-07-25T01:54:53.849Z
+96542268-2d94-4092-bbd2-71175b3961b8,102.0,abstract,R-A,9.0,awesome,2026-07-25T01:55:36.913Z
+103df7b4-3c6d-4646-b118-e77f440c5090,103.0,watercolor,R-A,9.0,brilliant,2026-07-25T01:55:54.834Z
+c846f710-322c-4619-886d-70a0ffe8e81a,104.0,watercolor,R-A,9.0,brilliant,2026-07-25T01:56:07.930Z
+7680d7a1-1de2-4f67-8f1a-8c8b1d424b9e,105.0,watercolor,R-A,3.0,it does not align with the style,2026-07-25T01:56:30.922Z
+b9b683b4-0122-4d01-ad8c-156f2dd5f9d6,106.0,watercolor,R-A,3.0,it does not align with the style,2026-07-25T01:56:52.953Z
+24f653c4-60fe-41a4-8372-e918c4c4d942,107.0,watercolor,R-A,9.0,brilliant,2026-07-25T01:57:58.169Z
+777e63fb-8cbf-4b9b-8591-6161f3a4f319,108.0,watercolor,R-A,6.0,well stylized,2026-07-25T01:58:44.580Z
+976b7656-94a0-49ae-b50f-7738149c1e3c,109.0,watercolor,R-A,8.0,excellant,2026-07-25T01:59:08.311Z
+61585dd7-1a77-40e6-8bf2-de9fb447358a,110.0,watercolor,R-A,9.0,perfectly stylized,2026-07-25T01:59:42.673Z
+ac89ab35-cb31-486d-8c60-08dc07cbe364,111.0,watercolor,R-A,5.0,color scheme is different,2026-07-25T02:01:21.474Z
+c55f5cc8-38aa-4c45-8676-c49809125f3e,112.0,pop_art,R-A,8.0,excellant,2026-07-25T02:02:11.131Z
+73a338b6-93b7-486e-9a47-90b553e5b452,113.0,pop_art,R-A,9.0,brilliant,2026-07-25T02:02:34.909Z
+e57cb910-5862-4b5a-b6e2-dc1d315e76b2,114.0,pop_art,R-A,8.0,excellant,2026-07-25T02:03:16.378Z
+6331bb58-71ff-49b2-a4b6-e4b1ec8c9706,115.0,pop_art,R-A,8.0,excellant,2026-07-25T02:03:43.139Z
+eb583aa2-a911-48ce-9665-35ecc88eeba0,116.0,pop_art,R-A,9.0,fantastic,2026-07-25T02:03:59.653Z
+7ab3c54f-b1f5-4ffd-876a-60f3b9a7f495,117.0,pop_art,R-A,8.0,excellant,2026-07-25T02:05:29.091Z
+05b21253-9549-483b-8d80-88b98f9e5d11,118.0,pop_art,R-A,8.0,excellant,2026-07-25T02:05:44.877Z
+d9118b4b-b244-4ce4-a828-902ee6f49fce,119.0,pop_art,R-A,7.0,mostly well stylized,2026-07-25T02:06:20.168Z
+4377586c-7f0b-4345-82b8-d175f406a509,120.0,expressive,R-A,9.0,excellant,2026-07-25T02:06:47.161Z
+ee187613-f96f-408c-ab41-b7a1ab5f9a70,121.0,expressive,R-A,8.0,excellant,2026-07-25T02:07:41.838Z
+f6f49840-00d9-43bf-804f-eea51ee595fc,122.0,expressive,R-A,9.0,brilliant,2026-07-25T02:07:57.565Z
+9e7ee6ab-3899-48e0-a004-edebadce6e47,123.0,expressive,R-A,8.0,excellant,2026-07-25T02:08:45.969Z
+d9772758-385f-4845-906a-8f5fba051b1e,124.0,expressive,R-A,4.0,mostly unchanged appearance,2026-07-25T02:09:47.285Z
+d4a0f7fa-e3c6-4b31-8e0f-c04f7df864cf,125.0,expressive,R-A,8.0,excellant,2026-07-25T02:10:04.844Z
+8b5cc3f8-06f3-471f-accf-49c5f5ac986e,126.0,expressive,R-A,9.0,fantastic,2026-07-25T02:10:26.061Z
+0d96aff3-c4bd-4a7f-b5d8-011db20222a1,127.0,expressive,R-A,8.0,excellant,2026-07-25T02:11:10.473Z
+e74ee4ff-1e2e-4882-90f9-9a10460d7633,128.0,cubist,R-A,9.0,perfectly stylized,2026-07-25T02:11:48.510Z
+6cf8a9db-c9fb-4753-b5e4-978602d04497,129.0,cubist,R-A,9.0,brilliant,2026-07-25T02:12:08.420Z
+509d5e20-bf93-436d-8da6-9654a9a53d48,130.0,cubist,R-A,9.0,brilliant,2026-07-25T02:12:42.647Z
+ec2bc627-611f-420d-b23a-2c1eb9349777,131.0,cubist,R-A,8.0,excellant,2026-07-25T02:13:40.565Z
+5956fada-f4c2-497c-a41f-1c46d4c31cda,132.0,cubist,R-A,9.0,brilliant,2026-07-25T02:14:10.066Z
+2e1a277f-4dd9-47fb-8702-1fd1ce302bef,133.0,cubist,R-A,7.0,mostly well stylized,2026-07-25T02:15:47.554Z
+efdbfe07-2a04-47e8-b97b-63f89962d9ee,134.0,cubist,R-A,8.0,excellant,2026-07-25T02:16:11.430Z
+8a8d15f4-3bdc-404f-984e-f7aef0260bd5,135.0,cubist,R-A,8.0,excellant,2026-07-25T02:16:45.960Z
+03c35539-0c19-4811-8836-e5e65cb4ed45,136.0,gouache,R-A,7.0,well stylized,2026-07-25T02:20:49.922Z
+99fb803d-3542-41d3-99d4-c5a020efa4d9,137.0,gouache,R-A,5.0,it does not align with the style,2026-07-25T02:21:46.709Z
+be9f58fe-dc4a-451a-bd0a-56ccca5a60d1,138.0,gouache,R-A,5.0,weak stylized,2026-07-25T02:22:30.181Z
+258d479e-597d-43de-b0b5-507d1a6a1fef,139.0,gouache,R-A,8.0,excellant,2026-07-25T02:22:52.599Z
+52f5aa9a-a262-49dd-865a-d89ca07186e1,140.0,gouache,R-A,9.0,brilliant,2026-07-25T02:23:19.234Z
+e5d5c7e9-f74e-4a8a-849a-4018a4e36774,141.0,gouache,R-A,7.0,well stylized,2026-07-25T02:24:01.419Z
+2c38a475-c850-48c2-9755-8434ad70b97c,142.0,gouache,R-A,4.0,it does not align with the style,2026-07-25T02:24:57.505Z
+2baf35bf-10b8-4225-a6bf-79e29706e854,143.0,gouache,R-A,8.0,excellant,2026-07-25T02:25:35.916Z
+83d675bf-cc94-4c3d-b377-aab06501874a,144.0,pencil,R-A,9.0,perfectly stylized,2026-07-25T02:25:55.631Z
+7e9f19ef-deb3-40fd-825e-251cc0cc1473,145.0,pencil,R-A,8.0,minor details changed,2026-07-25T02:26:41.471Z
+2a4c03ca-308d-45ac-967f-07748744f4bd,146.0,pencil,R-A,8.0,excellant,2026-07-25T02:27:22.821Z
+a3509a4f-3920-45b3-b6b4-23c3fd677e1e,147.0,pencil,R-A,5.0,well stylized but detailing is poor,2026-07-25T02:29:00.165Z
+bb43363b-abde-4986-a23e-1307b9931142,148.0,pencil,R-A,8.0,excellant,2026-07-25T02:29:18.803Z
+a4e85ff3-917a-451f-88a6-728f9fec564b,149.0,pencil,R-A,9.0,brilliant,2026-07-25T02:29:37.026Z
+287ebe32-d787-4430-a839-3c97e9c60e83,150.0,pencil,R-A,4.0,mostly unchanged appearance,2026-07-25T02:30:44.322Z
+08cd4adf-1aef-4f85-bdfa-fc885bd3df36,151.0,pencil,R-A,5.0,weak stylized,2026-07-25T02:31:13.596Z
+9f33883b-255e-43f2-87e4-707bb9f3ad96,152.0,charcoal,R-A,6.0,color grading is not same,2026-07-25T02:32:14.682Z
+d6fb5762-bc64-46a4-92cf-672a98914bdd,153.0,charcoal,R-A,4.0,it does not align with the style transfer,2026-07-25T02:32:41.460Z
+99bd813f-a592-40db-ba19-752475abacfb,154.0,charcoal,R-A,5.0,poor color grading,2026-07-25T02:33:17.841Z
+30cd356a-e24b-40fc-bb37-bc727750a49c,155.0,charcoal,R-A,4.0,minimal visual change,2026-07-25T02:33:58.252Z
+13f8e3cd-0405-488d-8c1e-655e3deaf953,156.0,charcoal,R-A,7.0,excellant stylized but poor color grading ,2026-07-25T02:34:39.502Z
+b89ec5d3-47de-4f9d-95fa-36478dd24920,157.0,charcoal,R-A,8.0,excellant,2026-07-25T02:35:02.095Z
+a5804d8d-25fa-4dfa-b0b6-13a38acf6161,158.0,charcoal,R-A,8.0,excellant,2026-07-25T02:35:22.287Z
+239021bb-12ac-4b89-b40b-d143cea2b10b,159.0,charcoal,R-A,7.0,well stylized,2026-07-25T02:37:17.283Z
+d8e9c2a9-4886-4ddc-b547-6fefc1ec6754,160.0,mosaic,R-A,5.0,poor stylized,2026-07-25T02:37:44.922Z
+0811a2ae-61b9-472a-b8d0-10f9066d1af3,161.0,mosaic,R-A,5.0,partially stylized,2026-07-26T01:27:38.963Z
+55b1907f-31c2-4ff0-bbf2-d17458188ce4,162.0,mosaic,R-A,6.0,well stylized,2026-07-26T01:28:23.312Z
+5a9efd13-f814-4649-9365-2bb82e446851,163.0,mosaic,R-A,4.0,poor stylized,2026-07-26T01:29:11.353Z
+abf6d04b-d5da-4d71-a8c8-60964155f84a,164.0,mosaic,R-A,5.0,poor stylized,2026-07-26T01:30:06.519Z
+503696a2-8676-444e-bec6-fbe8c7f97444,165.0,mosaic,R-A,6.0,partially stylized,2026-07-26T01:32:32.245Z
+8886d6f1-7418-44da-83a5-9910cf37d98e,166.0,mosaic,R-A,3.0,no visual change,2026-07-26T01:32:56.648Z
+c8413569-1fb8-4d3a-9ac5-5b13dd943f48,167.0,mosaic,R-A,4.0,ppor style transfer,2026-07-26T01:33:24.979Z
+33a36d1c-466d-458b-ae87-bdd7d5d52a1f,168.0,acrylic,R-A,8.0,excellant,2026-07-26T01:33:46.652Z
+5745f80c-198d-417b-8490-dd4c111f2b9b,169.0,acrylic,R-A,8.0,excellant,2026-07-26T01:34:06.869Z
+60c72143-ff6e-4fe5-b47b-568c62027b52,170.0,acrylic,R-A,8.0,minor detail loss,2026-07-26T01:34:56.139Z
+53a1a1e8-9a85-4d70-a633-b4396c21852a,171.0,acrylic,R-A,2.0,no style transfer and minor detail changed,2026-07-26T01:37:04.610Z
+dd6ef612-dc79-4417-bce3-c64f30c758df,172.0,acrylic,R-A,9.0,brilliant,2026-07-26T01:37:20.461Z
+a35cfac8-ed85-4aaa-94dc-5bbcf62ee4d3,173.0,acrylic,R-A,8.0,excellant,2026-07-26T01:37:55.472Z
+5f8cd9b3-9452-4230-b9e4-1e0609c42855,174.0,acrylic,R-A,6.0,style partially applied,2026-07-26T01:39:09.187Z
+aae2ba26-c284-4904-b7a1-aea981f2406a,175.0,acrylic,R-A,7.0,minor detail changed,2026-07-26T01:39:51.308Z
+b141b8a9-90a0-46dd-9738-a9fede323839,176.0,mosaic,R-A,5.0,weak style transfer,2026-07-26T01:40:43.395Z
+5ba9794c-bdac-45d7-b784-fc48a29b1051,177.0,mosaic,R-A,8.0,balanced style transfer and contenet preservation ,2026-07-26T01:41:34.071Z
+22eb4cc8-dc44-4584-96d3-fa71ae6d54ce,178.0,mosaic,R-A,8.0,minor detail missing,2026-07-26T01:42:12.829Z
+242c8668-9a83-4d0e-be77-a62b31d9f380,179.0,mosaic,R-A,2.0,it does not align with the style,2026-07-26T01:42:51.265Z
+134c62d1-8259-47a6-8c97-483b81266083,180.0,mosaic,R-A,9.0,brilliant,2026-07-26T01:43:14.564Z
+a68b9ef0-4d9e-4211-8eaa-f68bff294cf5,181.0,mosaic,R-A,7.0,wee stylized but some details changed,2026-07-26T01:44:33.094Z
+07a1cc77-c893-4afe-b557-1b185c683694,182.0,mosaic,R-A,9.0,perfectly stylized,2026-07-26T01:44:57.255Z
+47ded0e9-20f3-48fb-b300-5587f5aff2a0,183.0,mosaic,R-A,4.0,it does not align properly with the style,2026-07-26T01:45:47.163Z
+bb3d83eb-0a67-45ad-ab16-6782d5cfbf04,184.0,mosaic,R-A,8.0,excellant,2026-07-26T01:46:21.045Z
+676c78a4-adf1-47c6-bbec-d10b73681f39,185.0,gouache,R-A,9.0,perfectly stylized,2026-07-26T01:46:44.655Z
+4ab63c0f-949d-4be8-9d59-613618bc90f8,186.0,gouache,R-A,8.0,excellant,2026-07-26T01:47:11.992Z
+1efece08-3245-4bd1-86be-5bc7fe31e205,187.0,gouache,R-A,7.0,well stylized,2026-07-26T01:47:37.754Z
+d0b3d47c-89fb-4284-887f-8f8bf8055262,188.0,gouache,R-A,9.0,perfectly stylized and content preservation,2026-07-26T01:48:39.982Z
+510af40f-0d81-460b-9e70-c7ae8c1d930e,189.0,gouache,R-A,8.0,excellant,2026-07-26T01:49:10.151Z
+2e912d2b-032d-4e3b-aa33-5159c2004a58,190.0,gouache,R-A,8.0,excellant,2026-07-26T01:49:49.766Z
+19ab060c-ef83-42c5-8cc7-4b43fc4a8a37,191.0,gouache,R-A,8.0,excellant,2026-07-26T01:51:41.495Z
+17b12195-623a-4d62-85f9-8616b6ad3ebd,192.0,gouache,R-A,9.0,perfetly stylized and excellant content preservation,2026-07-26T01:52:33.696Z
+73e934b4-f7ce-4153-9a5f-03bb911a2483,193.0,gouache,R-A,8.0,excellant,2026-07-26T01:53:01.127Z
+6c15f621-c368-42dc-a011-2c8b64cba20a,194.0,charcoal,R-A,9.0,brillaint,2026-07-26T01:53:23.205Z
+2f693a8e-003e-4451-bc66-b69a4f381ea7,195.0,charcoal,R-A,3.0,weak style trasfer and some details also changed,2026-07-26T01:54:29.922Z
+28824ff7-e646-4731-a5d2-6e53291c99c7,196.0,charcoal,R-A,5.0,color scheme is different,2026-07-26T01:54:58.362Z
+986172ae-d212-4519-9998-42e86a626219,197.0,charcoal,R-A,6.0,slightly weak style transfer,2026-07-26T01:55:40.436Z
+364f3acb-bdc4-4206-bcda-4288f7e2c678,198.0,charcoal,R-A,8.0,excellant,2026-07-26T01:56:19.802Z
+5b198de5-3299-4d90-ae2c-a118dec6b0fc,199.0,charcoal,R-A,6.0,satisfactory,2026-07-26T01:56:51.272Z
+73d70b90-1a68-488d-8a07-de261c2a5a98,200.0,charcoal,R-A,6.0,minor detail loss,2026-07-26T01:57:19.637Z
+d237129e-568c-4093-899a-4f553dadfd6a,201.0,charcoal,R-A,6.0,satisfactory,2026-07-26T01:57:34.797Z
+43764f97-e049-42c7-b7b1-530e3de43a4a,202.0,charcoal,R-A,4.0,color scheme is different,2026-07-26T01:58:06.681Z
+9ce3a473-9348-454f-be41-3acb496548e5,203.0,pop_art,R-A,7.0,slightly weak style trasfer,2026-07-26T01:58:55.169Z
+e9d0d855-62ac-405c-bed5-9840a248b885,204.0,pop_art,R-A,9.0,brilliant,2026-07-26T13:24:01.552Z
+9e433452-190f-4103-93d6-aa237a0fc238,205.0,pop_art,R-A,8.0,excellant,2026-07-26T13:24:34.866Z
+7563bbc3-97d0-4e21-9d37-9772e88f04d7,206.0,pop_art,R-A,9.0,perfectly stylized,2026-07-26T13:25:23.421Z
+f8912274-595c-473f-9ad5-1bd8eea3b9a2,207.0,pop_art,R-A,8.0,excellant,2026-07-26T13:25:51.046Z
+58478c9c-0208-4514-8fc6-e5f9c572d2bb,208.0,pop_art,R-A,7.0,convincing style transfer,2026-07-26T13:26:56.425Z
+bbbfac41-1f2e-47a8-a92a-260ef833ccc9,209.0,pop_art,R-A,6.0,partially well stylized ,2026-07-26T13:28:19.123Z
+4085ab2a-5706-4b1a-9861-51c0d403513d,210.0,pop_art,R-A,9.0,brilliant,2026-07-26T13:28:39.028Z
+7eae2a33-a915-478c-b18a-f75ccf38a532,211.0,pop_art,R-A,9.0,fantastic,2026-07-26T13:29:10.362Z
+627e1b63-bfef-495f-b0b6-ca76a971cd2b,212.0,impressionist,R-A,7.0,well stylized,2026-07-26T13:29:40.617Z
+4b66b488-7ade-4b46-8188-752ad7077a93,213.0,impressionist,R-A,6.0,well stylized but some details changed,2026-07-26T13:30:50.295Z
+ccc229e3-c847-4c64-84d3-3bddb8ded47d,214.0,impressionist,R-A,6.0,color scheme is different,2026-07-26T13:31:21.047Z
+49cd7d45-4598-4272-b20c-ffa7ad73bc53,215.0,impressionist,R-A,6.0,slightly weak style transfer,2026-07-26T13:32:15.525Z
+e0db009a-2a1f-4666-8109-7cb756bf81ee,216.0,impressionist,R-A,7.0,well stylized,2026-07-26T13:32:45.290Z
+2f4bdb50-a966-4858-ac74-b0abfd577565,217.0,impressionist,R-A,6.0,slightly different style transfer,2026-07-26T13:33:35.964Z
+0ee03f61-3205-4b32-9a89-f5daf1b2f08e,218.0,impressionist,R-A,8.0,excellant,2026-07-26T13:34:05.081Z
+39555efd-e1c1-4c4f-9443-8804cbf034d2,219.0,impressionist,R-A,5.0,weak style trasfer,2026-07-26T13:34:34.860Z
+62123e5e-93a1-4469-a504-d067f7ad4cab,220.0,watercolor,R-A,9.0,brilliant,2026-07-26T13:35:08.993Z
+b8c47e08-69f3-4984-af39-78ac0bc7c418,221.0,watercolor,R-A,3.0,image does not align with the style,2026-07-26T13:35:48.538Z
+206ec161-73fc-47e4-802f-0935c4d9e4e8,222.0,watercolor,R-A,8.0,excellant,2026-07-26T13:36:17.285Z
+460ed7ec-ba3b-4345-98a4-272689570c70,223.0,watercolor,R-A,7.0,convincing style transfer and minor details changed,2026-07-26T13:37:58.838Z
+444c8458-cc0b-4f76-b846-dcdf2b850793,224.0,watercolor,R-A,8.0,excellant,2026-07-26T13:38:19.885Z
+d31d4b01-f663-4b64-b5c4-e1767d05a721,225.0,watercolor,R-A,4.0,no style transfer took place,2026-07-26T13:39:33.168Z
+5240d38c-8691-4145-8d09-091915a3f32c,226.0,watercolor,R-A,8.0,excellant,2026-07-26T13:39:57.434Z
+4add8220-9b18-4abd-a392-a51dcedf662c,227.0,watercolor,R-A,8.0,excellant,2026-07-26T13:40:09.372Z
+221f9210-f0d6-459e-903c-344d2cf01b68,228.0,cubist,R-A,8.0,excellant,2026-07-26T13:41:08.940Z
+15236245-0b12-4547-ba56-e7e58f891344,229.0,cubist,R-A,8.0,excellant,2026-07-26T13:41:32.406Z
+c9d63a11-9aa0-461c-87b1-6c6f7f4cdd48,230.0,cubist,R-A,6.0,partially well stylized but partially different style transfer took place ,2026-07-26T13:43:03.043Z
+44980501-54c2-4baf-a084-6047cb957693,231.0,cubist,R-A,7.0,satisfactory style transfer,2026-07-26T13:43:37.422Z
+fa2ad03f-071b-459b-b646-228a7ee8ab57,232.0,cubist,R-A,5.0,overall style transfer is good but some more changes expected ,2026-07-26T13:44:46.624Z
+896e9bde-239a-4ecf-b929-e556fca71ff1,233.0,cubist,R-A,8.0,excellant,2026-07-26T13:45:03.297Z
+30310688-4363-4e41-87fe-eecee64b42bf,234.0,cubist,R-A,9.0,brilliant,2026-07-26T13:45:18.831Z
+b5243158-89cf-4b7a-a180-6d914c2d22d2,235.0,cubist,R-A,9.0,brilliant,2026-07-26T13:46:39.255Z
+e64a8af8-bbd9-45c6-bfde-6f5f53775dcd,236.0,expressive,R-A,4.0,weak style transfer and minor details changed,2026-07-26T13:47:40.013Z
+a53be7b1-8c7e-44d9-952e-21a9a3ad5934,237.0,expressive,R-A,7.0,slightly weak style tranfer,2026-07-26T13:48:12.059Z
+7efc4a44-1e8a-4e93-8df7-e5205d60ea2b,238.0,expressive,R-A,4.0,it does not align with the style,2026-07-26T13:48:55.310Z
+5d9d4c5d-8ae2-4c56-bb55-2a13aa8b1f21,239.0,expressive,R-A,8.0,excellant,2026-07-26T13:49:50.967Z
+33bbc14d-260f-4985-b2e3-8a4a45c97762,240.0,expressive,R-A,9.0,brilliant,2026-07-26T13:50:17.213Z
+3398325e-7064-473a-aa3f-105e6881e657,241.0,expressive,R-A,8.0,excellant,2026-07-26T13:50:38.324Z
+5916289e-b2bf-4513-931e-ba4a96d99daa,242.0,expressive,R-A,5.0,weak style transfer and minor details lost,2026-07-26T13:51:58.035Z
+9e79398b-8220-4bf1-bd65-6a7ed2b01868,243.0,expressive,R-A,5.0,weak style transfer,2026-07-26T13:52:54.745Z
+732000e0-5a43-4cb6-b028-7729240cd859,244.0,pencil,R-A,8.0,excellant,2026-07-26T13:53:23.206Z
+8574de3e-3e75-4efb-818d-50bc8fa749d3,245.0,pencil,R-A,6.0,slightly weak style transfer,2026-07-26T13:53:49.945Z
+17dfc969-cd58-4dfb-9c59-6c2404a160bc,246.0,pencil,R-A,8.0,excellant,2026-07-26T13:54:04.413Z
+80c8ce55-a6b1-4f83-b1ff-2c6b8d9a82b0,247.0,pencil,R-A,5.0,color scheme is different,2026-07-26T13:54:42.049Z
+fc803ca0-4905-44a9-9072-fb05776090c8,248.0,pencil,R-A,9.0,brilliant,2026-07-26T13:54:55.947Z
+db00eeab-e2fe-430d-b8c3-1c54f83c34e0,249.0,pencil,R-A,9.0,brilliant,2026-07-26T13:55:13.572Z
+0209e549-01f1-408c-bf19-df2b188fa7da,250.0,pencil,R-A,8.0,excellant,2026-07-26T13:55:28.639Z
+d382a1f1-aead-4ee8-a155-7423e64773c5,251.0,pencil,R-A,4.0,image does not align with the style ,2026-07-26T13:56:25.022Z
+7ab96618-1fe8-4c37-a53d-1c744170d7c7,252.0,acrylic,R-A,8.0,excellant,2026-07-26T13:56:42.773Z
+9af88969-b47d-4207-9517-51bbecc8cf3f,253.0,acrylic,R-A,8.0,balance style transfer and content preservation,2026-07-26T13:58:19.577Z
+f272b1b4-1c15-4333-b070-bc2ea5bf30df,254.0,acrylic,R-A,7.0,satisfactory style transfer,2026-07-26T13:58:51.417Z
+b9f2dd71-98f7-4cd1-a890-4ca226519c34,255.0,acrylic,R-A,8.0,excellant,2026-07-26T13:59:16.550Z
+90b27c5e-6170-43c4-a723-be0960ec12cd,256.0,acrylic,R-A,8.0,balance style transfer and content preservation,2026-07-26T13:59:46.915Z
+6d377cbd-9f91-4ead-be01-f3c6e4526459,257.0,acrylic,R-A,8.0,excellant,2026-07-26T14:00:07.394Z
+496fb612-22f6-46aa-b7c4-359dc0a1b01d,258.0,acrylic,R-A,3.0,it does not align with the style,2026-07-26T14:00:37.372Z
+f22b0e08-5ff4-481b-aefc-76db5dec604f,259.0,acrylic,R-A,6.0,color scheme is different,2026-07-26T14:01:13.310Z
+4038aff0-a8fc-472e-a004-d103aee63a5e,260.0,minimalist,R-A,8.0,excellant,2026-07-26T14:01:37.596Z
+2a65ab44-bfda-4d4a-87ea-54104e6e132c,261.0,minimalist,R-A,7.0,minor details lost,2026-07-26T14:02:16.390Z
+28d71b11-b244-485d-b328-1bf44eb6d1ed,262.0,minimalist,R-A,8.0,excellant,2026-07-26T14:02:36.669Z
+e50fb031-ca4f-4e86-905f-8348fb666639,263.0,minimalist,R-A,8.0,excellant,2026-07-26T14:03:35.678Z
+f60575b3-2498-40f4-b8aa-6f6796e0e528,264.0,minimalist,R-A,8.0,excellant,2026-07-26T14:07:11.551Z
+bdc83435-27df-4044-a514-84ff551a366c,265.0,minimalist,R-A,7.0,satisfactory style transfer,2026-07-26T14:07:43.595Z
+1a4062b6-05a3-4a4f-84af-05e5beac5381,266.0,minimalist,R-A,8.0,excellant,2026-07-26T14:08:05.098Z
+14d8bbf4-8326-4f80-88e1-c6ef7c98d3fd,267.0,minimalist,R-A,9.0,brilliant,2026-07-26T14:08:26.691Z
+746b83f2-ff5b-46ad-a3a5-aad6d7cd69ff,268.0,abstract,R-A,8.0,excellant,2026-07-26T14:08:50.885Z
+6b3fd611-2007-453b-801d-8186f9e1f13d,269.0,abstract,R-A,5.0,weak style transfer,2026-07-26T14:09:24.180Z
+bb210b62-9570-41cb-a8de-cdc61aa45593,270.0,abstract,R-A,8.0,excellant,2026-07-26T14:09:57.397Z
+85b7d2f9-8d6c-4666-b50c-0378e091c6b8,271.0,abstract,R-A,8.0,excellant,2026-07-26T14:12:55.604Z
+b66ba293-20fb-4a12-8e28-8b4af707704e,272.0,abstract,R-A,8.0,excellant,2026-07-26T14:14:14.021Z
+5e8e8f23-fda1-4346-a6fb-37453f3dea1a,273.0,abstract,R-A,7.0,satisfactory style transfer,2026-07-26T14:15:18.954Z
+8c866702-245c-43ff-964d-facbb62f2f60,274.0,abstract,R-A,6.0,slightly different style transfer,2026-07-26T14:15:57.346Z
+99474197-ac9c-4798-947a-cfcd899b8b68,275.0,abstract,R-A,8.0,excellant,2026-07-26T14:16:19.271Z
+a9c368dd-4b9d-445e-90e1-f69f003bad00,0.0,pencil,R-J,1.0,The image remains unchanged,2026-07-20T13:03:29.292Z
+08b13a10-6c59-4a32-a898-b915a707cc30,1.0,pencil,R-J,1.0,This image remained unchanged,2026-07-20T13:03:56.560Z
+b1e01735-2c6a-4b70-b617-2b2e78693720,2.0,pencil,R-J,2.0,The transfored image does not align with the mentioned style,2026-07-20T13:04:55.367Z
+a123f298-dcf0-4a28-bbaf-d2f7663cb486,3.0,pencil,R-J,2.0,"The image does not align with the given style, the transformation just makes the image less contrast ",2026-07-20T13:06:54.536Z
+b2158c38-3b18-4f22-bd81-662422be532e,4.0,pencil,R-J,1.0,The image remains almost unchanged,2026-07-20T13:07:20.057Z
+539b7934-3e43-497a-b601-8fcb64e5d3f6,5.0,pencil,R-J,5.0,The style tranfer is correct but the tranformed image is not clear.,2026-07-20T13:10:31.433Z
+85c44cff-c7e1-45a0-a8d9-042373f7a094,6.0,pencil,R-J,2.0,The image remains almost unchanged,2026-07-20T13:10:51.785Z
+9f9592d7-c959-4ee4-bfb4-9b6f1f49d0d4,7.0,pencil,R-J,2.0,The image is not alligned with the style,2026-07-20T16:24:48.028Z
+6c878e67-61a5-4280-b301-5951077b5a3c,8.0,pencil,R-J,3.0,the image is not transformed well.,2026-07-20T16:36:10.164Z
+4883fb2b-c5ca-4946-8798-2363c5f38182,9.0,abstract,R-J,2.0,The image is not transformed well.,2026-07-20T16:37:08.356Z
+005ebb18-9906-49d4-b5cd-5bda3c68c089,10.0,abstract,R-J,5.0,the transformed image does not allign completely with the style,2026-07-21T12:13:05.153Z
+fa683c3a-3d5c-4b2c-8c59-2194fb5dcfc0,11.0,abstract,R-J,2.0,The image remains unchanged,2026-07-21T12:13:26.349Z
+f25394f5-eac9-45e2-854a-a412b78c89f1,12.0,abstract,R-J,8.0,the output clearly uses the style,2026-07-21T12:17:53.717Z
+f36cd268-3336-4336-b941-405d44fd8928,13.0,abstract,R-J,2.0,the image remains unchanged ,2026-07-21T12:18:16.169Z
+fe5dd9be-08e6-4d1d-aa0c-a8e85599d3c3,14.0,abstract,R-J,2.0,"the image remains unchanged 
+",2026-07-21T12:18:34.179Z
+16a84ed8-bfb2-4405-87ba-00effd0ca37e,15.0,abstract,R-J,1.0,the image remains unchanged ,2026-07-21T12:19:23.487Z
+8ad49624-8e8e-4c6e-a099-c453a1337746,16.0,abstract,R-J,2.0,it does not match with the style,2026-07-21T12:19:46.181Z
+97a3b8fd-647c-43fb-a964-4cd716ff01c7,17.0,abstract,R-J,2.0,"the image remains unchanged 
+",2026-07-21T12:19:56.790Z
+513772d2-db91-49f9-9777-a56bb007d21e,18.0,mosaic,R-J,7.0,transfered well,2026-07-21T12:31:30.231Z
+1ecae86c-dfff-476f-b8a7-6ed9750faf83,19.0,mosaic,R-J,2.0,the image remains unchanged ,2026-07-21T12:31:39.782Z
+c8315982-f834-4335-879d-2358a8fcb475,20.0,mosaic,R-J,2.0,the image remains unchanged ,2026-07-21T12:32:37.689Z
+f05bea9c-b453-469b-a230-0117be853fe9,21.0,mosaic,R-J,2.0,the image remains unchanged ,2026-07-21T12:32:57.430Z
+323bd66e-1c8b-4710-b7f9-b3c9261363d9,22.0,mosaic,R-J,2.0,the image remains unchanged ,2026-07-21T12:33:18.287Z
+6fa2e7a1-5b40-4354-a016-53cf0858d403,23.0,mosaic,R-J,2.0,the image remains unchanged ,2026-07-21T12:33:30.338Z
+69bab6f8-c3d5-4269-b58d-c961fafe8dd7,24.0,mosaic,R-J,8.0,transformed well,2026-07-21T12:33:47.795Z
+01658154-1dbf-40f9-8214-1c84e7af4f1b,25.0,mosaic,R-J,3.0,it do not match with style,2026-07-21T12:34:13.623Z
+a76b1a61-b9a5-497a-9dc3-fb8bd210bb5e,26.0,mosaic,R-J,2.0,the image remains unchanged ,2026-07-21T12:34:32.421Z
+055e470e-7fff-45cb-a7d3-e80ee048e915,27.0,cubist,R-J,2.0,the image remains unchanged ,2026-07-21T12:34:48.041Z
+f16e3612-3569-44d7-bf13-1c6cc01398c0,28.0,cubist,R-J,3.0,it does not align with style,2026-07-21T12:35:16.315Z
+89bd2b7a-bbf0-42e4-82ca-9b7d23ca8130,29.0,cubist,R-J,2.0,the image remains almost  unchanged ,2026-07-21T12:35:32.445Z
+a489d529-0823-4153-914a-d93135f2d3bb,30.0,cubist,R-J,2.0,the image remains almost unchanged ,2026-07-21T12:35:56.177Z
+92b45643-1f8a-469a-8ca7-ca0b0cd21a96,31.0,cubist,R-J,3.0,the image is not alligned with the style ,2026-07-21T12:36:26.703Z
+e5d5c845-1b89-4ccf-a7ce-ffeaf7e2ed84,32.0,cubist,R-J,2.0,the image is not alligned with the style ,2026-07-21T12:36:36.086Z
+bd8df9c6-e563-480b-8bfc-97810446dfd1,33.0,cubist,R-J,2.0,the image is not alligned with the style ,2026-07-21T12:36:45.402Z
+2a101fc9-c72c-4516-a20b-6e8a550595a9,34.0,cubist,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:36:57.432Z
+8778d7d4-b50e-4154-a3bc-627657d47ce4,35.0,cubist,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:37:11.886Z
+268dee7f-190c-4202-be04-e318e561a632,36.0,pop_art,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:37:20.862Z
+5769ab7d-e851-412b-a965-c13761c76b0e,37.0,pop_art,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:37:28.456Z
+80af5b90-b8cc-4c58-a93e-b164df425ddf,38.0,pop_art,R-J,4.0,the image is not aligned with the style ,2026-07-21T12:37:43.089Z
+93089f3d-b8cd-46a0-973c-7a769e378c7f,39.0,pop_art,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:45:50.310Z
+6593bac9-0650-4aca-8e74-18963c216628,40.0,pop_art,R-J,4.0,the image is not aligned with the style ,2026-07-21T12:46:12.300Z
+f59db7f0-f229-4155-8dab-30fb350c4aba,41.0,pop_art,R-J,4.0,the image is not aligned with the style ,2026-07-21T12:46:25.270Z
+ff6440a2-529f-45c6-ba2c-0e71956cff68,42.0,pop_art,R-J,6.0,the style is applied partially,2026-07-21T12:52:49.417Z
+3c4f2254-e1d7-4e20-a376-d3774f601c9f,43.0,pop_art,R-J,6.0,partially stylized,2026-07-21T12:54:06.404Z
+40d423f4-3a6b-488a-b1fa-e60ee7c5d6a0,44.0,pop_art,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:54:18.370Z
+fc7c5dc6-1b41-43f0-904d-3c9cc59ba89b,45.0,charcoal,R-J,6.0,partially alligned,2026-07-21T12:54:37.996Z
+6bafec46-4be5-498f-ae23-a2810e54773c,46.0,charcoal,R-J,5.0,partially alligned,2026-07-21T12:54:56.593Z
+9ab0b256-d796-45fe-a3dc-9eaa98b964fb,47.0,charcoal,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:55:06.916Z
+a486c2a4-e29e-4898-aadc-2cb480417cdc,48.0,charcoal,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:55:26.020Z
+2436b837-604c-48fd-950d-6886461a1e4f,49.0,charcoal,R-J,3.0,the image is not aligned with the style ,2026-07-21T12:55:37.662Z
+de5ab2d5-4f9c-4a31-85d7-e770348668e6,50.0,charcoal,R-J,5.0,partially aligned,2026-07-21T12:55:59.050Z
+88868e8e-fe7c-4144-9dd4-b35c5502def0,51.0,charcoal,R-J,5.0,partially aligned,2026-07-21T12:56:17.652Z
+149f7cf3-ca92-4287-9fd0-8fcb747bd595,52.0,charcoal,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:56:25.470Z
+8b95814b-6c0c-43a6-9bcf-ccff2a93bbe4,53.0,charcoal,R-J,3.0,the image is not aligned with the style ,2026-07-21T12:56:35.848Z
+14c8d8dc-890e-4d0a-9e63-ab3b82f8f865,54.0,watercolor,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:56:44.402Z
+6fd0b46d-79d1-491c-9d50-ecbb6ca44441,55.0,watercolor,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:56:58.713Z
+06fdcfc3-212d-4b3e-892d-6b8cc741fb87,56.0,watercolor,R-J,2.0,the image is not aligned with the style ,2026-07-21T12:57:23.250Z
+5a4eaa43-55bc-41be-93a3-84aabce67216,57.0,watercolor,R-J,6.0,partially aligned,2026-07-21T12:57:46.308Z
+44766d9e-cc3d-4f94-ba7a-080404214f0f,58.0,watercolor,R-J,8.0,stylized well,2026-07-21T12:58:07.190Z
+a77773d6-46c4-4738-aa9a-8ae22f477c46,59.0,watercolor,R-J,3.0,the image is not aligned with the style ,2026-07-21T12:58:26.518Z
+49dbca07-c657-4a26-b8d7-d8c236010be3,60.0,watercolor,R-J,3.0,the image is not aligned with the style ,2026-07-21T12:58:34.340Z
+987ba7f1-611a-4590-acc7-a2e919a0d75e,61.0,watercolor,R-J,5.0,partially aligned,2026-07-21T12:58:59.857Z
+421ed266-ff71-47f0-81bd-9a89502a6b9e,62.0,watercolor,R-J,4.0,aligned partially,2026-07-21T12:59:15.626Z
+b37e41c0-a41e-4499-aeea-3274a1c7b18b,63.0,expressive,R-J,2.0,the image is not aligned with the style ,2026-07-21T13:06:31.858Z
+cb543f81-d296-42f9-a686-d876180aa060,64.0,expressive,R-J,8.0,stylized well,2026-07-21T13:06:51.122Z
+a1cfe15a-cf04-40ee-94d0-a6f18b977857,65.0,expressive,R-J,4.0,allgned partially,2026-07-21T13:07:13.571Z
+366b6d2d-3ecd-4650-896d-f1daf8969286,66.0,expressive,R-J,2.0,the image is not aligned with the style ,2026-07-21T13:07:23.624Z
+f41f64d2-0038-46c2-92ea-15bc0ff5a755,67.0,expressive,R-J,3.0,the image is not aligned with the style ,2026-07-21T13:07:52.933Z
+9a2f1395-2bb3-435c-acc9-2b6e9ee9bbcd,68.0,expressive,R-J,3.0,the image is not aligned with the style ,2026-07-21T13:08:02.547Z
+0c5ccd1c-7a2b-411f-a1d5-ad463c278efc,69.0,expressive,R-J,5.0,aligned partially,2026-07-21T13:08:20.973Z
+ed63623f-46a2-4e10-91fe-0258070e710e,70.0,expressive,R-J,4.0,partially stylized,2026-07-22T04:13:33.290Z
+ce31cb49-968f-450e-9046-fd1ee73de437,71.0,expressive,R-J,3.0,no change in style,2026-07-22T04:13:55.492Z
+bc74a2a5-e531-4623-b958-fd10fbbded0d,72.0,minimalist,R-J,8.0,the image is well stylized ,2026-07-22T04:14:35.936Z
+bd8bc770-2a73-46d8-817f-a5e1143fdf46,73.0,minimalist,R-J,9.0,excellent,2026-07-22T04:14:50.939Z
+f2e310ce-3594-439d-9c14-995440e58c3a,74.0,minimalist,R-J,9.0,excellent,2026-07-22T04:15:01.409Z
+b318dd89-9275-48ce-a4bf-2c7b55dd68f1,75.0,minimalist,R-J,3.0,partially stylized,2026-07-22T04:15:25.241Z
+89ac0f00-0887-426d-86e4-e8e8f1836c68,76.0,minimalist,R-J,9.0,very well,2026-07-22T04:15:34.276Z
+d706e415-6b9e-4861-93eb-70e93a610801,77.0,minimalist,R-J,2.0,no style change,2026-07-22T04:19:12.575Z
+66044659-f03b-43de-9551-93b60630d93e,78.0,minimalist,R-J,2.0,no style change,2026-07-22T04:19:27.271Z
+74152219-8bd0-484d-81b1-d78312681caf,79.0,minimalist,R-J,6.0,partially stylized,2026-07-22T04:19:59.107Z
+5e58522c-5a31-4b46-9c5e-c5c3f17a8111,80.0,minimalist,R-J,2.0,almost no change in style,2026-07-22T04:20:17.968Z
+461317d8-7cea-4d33-b65d-8736b10ffb6c,81.0,impressionist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:22:41.643Z
+d5a2ed1d-21e6-4a2c-9395-07bce6c356fb,82.0,impressionist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:22:50.729Z
+3162941c-4f37-4490-a2cc-caaf4570ce5c,83.0,impressionist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:22:59.910Z
+da556d64-5e73-4ebb-be97-f5a626324ac6,84.0,impressionist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:23:17.518Z
+d4d921ba-3836-4904-a643-e9f1ff81519a,85.0,impressionist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:23:43.674Z
+d0a7b21f-8a89-423c-88c7-025bc2ba8484,86.0,impressionist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:23:51.898Z
+75a51a77-fc42-44b3-ae7b-32c86e152366,87.0,impressionist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:24:01.458Z
+5efb500e-c50f-48df-8701-a069a995a416,88.0,impressionist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:25:01.892Z
+ea07c3f8-b685-4c6d-b66d-fadb1bc74cfd,89.0,acrylic,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:25:08.155Z
+b78f5722-fb64-4c50-bc2a-7f95d325eea1,90.0,acrylic,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:25:19.111Z
+9065c0e6-55bd-470c-9f06-6048b9a6c404,91.0,acrylic,R-J,4.0,the image does not align with the mentioned style,2026-07-22T04:25:37.656Z
+0e593ee6-a49b-4a71-ab01-ee47f7e2b3b2,92.0,acrylic,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:25:46.974Z
+ffaeb4a9-3fc7-42bd-b464-5e309a3b582a,93.0,acrylic,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:27:12.232Z
+03b4d076-8ef5-4b10-af15-2cd4591f4047,94.0,acrylic,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:27:19.612Z
+457e2078-c691-4f2a-9253-be428d59c8bd,95.0,acrylic,R-J,6.0,stylized well but changed colors a lot,2026-07-22T04:27:53.224Z
+3308ca86-0c65-4f64-a40d-eda810a024ec,96.0,gouache,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:28:03.394Z
+6e0d5680-708a-4dec-8c3e-0bd7720a474a,97.0,gouache,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:28:12.426Z
+fa829821-456e-4391-9769-6e089f69ef5a,98.0,gouache,R-J,4.0,the image does not align with the mentioned style,2026-07-22T04:28:24.277Z
+32ea43af-c45f-4f4b-9050-6779284c83b1,99.0,gouache,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:28:37.861Z
+59b113ec-1356-4b95-b933-f6b58a548184,100.0,cubist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:28:48.517Z
+34e91f1c-84ad-4b94-9124-c78ca212c79f,101.0,cubist,R-J,6.0,excellent style but color grading does not match with the style,2026-07-22T04:29:34.873Z
+c372f19e-a2d2-49c7-936d-4ad83eb0dfac,102.0,cubist,R-J,5.0,partially stylized,2026-07-22T04:30:04.269Z
+7fe2f3e5-590e-48da-80b6-c2d9547c3cc8,103.0,cubist,R-J,7.0,excellent style change but missing the color scheme,2026-07-22T04:31:02.346Z
+b02f00f3-2337-4db9-864f-21e103f16311,104.0,cubist,R-J,9.0,excellent,2026-07-22T04:31:13.686Z
+7282130c-6e8f-4cb2-9cca-37099f0b2724,105.0,cubist,R-J,5.0,partially stylized,2026-07-22T04:31:34.018Z
+bb79992b-726b-4630-8cdd-cf1971b27b40,106.0,cubist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:31:42.827Z
+242babaf-c7ae-48d1-9959-1f485d8782f5,107.0,cubist,R-J,8.0,excellent,2026-07-22T04:32:04.841Z
+afd59de8-fe50-4ae0-aae0-1c865ef2e5a1,108.0,cubist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:32:14.581Z
+d1926507-7d67-4ab9-ab85-86eefa4fb17d,109.0,abstract,R-J,2.0,the image doethe image does not align with the mentioned styles not align with the mentioned style,2026-07-22T04:32:24.450Z
+99785558-f21f-42e1-a82b-b307631619de,110.0,abstract,R-J,6.0,done well but missing color gradients,2026-07-22T04:32:49.421Z
+a02b4e70-1816-4165-b1a8-94dcfc361e9f,111.0,abstract,R-J,2.0,the image does not align with the mentioned style,2026-07-22T04:32:57.689Z
+cc00b643-f435-40ff-a6a5-9531d7dbf2c8,112.0,abstract,R-J,5.0,partially stylized,2026-07-22T04:33:17.670Z
+a016b635-7cde-4f6e-b428-48c6d02bca09,113.0,abstract,R-J,7.0,excellent,2026-07-22T04:33:45.464Z
+6672cf02-732d-4906-bef5-1f8db7e54144,114.0,abstract,R-J,3.0,the image does not align with the mentioned style as it is missing the color scheme.,2026-07-22T04:34:08.749Z
+77ac39e1-af83-42fb-8282-a70fcca95d6c,115.0,abstract,R-J,4.0,the image does not align with the mentioned style,2026-07-22T04:34:18.130Z
+889e0c3d-a704-4ccc-943b-4a197d709532,116.0,abstract,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:34:29.146Z
+4c656044-1626-4184-97f8-a53b7c242342,117.0,abstract,R-J,4.0,the image does not align with the mentioned style,2026-07-22T04:34:36.766Z
+6851b724-703a-40f8-b1b9-f744de1a9591,118.0,pencil,R-J,4.0,the image does not align with the mentioned style,2026-07-22T04:34:46.299Z
+5e14e367-33d3-4b77-b999-967592057a9c,119.0,pencil,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:34:56.975Z
+aa62eab5-7bce-410d-88c1-5ea1254fce48,120.0,pencil,R-J,9.0,excellent,2026-07-22T04:35:05.733Z
+0c2be3fe-9681-46c7-87f3-db9bf544c2ea,121.0,pencil,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:35:12.589Z
+15b76b14-581b-4645-b61d-399be237469a,122.0,pencil,R-J,6.0,partially stylized,2026-07-22T04:35:25.146Z
+a7e93a66-cf96-4281-a7e9-9813a98dfe69,123.0,pencil,R-J,5.0,it does have two colors but does nto align with the mentioned style,2026-07-22T04:36:00.832Z
+435d542a-596e-4071-9211-d56e34412d26,124.0,pencil,R-J,8.0,well stylized,2026-07-22T04:36:10.758Z
+0e7210f2-96e9-4d84-bc27-1c90961acd59,125.0,pencil,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:36:16.797Z
+43d9f116-032d-4e63-bcfb-e68c8696fd0f,126.0,pencil,R-J,3.0,the image does not align with the mentioned style,2026-07-22T04:36:23.260Z
+ad4bd1c1-7378-4128-9ddd-54c3625e2bd5,127.0,minimalist,R-J,9.0,very well stylized,2026-07-22T06:05:45.269Z
+d8f14585-6801-49a3-b945-9c45fdf3e6b7,128.0,minimalist,R-J,8.0,excellent,2026-07-22T06:06:23.496Z
+381ffb64-73fc-44d1-913c-fa3a6036c9ce,129.0,minimalist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T12:05:55.138Z
+229497d0-f3b6-43e7-8865-758686a6da03,130.0,minimalist,R-J,4.0,the image does not align with the mentioned style,2026-07-22T12:06:16.802Z
+49ffa43b-d8c1-4589-a9b2-219ea751cdb0,131.0,minimalist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:06:56.335Z
+31b44c88-9eee-4247-8b1d-50552c076782,132.0,minimalist,R-J,8.0,excellent,2026-07-22T12:08:32.479Z
+f13868ae-f2d9-493c-a614-76f9e5ed8ee6,133.0,minimalist,R-J,6.0,partially correct,2026-07-22T12:08:46.743Z
+86b7e6c9-0035-4245-ab9e-5f867969683e,134.0,minimalist,R-J,7.0,almost aligned to the style,2026-07-22T12:09:06.273Z
+010be225-8b8e-4975-9b5a-d7822c242f09,135.0,minimalist,R-J,8.0,excellent,2026-07-22T12:12:32.270Z
+6049b44d-7543-4de8-aab3-b1e09f7fe672,136.0,pop_art,R-J,8.0,well stylized,2026-07-22T12:13:32.424Z
+f1a95a87-9cc8-4098-943f-179974feb1ab,137.0,pop_art,R-J,5.0,partially stylized,2026-07-22T12:16:44.415Z
+02a17cf5-e1a3-433b-9424-57786d74066f,138.0,pop_art,R-J,5.0,partially stylized,2026-07-22T12:16:59.817Z
+4b52f0ac-534c-4ef3-a418-c84d0d23bff8,139.0,pop_art,R-J,6.0,partially stylized,2026-07-22T12:17:14.880Z
+b7f94820-dee8-41a5-a905-a980ec1a40a3,140.0,pop_art,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:17:21.966Z
+bcf85ae5-a64d-40b4-9d05-417cf3d574a1,141.0,pop_art,R-J,2.0,the image does not align with the mentioned style,2026-07-22T12:17:29.363Z
+edd3c659-9e42-4a2b-865a-42a98023021f,142.0,pop_art,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:17:39.883Z
+4fbe6ba7-a889-478a-b029-f07c2ccd3d92,143.0,pop_art,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:20:01.777Z
+28d96401-c63f-45f6-9e70-c9bf64e91723,144.0,charcoal,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:21:12.829Z
+691e3865-0a28-49db-80e1-a1fa55ca473b,145.0,charcoal,R-J,4.0,the image does not align with the mentioned style,2026-07-22T12:21:33.360Z
+b27bbe65-9211-4921-a127-d1ff982ddd5f,146.0,charcoal,R-J,2.0,the image does not align with the mentioned style,2026-07-22T12:21:42.808Z
+237d6817-20b3-41aa-b65a-3d57eff12031,147.0,charcoal,R-J,6.0,partially stylized,2026-07-22T12:21:59.918Z
+507e243b-36d2-4498-beec-25a3e6eaac26,148.0,charcoal,R-J,6.0,missing the color scheme,2026-07-22T12:22:31.221Z
+3731dd4b-ee5a-498d-ad01-25b1fb9af82c,149.0,charcoal,R-J,6.0,missing color scheme,2026-07-22T12:22:50.148Z
+02475e48-525c-470f-8134-5c19455ad89d,150.0,charcoal,R-J,4.0,the image does not align with the mentioned style,2026-07-22T12:23:01.237Z
+d0ed341a-7a33-416d-9862-36ecf9f15470,151.0,charcoal,R-J,4.0,the image does not align with the mentioned style,2026-07-22T12:23:07.936Z
+a25bb636-540a-40c5-b656-58289747119c,152.0,impressionist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T12:23:16.364Z
+47540d67-a305-486e-96ff-7c12dff2f288,153.0,impressionist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:23:24.373Z
+b0a4bce0-6155-4f92-be34-ae7c690127c6,154.0,impressionist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T12:23:30.363Z
+23fb2b53-b6fb-4591-8fef-12334739d200,155.0,impressionist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:23:36.850Z
+47c8ea44-cbcc-4ed9-b167-2cc7c7f7ef6a,156.0,impressionist,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:23:44.513Z
+3f0520f4-835a-4edc-9597-fb0b53b03678,157.0,impressionist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T12:27:51.108Z
+e56c47d4-4a1b-4250-b99f-448743f5a463,158.0,impressionist,R-J,5.0,partially stylized,2026-07-22T12:31:48.134Z
+f193c1c2-1113-4851-a4ba-04390c9736e7,159.0,impressionist,R-J,2.0,the image does not align with the mentioned style,2026-07-22T12:36:00.618Z
+220ea981-714b-48e0-85e9-58dbd7445444,160.0,watercolor,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:41:08.750Z
+1e44b129-579c-4180-b3c5-1d8d7929d139,161.0,watercolor,R-J,8.0,excellent,2026-07-22T12:42:43.834Z
+73ae4f4a-23d3-486d-bd3d-cb5b26905291,162.0,watercolor,R-J,7.0,stylized well,2026-07-22T12:43:29.842Z
+58f2ad5b-2372-4a23-b016-9af55567b0a7,163.0,watercolor,R-J,4.0,"the image does not align with the mentioned style
+",2026-07-22T12:44:32.893Z
+5c8faf94-b798-4a4f-9668-b853676f47af,164.0,watercolor,R-J,5.0,partially stylized,2026-07-22T12:44:45.580Z
+a355e17c-2906-4a7e-88d6-2c97f93a53a6,165.0,watercolor,R-J,5.0,partially done,2026-07-22T12:49:03.300Z
+ad2ecef5-7f57-4107-bfb9-ae0b9d664632,166.0,watercolor,R-J,7.0,well stylized,2026-07-22T12:50:36.895Z
+b2148c03-cd3a-4f1c-bcdd-8745fcd47d70,167.0,watercolor,R-J,3.0,the image does not align with the mentioned style,2026-07-22T12:53:24.985Z
+0aeab339-872c-4ef8-9737-7f8bc639df42,168.0,mosaic,R-J,5.0,partially stylized,2026-07-22T13:11:09.405Z
+975d15c9-63e3-45e7-a9e5-721d1bfc0c54,169.0,mosaic,R-J,6.0,partially stylized,2026-07-22T13:11:41.559Z
+aa364332-acd5-4481-abbc-c18e32506af3,170.0,mosaic,R-J,8.0,very well stylized,2026-07-22T13:12:16.062Z
+71dd7bbc-edca-4247-9259-1c1c78615fc5,171.0,mosaic,R-J,8.0,excellent,2026-07-22T13:12:42.109Z
+02f48f7a-7768-4f12-8023-63ae566b2438,172.0,mosaic,R-J,3.0,the image does not align with the mentioned style,2026-07-22T13:13:02.369Z
+567ce2d1-4e73-4d30-80bd-1082ddd14a27,173.0,mosaic,R-J,5.0,partially stylized,2026-07-22T13:13:32.262Z
+afa7c89a-5c94-4af6-b7b4-7d9d527b28a2,174.0,mosaic,R-J,5.0,partailly stylized,2026-07-22T13:13:42.169Z
+a846b604-4fa4-42e7-b75c-fd40999987ae,175.0,mosaic,R-J,6.0,"partially stylized, color scheme does not match the style",2026-07-22T13:14:05.135Z
+3d3fdc94-b1f8-4e8d-bdfd-9bb2797ccf09,176.0,expressive,R-J,6.0,almost completely stylized but still missing the contrast,2026-07-22T13:14:38.263Z
+bb824dfc-af9f-478b-88c7-4b73cd4ac55c,177.0,expressive,R-J,5.0,partially stylized,2026-07-22T13:14:50.631Z
+f15b4f98-d74e-4564-a8d4-e7c82bf50b4e,178.0,expressive,R-J,2.0,the image does not align with the mentioned style,2026-07-22T13:15:00.106Z
+6ac222de-cbf4-409f-8d9e-4919655217f3,179.0,expressive,R-J,3.0,the image does not align with the mentioned style,2026-07-22T13:18:36.727Z
+b224031b-af98-4d4b-a8e9-63c899ccb3bd,180.0,expressive,R-J,3.0,partially stylized,2026-07-22T13:19:33.603Z
+64350332-01f6-4795-a597-64731ae2efec,181.0,expressive,R-J,3.0,the image does not align with the mentioned style,2026-07-22T13:20:01.995Z
+7635e88d-10cb-44f3-b12b-0d7e7249c994,182.0,expressive,R-J,6.0,partially stylized,2026-07-22T13:21:12.652Z
+bb087582-25e8-469a-b91f-935d1ec7737a,183.0,expressive,R-J,4.0,the image does not align with the mentioned style,2026-07-22T13:21:56.549Z
+7ac21b48-6d15-4d4c-ab13-765b9f0278f4,184.0,acrylic,R-J,7.0,stylized well,2026-07-22T13:25:47.299Z
+d2164a78-e573-491a-8a88-ced431d65775,185.0,acrylic,R-J,3.0,the image does not align with the mentioned style,2026-07-22T13:26:00.669Z
+7ceb8212-59a8-4eaf-8e71-b434966efca3,186.0,acrylic,R-J,3.0,the image does not align with the mentioned style,2026-07-22T13:26:07.541Z
+bf6af0f7-107b-4a51-8651-e2b429b0f180,187.0,acrylic,R-J,4.0,the image does not align with the mentioned style,2026-07-22T13:26:17.140Z
+d48b3777-aead-49e2-be44-874462226908,188.0,acrylic,R-J,3.0,the image does not align with the mentioned style,2026-07-22T14:59:51.644Z
+20c7acce-acdb-430f-95a1-904439258481,189.0,acrylic,R-J,3.0,the image is not aligned with the style,2026-07-22T16:52:32.028Z
+8a6251e4-a6a3-40cc-a187-26b61d45cd19,190.0,acrylic,R-J,4.0,the image is not aligned with the style,2026-07-22T16:53:25.393Z
+1a012c8b-b2ad-4d7b-92b9-9ff21b21dab2,191.0,acrylic,R-J,2.0,the image is not aligned with the style,2026-07-22T16:53:43.063Z
+590902d3-f845-44fa-81a4-e6566c9c56cd,192.0,gouache,R-J,3.0,the image is not aligned with the style,2026-07-22T16:54:02.207Z
+bc5b14d0-d023-429f-9e98-9d48a5c96fdd,193.0,gouache,R-J,6.0,the colour scheme is missing,2026-07-22T16:55:55.841Z
+adc0c8fd-1b9d-46ae-961b-a5411038aef8,194.0,gouache,R-J,3.0,the image is not aligned with the style,2026-07-22T16:57:01.165Z
+2edce26a-bc3f-4aa1-b25f-5b5c6a46fc40,195.0,gouache,R-J,6.0,the color grading is missing,2026-07-22T16:58:07.975Z
+fefc4961-3b7d-4447-b5a3-898e0e4a089e,196.0,gouache,R-J,2.0,the image is not aligned with the style,2026-07-22T16:59:11.805Z
+bcf1aa25-55ee-492f-8b2a-0b3c25cd1243,197.0,gouache,R-J,7.0,the color scheme is missing,2026-07-22T17:00:00.978Z
+bb4b792a-b5da-43cf-b113-fd4b99ddb379,198.0,gouache,R-J,2.0,the image is not aligned with the style,2026-07-22T17:00:22.737Z
+18951fcc-6da2-429e-99ca-b2ed4fb9e1fc,199.0,gouache,R-J,4.0,the image is not aligned with the style,2026-07-22T17:00:49.026Z
+2edee45a-186b-4778-8c35-44d0c180bb21,200.0,pencil,R-J,2.0,the image is not aligned with the style,2026-07-22T17:01:11.578Z
+729f1d23-4d78-4c33-93d7-9e316d11872f,201.0,pencil,R-J,4.0,the image is not aligned with the style,2026-07-22T17:01:50.712Z
+7050dbd6-897e-4de7-a0fb-cb831d6e2168,202.0,pencil,R-J,2.0,the image is not aligned with the style,2026-07-22T17:03:01.202Z
+abe9d475-ed01-4477-8b50-c512dca64660,203.0,pencil,R-J,2.0,the image is not aligned with the style,2026-07-22T17:03:39.569Z
+8394134c-8611-4286-9656-5236db9eea16,204.0,pencil,R-J,2.0,the image is not aligned with the style,2026-07-22T17:04:18.163Z
+a552a5c0-5ac8-4a8a-b2dd-070b25c8c157,205.0,pencil,R-J,5.0,the color scheme is not same,2026-07-22T17:04:56.169Z
+5fe3e9df-67c7-41bd-ba82-a586b72ad256,206.0,pencil,R-J,3.0,the image is not aligned with the style,2026-07-22T17:05:50.511Z
+31d48dff-ed06-4746-82c6-2dcdf8898fa2,207.0,pencil,R-J,2.0,the image is not aligned with the style,2026-07-22T17:06:21.883Z
+22b14e97-2627-41c6-bd24-1cfb98eb62f4,208.0,pencil,R-J,4.0,the image is not aligned with the style,2026-07-22T17:06:42.073Z
+de8109a1-f4a7-4242-afbf-921a91ee1a1c,209.0,minimalist,R-J,7.0,the color grading is not same,2026-07-22T17:07:32.623Z
+a41f6ce3-8b66-4124-af79-225e5e44d63c,210.0,minimalist,R-J,2.0,the image is not aligned with the style,2026-07-22T17:08:01.925Z
+85a4abc8-8410-4f72-a430-5c609b6e69e9,211.0,minimalist,R-J,8.0,excellent,2026-07-22T17:09:44.813Z
+7bbce5fd-4fad-4a34-89e0-bbb85bc7a41c,212.0,minimalist,R-J,3.0,the image is not aligned with the style,2026-07-22T17:09:55.795Z
+029ce351-71e5-4a8a-b991-96ca1f4e68ef,213.0,minimalist,R-J,5.0,partially stylized,2026-07-22T17:10:13.177Z
+325df01e-54ca-4b55-8161-38e0544467b2,214.0,minimalist,R-J,8.0,well stylized,2026-07-22T17:10:40.554Z
+dc086733-4c36-415f-9a43-eae5a793353c,215.0,minimalist,R-J,9.0,excellent,2026-07-22T17:10:53.182Z
+85174a6b-19ea-4f73-a553-950106a911e4,216.0,minimalist,R-J,5.0,color scheme is missing,2026-07-22T17:11:13.486Z
+995a309d-6aa7-40ea-b1e9-e8df94c7a0b0,217.0,minimalist,R-J,8.0,excellent,2026-07-23T06:24:14.892Z
+f4cf0552-c20a-4e1c-8e77-ce0c5b3bdbf2,218.0,watercolor,R-J,5.0,the color scheme is missing,2026-07-23T06:27:56.935Z
+f9e8dc22-ddcc-4b9c-b962-116fb244e08d,219.0,watercolor,R-J,4.0,the image does not align with the style ,2026-07-23T06:28:22.266Z
+ca428541-1f99-47b0-aa11-d84c954fe39d,220.0,watercolor,R-J,6.0,the color grading is different,2026-07-23T06:29:21.788Z
+914a86eb-e5d0-441e-ab89-d987e8f22874,221.0,watercolor,R-J,3.0,the image does not align with the style ,2026-07-23T06:29:39.465Z
+8ce9f7bb-ae36-429a-a60d-05237fa61266,222.0,watercolor,R-J,7.0,excellent,2026-07-23T06:30:43.281Z
+cc9dbdbd-1192-466b-b21a-b50d2c25d1d2,223.0,watercolor,R-J,5.0,the color scheme is different,2026-07-23T06:32:17.814Z
+61c8c835-33b6-4c27-9cd7-87efa2849408,224.0,watercolor,R-J,8.0,doing well,2026-07-23T06:33:10.779Z
+c1cc7e57-a995-4295-b532-39e3e0169ebe,225.0,watercolor,R-J,8.0,excellent,2026-07-23T06:33:43.014Z
+dbe611fd-6ce6-4f45-a98a-999f9c79466d,226.0,watercolor,R-J,5.0,color grading is different,2026-07-23T06:34:17.441Z
+9cb35259-9049-40a5-add9-454355d877ac,227.0,acrylic,R-J,7.0,very good,2026-07-23T06:34:36.950Z
+dc6f3fa8-fd5e-452e-b281-05a8e77304dd,228.0,acrylic,R-J,5.0,the color grading is not same,2026-07-23T06:35:40.084Z
+a5cad282-dc3f-48ca-ade7-c75d69d6a4df,229.0,acrylic,R-J,8.0,amazing,2026-07-23T06:35:54.202Z
+4abc48d3-e022-4bc5-967d-58c86a69b620,230.0,acrylic,R-J,7.0,minor detail loss,2026-07-23T06:40:21.942Z
+c25d61e8-da3f-4e31-a585-7e66c77f2df5,231.0,acrylic,R-J,5.0,weak style transfer,2026-07-23T06:41:51.908Z
+80826bf6-0fcb-4117-a41c-9613b3cf8ccb,232.0,acrylic,R-J,4.0,barely abstract,2026-07-23T06:42:57.342Z
+78709c1c-7b9d-4be5-a69c-290582a80c55,233.0,acrylic,R-J,5.0,poor style consistency,2026-07-23T06:44:16.466Z
+d1acb68c-7638-437d-bd53-ea4e12b665c6,234.0,acrylic,R-J,4.0,target style unclear,2026-07-23T06:46:53.218Z
+f67f71ae-aef5-4fbd-9f52-e8ac3636ee20,235.0,acrylic,R-J,8.0,excellent,2026-07-23T06:47:53.295Z
+0ee055a0-9b37-4ec2-be73-9810619a883f,236.0,abstract,R-J,8.0,amazing,2026-07-23T06:48:39.533Z
+8eba83ad-bd9c-4468-95c1-7133bb3d29da,237.0,abstract,R-J,4.0,minimal style change,2026-07-23T06:49:10.308Z
+94a11546-ba08-41aa-abf9-7c4c97409477,238.0,abstract,R-J,7.0,strong style application,2026-07-23T06:51:01.265Z
+95be38af-db4f-4dc3-8cbd-4d1a8dadcac0,239.0,abstract,R-J,4.0,style transfer lacking,2026-07-23T06:55:59.790Z
+4f0518b5-2f24-4698-a953-db3546c5fcde,240.0,abstract,R-J,8.0,good style transfer,2026-07-23T06:57:32.757Z
+161398f6-ac14-4468-af92-874e1a2c406e,241.0,abstract,R-J,3.0,the image does not align with the style ,2026-07-23T06:57:58.877Z
+ecd0928f-6689-4ed0-b8a1-3acdcfe9f14b,242.0,abstract,R-J,7.0,minor detail loss,2026-07-23T06:59:54.080Z
+b0a63bbe-181f-4cce-b1b5-b54b39a7ea72,243.0,abstract,R-J,6.0,moderate style transfer,2026-07-23T07:00:39.243Z
+42bf994e-852d-4c3c-b165-f5fd389a5d59,244.0,cubist,R-J,4.0,barely abstract,2026-07-23T07:01:10.650Z
+bab46774-44c9-4430-8a80-a6e843a2cb1f,245.0,cubist,R-J,5.0,poor style consistency,2026-07-23T07:01:38.582Z
+90321d9b-464b-4b05-b557-c9c6a8e18bc6,246.0,cubist,R-J,8.0,excellent,2026-07-23T07:01:59.204Z
+5106ddba-8d22-4937-8706-2b413aafef97,247.0,cubist,R-J,4.0,the image does not align with the style ,2026-07-23T07:02:56.638Z
+90bbada6-ee2f-4a6f-a8a8-a929eec26f3f,248.0,cubist,R-J,4.0,barely abstract,2026-07-23T07:03:25.502Z
+03f6575e-e720-4239-b890-455927a6ecda,249.0,cubist,R-J,7.0,balanced style transfer,2026-07-23T07:04:04.819Z
+1a6fe74e-d666-4084-b9c1-6979eddfc11f,250.0,cubist,R-J,9.0,excellent,2026-07-23T07:04:24.151Z
+f6db4795-790f-4807-8733-8e5ff3cb1393,251.0,cubist,R-J,3.0,the image does not align with the style ,2026-07-23T07:04:51.776Z
+d884b752-477a-4f91-b843-b0538348a119,252.0,expressive,R-J,5.0,weak style transfer,2026-07-23T07:05:38.479Z
+15e56fdb-8142-4c52-85fc-f571fda82b56,253.0,expressive,R-J,3.0,the image does not align with the style ,2026-07-23T07:06:27.271Z
+ace91620-c5ca-4088-a0ec-246f171ddbb0,254.0,expressive,R-J,3.0,the image does not align with the style ,2026-07-23T07:06:59.880Z
+9815a940-af60-46e8-9f5a-a55e943482b5,255.0,expressive,R-J,4.0,minimal style change,2026-07-23T07:09:24.625Z
+2d7d9c80-1c14-452a-878c-ba33691bbe72,256.0,expressive,R-J,7.0,excellent,2026-07-23T07:09:50.588Z
+34bf6e3a-ce18-4712-9ee9-5890507848aa,257.0,expressive,R-J,5.0,the color scheme is totally different,2026-07-23T07:10:48.017Z
+2d3d1b10-c1d1-4987-a5d7-f3eb7fe5cd37,258.0,expressive,R-J,3.0,the image does not align with the style ,2026-07-23T07:11:19.816Z
+3c53b1a0-5d73-42eb-a1b9-39e7b054c02a,259.0,expressive,R-J,4.0,the image does not align with the style ,2026-07-23T07:13:12.218Z
+c35e924d-6eff-4b60-acbe-13374a73f2c8,260.0,impressionist,R-J,7.0,balance style transfer,2026-07-23T07:13:52.598Z
+88a18993-dd05-44ba-918b-bf7bcde044fb,261.0,impressionist,R-J,5.0,weak style transfer,2026-07-23T07:15:42.646Z
+9a7ee59c-bbd6-4ec4-a4ef-6049b7841eb4,262.0,impressionist,R-J,8.0,excellent,2026-07-23T07:42:32.324Z
+dd3ab6b2-2f80-48f1-82bd-f54c0e4f5c25,263.0,impressionist,R-J,8.0,fantastic,2026-07-23T07:42:54.647Z
+708b4c2c-3539-494f-990d-b41f7b92559b,264.0,impressionist,R-J,7.0,minor detail loss,2026-07-23T07:44:40.014Z
+cf720325-faa3-4141-9622-ada82b39f9bd,265.0,impressionist,R-J,8.0,amazing,2026-07-23T07:59:09.522Z
+5500686b-4494-41b6-b41c-f2aeb687c837,266.0,impressionist,R-J,8.0,excellent balance between style and content,2026-07-23T08:00:23.541Z
+179bde92-337a-4cc0-bed6-111bc63e34ab,267.0,impressionist,R-J,5.0,the color scheme is missing,2026-07-23T08:00:51.701Z
+b3701c31-0da1-4e91-a2b3-12c0f088f2d4,268.0,pop_art,R-J,9.0,fascinating,2026-07-23T08:01:31.775Z
+ea0105a6-aee7-425a-ac5e-4b3fad843890,269.0,pop_art,R-J,5.0,the color grading is missing,2026-07-23T08:02:34.256Z
+0880d993-99c8-4d49-a345-29f170c0cdd9,270.0,pop_art,R-J,7.0,Balanced style transfer,2026-07-23T12:20:33.054Z
+b01822a9-2125-4295-966c-d5566ab25fff,271.0,pop_art,R-J,5.0,Uneven stylization,2026-07-23T12:21:27.670Z
+c4203e6f-87f9-4291-b925-2ae8df6a3b67,272.0,pop_art,R-J,3.0,Style transfer lacking,2026-07-23T12:21:49.638Z
+8b555e21-33ac-49f4-810f-ae6cf35b830b,273.0,pop_art,R-J,5.0,Underwhelming stylization,2026-07-23T12:22:06.078Z
+df5a0bb7-0427-4978-bb94-a18f16b29c06,274.0,pop_art,R-J,4.0,Minimal style change,2026-07-23T12:22:26.896Z
+697d342c-c93e-4324-8bce-a603d9df3684,275.0,pop_art,R-J,7.0,Effective abstract rendering,2026-07-23T12:22:47.759Z
+50ec606e-bb06-469a-a970-e29d3ccfa6d0,276.0,charcoal,R-J,5.0,Slightly weak transformation,2026-07-23T12:23:15.483Z
+85016b04-139c-4fbe-a591-363ef2a4c60e,277.0,charcoal,R-J,5.0,Weak artistic transformation,2026-07-23T12:23:41.812Z
+95471269-8ecd-4f4d-8f7d-bf7555b822fe,278.0,charcoal,R-J,5.0,Underwhelming stylization,2026-07-23T12:24:23.644Z
+675c48df-b94d-429d-9831-67ed0adbdb2e,279.0,charcoal,R-J,5.0,Underwhelming stylization,2026-07-23T12:24:30.128Z
+03e0d876-46b0-485e-b771-445cf6aecf4e,280.0,charcoal,R-J,5.0,Underwhelming stylization,2026-07-23T12:24:39.180Z
+b6bd90cb-abbc-4d09-be34-9d9e7dcb89d8,281.0,charcoal,R-J,6.0,"Style partially applied
+",2026-07-23T12:25:21.079Z
+be0b3255-b0f4-4ca8-9fc7-847113674f34,282.0,charcoal,R-J,7.0,Convincing style transfer,2026-07-23T12:25:46.007Z
+04cb6217-fdd7-4d6e-85cc-4fc30c63ca7f,283.0,charcoal,R-J,3.0,Style transfer lacking,2026-07-23T12:26:06.618Z
+f3e156e9-7437-48c4-b9c8-6b7f68682c64,284.0,mosaic,R-J,5.0,Minimal visual change,2026-07-23T12:26:59.080Z
+c7a0a760-f02f-46cf-bff1-ba69549e7962,285.0,mosaic,R-J,8.0,Strong style application,2026-07-23T12:27:44.211Z
+3bc665e5-8977-4023-82c0-9d04adbaf975,286.0,mosaic,R-J,5.0,Some style inconsistency,2026-07-23T12:28:22.069Z
+0928c351-432f-4ea7-96e0-e0ea9a9899c8,287.0,mosaic,R-J,7.0,MODERATE STYLE TRANSFER,2026-07-23T15:22:20.880Z
+e0f667e1-c621-4995-a2b0-18269d0b3d78,288.0,mosaic,R-J,4.0,it does not align properly with the stye,2026-07-23T15:24:18.158Z
+9eea7881-386d-46fe-aee7-d1b7ae47d507,289.0,mosaic,R-J,3.0,it does not align properly with the stye,2026-07-23T15:24:36.656Z
+1020581e-0959-4867-ae4c-4c93c794eb0b,290.0,mosaic,R-J,8.0,excellent ,2026-07-23T15:34:25.753Z
+a09b4a10-766b-412d-90f7-c7a649e755d1,291.0,mosaic,R-J,5.0,weak style transfer,2026-07-23T15:35:23.808Z
+ae129f1f-5704-4398-8f1b-84736da94a4c,292.0,gouache,R-J,7.0,strong style application,2026-07-23T15:36:38.591Z
+8ee244ce-09dd-4fee-9b67-7840f6b211e1,293.0,gouache,R-J,6.0,uneven stylization,2026-07-23T15:37:35.728Z
+40b2f3ee-8acf-4b7d-a80f-7bb4ae608cb7,294.0,gouache,R-J,7.0,color scheme is missing,2026-07-23T15:39:31.091Z
+797f3ba2-2b3a-4307-83bb-69338d5903c4,295.0,gouache,R-J,5.0,it does not align properly with the stye,2026-07-23T15:40:08.736Z
+709f28d5-59f5-42f9-b028-3b53b197e32c,296.0,gouache,R-J,5.0,color scheme is different,2026-07-23T15:40:35.280Z
+943216a6-3b7b-4320-9aad-0c1649101245,297.0,gouache,R-J,8.0,excellent,2026-07-23T15:40:56.863Z
+29e84076-0b5d-4ebc-96f9-843200775eca,298.0,gouache,R-J,8.0,excellent,2026-07-23T15:41:13.027Z
+1df1b84a-1952-406f-be8c-3c55ec711c65,299.0,gouache,R-J,9.0,fantastic,2026-07-23T15:41:35.491Z
+26f2d478-0de3-4bfc-b592-b521b28d8a5f,300.0,acrylic,R-J,5.0,poor style consistency,2026-07-23T15:43:05.967Z
+fe1854df-b476-4e1e-8cde-376a43609a03,301.0,acrylic,R-J,6.0,uneven stylization,2026-07-23T15:44:11.818Z
+d9d0fa44-9f55-4877-915f-a8bb24eb6fa9,302.0,acrylic,R-J,4.0,it does not align properly with the stye,2026-07-23T15:44:58.146Z
+4fb6545e-5287-4fa2-86b5-b11a243ba333,303.0,acrylic,R-J,3.0,it does not align properly with the stye,2026-07-23T15:46:21.302Z
+746de1d2-9c31-4944-9863-8c7fb77af829,304.0,acrylic,R-J,8.0,excellent,2026-07-23T15:46:37.211Z
+62e7092d-87e5-4acf-8ff1-e17595fbda58,305.0,acrylic,R-J,8.0,excellent,2026-07-23T15:47:07.353Z
+ae988f83-13dc-457f-a1de-6adf66f6c88c,306.0,acrylic,R-J,9.0,fantastic,2026-07-23T15:47:23.287Z
+36f771ee-cd1f-451b-b85d-b98c24cf21ce,307.0,acrylic,R-J,4.0,it does not align properly with the stye,2026-07-23T15:47:37.580Z
+8f45ea0b-38af-401c-9602-236d112c31ca,308.0,acrylic,R-J,3.0,it does not align properly with the stye,2026-07-23T15:47:47.966Z
+11aebaaa-14b2-4e6e-89a6-b4c9f31241bd,309.0,minimalist,R-J,8.0,excellent,2026-07-23T15:48:26.234Z
+9be2351b-edb1-4bee-8e29-2aa736b0a610,310.0,minimalist,R-J,9.0,amazing,2026-07-23T15:48:42.716Z
+9c50ad47-8ea7-440c-a147-a4ff31e8ab6a,311.0,minimalist,R-J,8.0,excellent,2026-07-23T15:49:02.036Z
+923db115-5c0c-418a-86f8-c9f920f30420,312.0,minimalist,R-J,3.0,it does not align properly with the stye,2026-07-23T15:50:37.090Z
+69c4438c-2010-40ab-a129-cab8f66a0a83,313.0,minimalist,R-J,4.0,it does not align properly with the stye,2026-07-23T15:51:38.007Z
+c981dac3-e6e6-4e22-99b0-c7911d335b43,314.0,minimalist,R-J,8.0,excellent,2026-07-23T15:52:00.067Z
+8c65ad4b-72cb-4168-b6c6-319af5de1fa2,315.0,minimalist,R-J,6.0,minor structural changes,2026-07-23T15:52:44.441Z
+c5c8e9e1-f542-4dc8-a97a-1632b15aac78,316.0,minimalist,R-J,9.0,fantastic ,2026-07-23T15:53:04.782Z
+e09f6be7-263c-4069-88cb-b3c5a0fa0d66,317.0,minimalist,R-J,9.0,amazing,2026-07-23T15:53:17.433Z
+559a5eac-ac15-4030-b44c-fcac29e26f00,318.0,expressive,R-J,6.0,style partially applied,2026-07-23T15:54:02.884Z
+0808b321-999a-458d-a040-3dfe70fb32e5,319.0,expressive,R-J,5.0,weak style transfer,2026-07-23T15:54:26.261Z
+234b5618-d5df-4f1e-82b7-782a83d2c62c,320.0,expressive,R-J,8.0,excellent,2026-07-23T15:54:57.473Z
+b8c06f2d-3ae9-4c66-8c02-bd444e02bdd4,321.0,expressive,R-J,9.0,fantastic,2026-07-23T15:55:12.197Z
+41b9b247-2ebf-417b-a810-0493b02ebb7e,322.0,expressive,R-J,8.0,excellent,2026-07-23T15:55:33.707Z
+f0d204db-6210-40a4-8e69-a8b08df4eda0,323.0,expressive,R-J,6.0,the color grading is missing,2026-07-23T15:56:04.587Z
+80783110-0ca0-4431-9457-1078af10408c,324.0,expressive,R-J,6.0,moderate style transfer,2026-07-23T15:57:03.895Z
+ab347a1d-e70d-467f-b158-a6b1336ab1e8,325.0,expressive,R-J,4.0,it does not align properly with the style,2026-07-23T15:58:13.993Z
+0ea6bee1-74be-450b-bce5-de9ddbe7c252,326.0,expressive,R-J,8.0,excellent   ,2026-07-23T15:58:50.219Z
+1f2570cd-74b4-459e-8b54-a6ecb393bb0a,327.0,abstract,R-J,7.0,minor detail loss,2026-07-23T16:00:15.681Z
+4b405f95-10bd-4d97-bcd0-5896ebdc9375,328.0,abstract,R-J,7.0,minor detail loss,2026-07-23T16:00:41.569Z
+86fda40b-7230-440d-8f3d-ff097768bd7f,329.0,abstract,R-J,5.0,the color scheme is different,2026-07-23T16:01:10.576Z
+979974a8-14c9-42c7-aa01-780aa66b2713,330.0,abstract,R-J,7.0,minor detail missing,2026-07-23T16:01:40.045Z
+955db9d0-7ab0-4df2-bed8-416ffc8cef0e,331.0,abstract,R-J,8.0,excellent,2026-07-23T16:02:37.119Z
+6ece7e8a-26c1-4fd0-a951-77c565af5c44,332.0,abstract,R-J,7.0,minor detail missing,2026-07-23T16:02:53.140Z
+4f26f4b3-758b-4bf1-9be3-1178578e134d,333.0,abstract,R-J,8.0,excellent,2026-07-23T16:03:10.427Z
+5f295111-f7f5-4312-abd2-60624f4fd802,334.0,abstract,R-J,4.0,it does not align properly with the stye,2026-07-23T16:03:22.722Z
+f0d517f2-b01d-4f0d-aa00-75fc1d0649a5,335.0,abstract,R-J,8.0,amazing,2026-07-23T16:03:33.924Z
+4d71264b-909d-44c4-b7c1-f93a2ed083d7,336.0,pencil,R-J,4.0,it does not align properly with the stye,2026-07-23T16:03:49.305Z
+4cb410f3-4c81-497b-a2c6-a7ae29829900,337.0,pencil,R-J,4.0,it does not align properly with the stye,2026-07-23T16:04:18.618Z
+fa2ca0f2-7b8d-4ba2-89a2-ba20b7f3f9af,338.0,pencil,R-J,8.0,excellent,2026-07-23T16:04:29.657Z
+bd7d085f-da9f-4b2b-b713-084cca8a1c24,339.0,pencil,R-J,4.0,it does not align properly with the stye,2026-07-23T16:04:42.359Z
+896def1f-7b0f-472c-9132-f181ce87c71b,340.0,pencil,R-J,4.0,it does not align properly with the stye,2026-07-23T16:04:56.733Z
+725389b4-b6f5-45be-afd3-6dbe1c5f8dcf,341.0,pencil,R-J,5.0,the color grading is different,2026-07-23T16:05:28.177Z
+95c6d194-f904-41fd-8835-13bed77a07cb,342.0,pencil,R-J,6.0,minor detail missing,2026-07-23T16:05:51.356Z
+1458cd0e-4093-405a-8d1a-dbd8cd2bd31d,343.0,pencil,R-J,7.0,balanced style transfer,2026-07-23T16:06:29.601Z
+b35be60c-aad5-49be-a61f-77057b792eb8,344.0,watercolor,R-J,4.0,it does not align properly with the stye,2026-07-23T16:06:49.390Z
+417a64e5-8434-4b50-a478-9bb0ed56f105,345.0,watercolor,R-J,9.0,fantastic,2026-07-23T16:07:02.997Z
+fc62376c-5a93-47a3-8fcc-7412b07d940d,346.0,watercolor,R-J,4.0,it does not align properly with the stye,2026-07-23T16:07:16.258Z
+b6fbea95-f935-4b08-8fd3-e7c57c01e2ec,347.0,watercolor,R-J,4.0,it does not align properly with the stye,2026-07-23T16:07:31.909Z
+a4b7b1be-50b8-408a-96dd-e65baa7a38b7,348.0,watercolor,R-J,4.0,it does not align properly with the stye,2026-07-23T16:07:57.546Z
+268e30b3-3425-44dd-9bdb-a033b405e565,349.0,watercolor,R-J,3.0,it does not align properly with the style,2026-07-23T16:08:29.808Z
+3443588d-0db2-48d5-975d-d3284425714b,350.0,watercolor,R-J,3.0,it does not align properly with the stye,2026-07-23T16:08:44.149Z
+e8e11949-956c-461e-a92f-26ff7af4e089,351.0,watercolor,R-J,7.0,Mostly well stylized,2026-07-23T16:15:39.843Z
+042860e6-0921-47b1-8066-e014acb8ab14,352.0,gouache,R-J,5.0,Weak style transfer,2026-07-23T16:16:24.237Z
+a3ceb1a2-fe0d-41d8-b968-c53f2aa9e4c5,353.0,gouache,R-J,8.0,Balanced style transfer,2026-07-23T16:17:14.918Z
+50ea35cb-39ff-4144-9df0-459f7a4a0cab,354.0,gouache,R-J,3.0,Inconsistent transformation,2026-07-23T16:18:32.865Z
+d7d26430-342b-40ba-9cc6-24828608e010,355.0,gouache,R-J,4.0,Inconsistent transformation,2026-07-23T16:18:56.614Z
+4cb1eaeb-0cc5-4140-9228-5888464f2d66,356.0,gouache,R-J,5.0,Inconsistent transformation,2026-07-23T16:19:19.260Z
+ee6735e7-4a55-40ea-a734-7a58a2de8688,357.0,gouache,R-J,6.0,Minor detail loss,2026-07-23T16:19:55.349Z
+71a2a054-cb8b-4654-8afd-1be0e3cdb38d,358.0,gouache,R-J,9.0,excellent,2026-07-23T16:23:47.399Z
+888d9ba2-7fe9-4ce4-a505-a69bf46161d2,359.0,gouache,R-J,9.0,excellent,2026-07-23T16:24:50.727Z
+e81f2742-a5ab-4381-84a5-7fbcfb4d7593,360.0,pop_art,R-J,8.0,excellent,2026-07-23T16:25:07.230Z
+30888256-2d17-4b6e-9f6a-013be67c9429,361.0,pop_art,R-J,8.0,excellent,2026-07-23T16:29:38.067Z
+8e3c75d2-1af2-4e55-a69f-e9f5e9425e42,362.0,pop_art,R-J,6.0,Partial abstract effect,2026-07-23T16:31:12.047Z
+dec364f1-4d37-4c65-b2f6-9048a1a5b092,363.0,pop_art,R-J,5.0,Partial abstract effect,2026-07-23T16:33:52.875Z
+75d9e66b-04f6-49fe-88a9-baec402ee805,364.0,pop_art,R-J,3.0,Minimal style change,2026-07-23T16:34:26.215Z
+95ea7011-96a1-428e-8584-5662156888ab,365.0,pop_art,R-J,7.0,Convincing style transfer,2026-07-23T16:34:48.200Z
+cf6a2efe-8f80-444a-8b01-002e5b5c6700,366.0,pop_art,R-J,3.0,Mostly unchanged appearance,2026-07-23T16:36:44.272Z
+5d81b06a-9474-4bac-b8e4-be6ca1cbef50,367.0,pop_art,R-J,8.0,excellent,2026-07-23T16:39:55.759Z
+c043e05c-4789-470f-b591-5034ab1a1d39,368.0,impressionist,R-J,7.0,well stylized,2026-07-23T16:40:07.907Z
+dc6df956-c476-471f-9477-d02bb58bd173,369.0,impressionist,R-J,3.0,Mostly unchanged appearance,2026-07-23T16:42:46.009Z
+752aa20b-db41-4074-9644-8805e24bdfcd,370.0,impressionist,R-J,7.0,excellent,2026-07-23T16:42:55.467Z
+a619ed0e-8d42-4fc5-938c-f4636373fc35,371.0,impressionist,R-J,8.0,excellent,2026-07-23T16:43:16.992Z
+5c8b1de2-0efc-4226-91b1-d15672a61fe1,372.0,impressionist,R-J,6.0,Weak style transfer,2026-07-23T16:46:24.461Z
+0c89cef9-7035-4f14-b5ac-19f16f2f7e44,373.0,impressionist,R-J,3.0,Weak style transfer,2026-07-23T16:47:29.227Z
+100afbca-40c1-489f-9b59-6bbd583ad381,374.0,impressionist,R-J,3.0,Weak style transfer,2026-07-23T16:48:18.716Z
+ca43f293-e146-4a80-8603-5c7ce587b5b1,375.0,impressionist,R-J,4.0,Weak style transfer,2026-07-23T16:48:43.816Z
+44f39702-2f35-46c2-a9f3-cc771fe1bf80,376.0,cubist,R-J,5.0,Slightly weak transformation,2026-07-23T16:51:15.231Z
+990b2218-dab6-4c4b-89a8-1d560baacb34,377.0,cubist,R-J,9.0,excellent,2026-07-23T16:51:35.659Z
+6992cf7c-af67-4e67-b06a-17c160611914,378.0,cubist,R-J,3.0,no style change,2026-07-23T16:51:50.449Z
+0b5e6096-6cca-4b6f-b046-5cd1839e4dfe,379.0,cubist,R-J,5.0,weak style transfer,2026-07-23T16:52:05.392Z
+b5bc17c8-504b-43db-9c7f-1299f13d17e7,380.0,cubist,R-J,3.0,Minimal visual change,2026-07-23T16:52:43.458Z
+bcc61b66-7712-4850-b311-c5abb7f3faef,381.0,cubist,R-J,4.0,Minimal visual change,2026-07-23T16:52:51.189Z
+3ce76b69-ba06-4bda-9767-8b230d88c323,382.0,cubist,R-J,8.0,excellent,2026-07-23T16:52:58.413Z
+6340a3f6-92d9-4a20-a769-4d0b6765fcfc,383.0,cubist,R-J,3.0,Minimal visual change,2026-07-23T16:53:03.800Z
+7a4859d2-67cb-411b-960d-f15c86cdd4b2,384.0,mosaic,R-J,6.0,partially stylized,2026-07-23T16:53:14.494Z
+bd88d314-a62f-475c-a17e-3bb1b1e38d43,385.0,mosaic,R-J,8.0,excellent,2026-07-23T16:53:24.215Z
+3d05fca0-40a2-4861-b176-23fe415c4fb0,386.0,mosaic,R-J,5.0,partially stylized,2026-07-23T16:53:37.866Z
+a2ffa999-957f-4822-a8f4-ba87c532ff3b,387.0,mosaic,R-J,4.0,weak style transfer,2026-07-23T16:54:14.872Z
+049192ab-2518-4f1a-8e6b-d2a2bc67e57b,388.0,mosaic,R-J,7.0,excellent style transfer but missing details,2026-07-23T16:54:39.202Z
+4e287f7b-a798-4222-b827-0dbec83b8155,389.0,mosaic,R-J,9.0,excellent,2026-07-23T16:54:53.959Z
+6685fecb-1a7f-47df-842e-989d6ac8798f,390.0,mosaic,R-J,8.0,correctly stylized,2026-07-23T16:55:11.129Z
+730b4c42-7411-4288-8f85-8f2556e5a0e6,391.0,mosaic,R-J,9.0,excellent,2026-07-23T16:55:22.522Z
+09fddbb6-0344-431b-b0e3-1ecc31dd40d6,392.0,charcoal,R-J,6.0,partially stylized,2026-07-23T16:55:35.773Z
+5db5f060-72b5-455d-8171-2d1ceb2a2377,393.0,charcoal,R-J,3.0,no visual change,2026-07-23T16:55:52.736Z
+58fb1cec-c0a6-4729-ae96-122ae37919ac,394.0,charcoal,R-J,5.0,partially stylized,2026-07-23T16:56:02.861Z
+67c66dfa-97c3-4d73-aab8-665858ac4989,395.0,charcoal,R-J,8.0,excellent,2026-07-23T16:56:11.398Z
+55549bef-7d0f-425d-bdcd-746c9944a2a9,396.0,charcoal,R-J,7.0,well stylized,2026-07-23T16:56:21.921Z
+c4c0abdf-3cdb-4814-ab0c-68ebf6a75c6f,397.0,charcoal,R-J,4.0,partially stylized,2026-07-23T16:56:34.202Z
+079cf2ad-f71b-4078-8d24-7f6913842e77,398.0,charcoal,R-J,6.0,partially stylized,2026-07-23T16:56:50.962Z
+99edcc34-6f50-4a26-830d-8af40b569a62,399.0,charcoal,R-J,6.0,partially stylized,2026-07-23T16:57:02.118Z
+7b5853f1-6e2c-4515-80fc-53b3aa97e426,400.0,acrylic,R-J,8.0,excellent,2026-07-23T16:57:13.578Z
+66872307-98b6-4dad-a830-29d1f8a0109d,401.0,acrylic,R-J,9.0,excellent,2026-07-24T04:51:27.362Z
+257bcd9e-c686-4e24-94b7-7164eb5bff3e,402.0,acrylic,R-J,8.0,fantastic,2026-07-24T04:51:52.916Z
+407847e1-e983-4e82-8aa5-8b7dd62efda5,403.0,acrylic,R-J,8.0,excellent,2026-07-24T04:52:13.550Z
+85b4a829-5434-4ef8-9185-5a11a9dec84b,404.0,acrylic,R-J,5.0,the color scheme is different,2026-07-24T04:53:26.412Z
+471ba79f-4e5f-4a71-9b43-a7ab6f12c9f8,405.0,acrylic,R-J,7.0,strong style application,2026-07-24T04:53:57.556Z
+3421ce60-250c-4d9a-905f-c55e8793e212,406.0,acrylic,R-J,9.0,excellent,2026-07-24T04:54:29.540Z
+ec741606-f1bd-4504-8cd3-9d385362b346,407.0,acrylic,R-J,8.0,balanced style transfer,2026-07-24T04:55:10.949Z
+57ca3fb0-cbe3-4b0b-b338-9160abd33019,408.0,acrylic,R-J,6.0,the color grading is not same,2026-07-24T04:55:36.903Z
+66450e1a-21eb-4428-b389-4912dee49ee7,409.0,expressive,R-J,7.0,small details are missing,2026-07-24T04:56:03.374Z
+e5bab221-626c-4c38-a9be-65cab6942200,410.0,expressive,R-J,8.0,balanced style transfer,2026-07-24T04:56:46.257Z
+1d3ed0ed-d651-4e76-a24b-d38e9c999626,411.0,expressive,R-J,8.0,excellent,2026-07-24T04:57:01.796Z
+30e50b8b-e612-4838-9b03-3db5be499806,412.0,expressive,R-J,7.0,balanced style transfer,2026-07-24T04:57:19.758Z
+25e48f1d-9f5d-45e1-a92f-9fb0adb4afe2,413.0,expressive,R-J,6.0,the color grading is missing,2026-07-24T05:00:16.168Z
+e1a86616-1b68-41f7-8e2e-1890291850ad,414.0,expressive,R-J,9.0,excellent,2026-07-24T05:00:37.569Z
+254d274f-9aca-4f3c-baf9-81248ea629dc,415.0,expressive,R-J,8.0,excellent,2026-07-24T05:01:02.752Z
+7250e335-d29e-4463-8932-d3156a5de845,416.0,expressive,R-J,7.0,the color grading is missing,2026-07-24T05:01:58.746Z
+a905f02a-5652-47a4-a533-6efd9486da86,417.0,expressive,R-J,9.0,fantastic,2026-07-24T05:02:17.628Z
+4ac62232-0fa7-458e-abec-6207f720cc5f,418.0,gouache,R-J,8.0,excellent,2026-07-24T05:02:52.583Z
+5298ce39-112d-4dd5-a503-670de81e3384,419.0,gouache,R-J,9.0,amazing,2026-07-24T05:03:11.767Z
+07abc63d-577e-45a7-9358-2c63497f6776,420.0,gouache,R-J,9.0,amazing,2026-07-24T05:03:41.794Z
+1c9f4f9a-b94d-4b98-825a-e388a4231d5c,421.0,gouache,R-J,8.0,fantastic,2026-07-24T05:04:02.035Z
+14486681-a7f8-470c-a206-132cad65ac8b,422.0,gouache,R-J,6.0,the color scheme is missing,2026-07-24T05:04:52.367Z
+6553e0bf-c53a-4f78-a320-aea6a51a0883,423.0,gouache,R-J,9.0,excellent,2026-07-24T05:05:09.276Z
+bdc0b4cf-db64-4f1f-9933-abd9e0af2167,424.0,gouache,R-J,4.0,they style remains almost unchanged,2026-07-24T05:07:24.829Z
+2157fae7-03f8-43a7-bdc2-1593cb7a4ac5,425.0,gouache,R-J,8.0,excellent,2026-07-24T05:07:45.357Z
+d1908c03-a359-415e-ae30-396de34e9274,426.0,gouache,R-J,4.0,they style remains almost unchanged,2026-07-24T05:08:03.750Z
+5e7b815f-2a41-44d6-b79d-902311c97ae8,427.0,impressionist,R-J,5.0,they style remains almost unchanged,2026-07-24T05:08:29.850Z
+c5a3b819-f824-4111-8145-7a629d6e9db6,428.0,impressionist,R-J,5.0,they style remains almost unchanged,2026-07-24T05:08:44.780Z
+3aed934f-3ff5-4c89-8e9f-a75ce1463d8d,429.0,impressionist,R-J,5.0,the color grading is different,2026-07-24T05:11:18.755Z
+cdfcd741-3bb8-49a8-85a4-f6d932f66564,430.0,impressionist,R-J,7.0,the color scheme is different,2026-07-24T05:12:47.399Z
+8a8feb59-aeb2-4615-82d7-2573cfec717d,431.0,impressionist,R-J,4.0,they style remains almost unchanged,2026-07-24T05:13:55.250Z
+800e19e7-0cd3-4006-b618-b399e2f76aa5,432.0,impressionist,R-J,8.0,excellent,2026-07-24T05:14:11.941Z
+10c2e782-1e94-4b5d-b705-b595794de80c,433.0,impressionist,R-J,7.0,balanced style transfer,2026-07-24T05:16:29.152Z
+3b290e62-23ae-4774-9462-08ab422c02c3,434.0,impressionist,R-J,9.0,excellent,2026-07-24T05:16:53.094Z
+080cceca-b80a-4518-9c84-57ca7e794fd4,435.0,impressionist,R-J,7.0,style not transferred,2026-07-24T05:23:33.000Z
+7bc1fb7c-b6a6-41ed-a03e-341fa5094002,436.0,charcoal,R-J,9.0,excellent,2026-07-24T05:23:53.210Z
+b7992186-e3fc-4778-9f1a-817657fc4849,437.0,charcoal,R-J,3.0,they style remains almost unchanged,2026-07-24T05:24:12.084Z
+8c599cc3-c78a-42d3-90d5-04b276b59457,438.0,charcoal,R-J,3.0,they style remains almost unchanged,2026-07-24T05:24:28.692Z
+395d56e9-f1b5-4272-a2ea-330bf2c122c4,439.0,charcoal,R-J,3.0,they style remains almost unchanged,2026-07-24T05:24:41.121Z
+87574d6e-b4f2-4f8d-903b-1e94c4c94e86,440.0,charcoal,R-J,4.0,they style remains almost unchanged,2026-07-24T05:26:21.931Z
+cf2c1d74-da39-4cb9-a8cd-fe0f04bb31aa,441.0,charcoal,R-J,7.0,the color grading is not same,2026-07-24T05:26:50.296Z
+4d6435c0-6c95-42a3-b711-e5f6e8486d65,442.0,charcoal,R-J,4.0,they style remains almost unchanged,2026-07-24T05:28:00.213Z
+8895521f-7684-4fbd-a900-c9cda63de3de,443.0,charcoal,R-J,9.0,excellent ,2026-07-24T05:29:18.050Z
+8cb102ea-82fa-48f0-8375-020c9349ef7e,444.0,pencil,R-J,4.0,they style remains almost unchanged,2026-07-24T05:30:54.399Z
+4eeee57e-d86e-44f3-8c1b-e0cbd981298e,445.0,pencil,R-J,9.0,excellent,2026-07-24T05:31:12.594Z
+aadc04ff-727e-4ff8-92e0-d50e51cc2133,446.0,pencil,R-J,4.0,they style remains almost unchanged,2026-07-24T05:39:22.994Z
+0f2a4d19-1194-4069-9221-38906d0b0f88,447.0,pencil,R-J,3.0,they style remains almost unchanged,2026-07-24T05:50:35.045Z
+22827fe4-8a11-4649-bba2-6514bf6efb98,448.0,pencil,R-J,8.0,good style transfer,2026-07-24T05:50:59.409Z
+c1d37b56-a3ab-4548-96aa-d60e75b387e0,449.0,pencil,R-J,4.0,they style remains almost unchanged,2026-07-24T05:58:13.996Z
+e02ac948-cf85-4f92-98eb-40b7c144fdbf,450.0,pencil,R-J,3.0,they style remains almost unchanged,2026-07-24T05:58:35.868Z
+50b09fe5-c04b-48fe-b103-5157756c7170,451.0,pencil,R-J,8.0,excellent,2026-07-24T05:58:58.997Z
+01e089ee-46e9-47e9-b60f-35f462ecc108,452.0,cubist,R-J,9.0,excellent,2026-07-24T05:59:16.132Z
+9cb15555-15ec-49b5-9cba-8080ef18bbbd,453.0,cubist,R-J,9.0,amazing,2026-07-24T05:59:33.092Z
+bb5eb3e9-6e12-4136-9c24-ae10e276159c,454.0,cubist,R-J,8.0,excellent,2026-07-24T06:00:10.737Z
+8b3153dc-4635-41ec-9750-42980c97caa3,455.0,cubist,R-J,5.0,the color scheme is different,2026-07-24T06:00:58.671Z
+ba771ed6-9a9a-46a1-b65a-cc912a43936a,456.0,cubist,R-J,9.0,excellent,2026-07-24T06:01:15.686Z
+87c314fb-3d9a-45fd-a184-f5d08b5a8820,457.0,cubist,R-J,5.0,they style remains almost unchanged,2026-07-24T06:01:29.124Z
+6c138845-967b-4c69-b3e7-016e1a1a6b2f,458.0,cubist,R-J,4.0,they style remains almost unchanged,2026-07-24T06:01:42.307Z
+9b7e6df9-6513-4e89-985f-bb1fd1840130,459.0,cubist,R-J,4.0,they style remains almost unchanged,2026-07-24T06:01:57.726Z
+b3746b9d-43ea-4bb0-990f-4d012a521f46,460.0,abstract,R-J,4.0,they style remains almost unchanged,2026-07-24T06:02:47.448Z
+156daa20-41df-4e48-81af-6ffd34e53795,461.0,abstract,R-J,4.0,they style remains almost unchanged,2026-07-24T06:04:12.931Z
+09420379-1a1f-4c3a-a85e-5608fa4da28a,462.0,abstract,R-J,7.0,balanced style transfer,2026-07-24T06:05:57.781Z
+c6ad60cf-bfc6-4f0e-8d8a-99c02671214c,463.0,abstract,R-J,3.0,they style remains almost unchanged,2026-07-24T06:07:12.903Z
+12cbeb22-cb88-492f-95ed-3531322de1aa,464.0,abstract,R-J,4.0,they style remains almost unchanged,2026-07-24T06:07:26.831Z
+5a29ffbd-867b-4b8a-8c8e-22de3ec3f8a2,465.0,abstract,R-J,6.0,the color scheme is different,2026-07-24T06:07:54.101Z
+9f63bb81-a2fe-4a86-9f6b-c95f977ee46a,466.0,abstract,R-J,4.0,they style remains almost unchanged,2026-07-24T06:08:11.168Z
+b21ba728-451e-4ade-80a1-d9e69fe2bb81,467.0,abstract,R-J,3.0,they style remains almost unchanged,2026-07-24T06:08:22.068Z
+f366f49b-768a-4551-a1f2-480131e79cb7,468.0,minimalist,R-J,4.0,they style remains almost unchanged,2026-07-24T06:09:50.807Z
+be494a93-26c6-49ba-89ca-50a891bb0991,469.0,minimalist,R-J,8.0,excellent,2026-07-24T06:10:05.245Z
+c471973b-d4a6-46e1-8de6-5f45fb9fd810,470.0,minimalist,R-J,8.0,excellent,2026-07-24T06:10:21.069Z
+a06c280c-2b97-4d01-b6b1-13e2928fa8aa,471.0,minimalist,R-J,9.0,excellent,2026-07-24T06:11:39.962Z
+575ca439-625a-42bb-aa0e-cb4f90abd376,472.0,minimalist,R-J,9.0,excellent,2026-07-24T06:11:49.716Z
+1c233de9-2025-4648-ad6b-97ea187147d3,473.0,minimalist,R-J,8.0,excellent,2026-07-24T06:12:05.622Z
+db9702c0-65f9-4f20-91de-5cf4df833b82,474.0,minimalist,R-J,8.0,fantastic,2026-07-24T06:12:35.444Z
+30a4a201-e687-4a5a-8a9c-b74d03c02e91,475.0,minimalist,R-J,4.0,they style remains almost unchanged,2026-07-24T06:30:41.277Z
+9d0b8b8d-ab38-47f4-a743-e6e6d8b9afcb,476.0,watercolor,R-J,4.0,they style remains almost unchanged,2026-07-24T06:31:33.220Z
+31d793f3-24b0-4a5e-bebe-db08efd52db1,477.0,watercolor,R-J,8.0,excellent,2026-07-24T06:31:47.244Z
+e4ca5d82-4ca4-4b34-a2d2-b57742d21f8e,478.0,watercolor,R-J,8.0,excellent,2026-07-24T06:32:35.153Z
+bb58add0-81ac-40bc-a7b1-1e7f3e1fd5c0,479.0,watercolor,R-J,8.0,excellent,2026-07-24T06:32:53.507Z
+7a878344-f2b4-4ad2-8f27-d9ac49690424,480.0,watercolor,R-J,4.0,they style remains almost unchanged,2026-07-24T06:33:12.985Z
+e0854768-86cb-4f7d-a1e7-43bf0fd66bb0,481.0,watercolor,R-J,5.0,they style remains almost unchanged,2026-07-24T06:35:22.591Z
+0d328542-0940-401d-8426-9fbf0ef77f22,482.0,watercolor,R-J,9.0,excellent,2026-07-24T06:36:01.279Z
+4dd7e223-58d1-4ec7-a1c3-3ba18d4b6293,483.0,watercolor,R-J,8.0,balanced style transfer,2026-07-24T06:38:17.341Z
+d46cf157-3486-4484-bf1c-fc5023691814,484.0,pop_art,R-J,3.0,they style remains almost unchanged,2026-07-24T06:40:11.359Z
+0d39c329-5482-4d29-a7f7-f49f362436f1,485.0,pop_art,R-J,8.0,well stylized,2026-07-24T06:40:42.193Z
+8632b87c-de70-4105-8e9d-9abb9d46fb1c,486.0,pop_art,R-J,5.0,partially stylized,2026-07-24T06:57:54.584Z
+97fb4de6-849e-4da5-aa6d-99ded355aaee,487.0,pop_art,R-J,7.0,balance styled,2026-07-24T07:00:32.937Z
+f4be3473-a6d8-481d-8cce-7b4f743b851e,488.0,pop_art,R-J,4.0,they style remains almost unchanged,2026-07-24T07:05:21.676Z
+9653daa9-f476-4d28-9c06-e2523d69c3cb,489.0,pop_art,R-J,3.0,they style remains almost unchanged,2026-07-24T07:07:27.845Z
+17f5c114-352b-468b-b65f-f904c35651ab,490.0,pop_art,R-J,9.0,excellent,2026-07-24T07:13:10.549Z
+0ed31096-0b52-4603-8db6-16693fcebd9b,491.0,pop_art,R-J,9.0,amazing,2026-07-24T07:13:21.801Z
+72fd6382-c6b0-46c4-a3bd-d0c7b0598128,492.0,mosaic,R-J,4.0,they style remains almost unchanged,2026-07-24T07:29:31.162Z
+ba19733c-bb51-4be5-ad11-65553b8b14d0,493.0,mosaic,R-J,5.0,they style remains almost unchanged,2026-07-24T07:35:20.082Z
+107f7e9e-1ffc-438c-9905-63ad6376af9c,494.0,mosaic,R-J,3.0,they style remains almost unchanged,2026-07-24T07:36:33.560Z
+4711576b-ca50-44a5-b001-244d145d9bbb,495.0,mosaic,R-J,6.0,the color scheme is not same,2026-07-24T07:36:54.235Z
+8bcdaf52-c1ea-4e97-8e63-7110023149e9,496.0,mosaic,R-J,4.0,the color grading is different,2026-07-24T07:37:20.794Z
+d6b9e1ea-9a34-4f5a-bd85-f9b0bd47f83d,497.0,mosaic,R-J,4.0,they style remains almost unchanged,2026-07-24T07:37:30.536Z
+327ac5e7-86c7-4a97-8569-1117295d7725,498.0,mosaic,R-J,8.0,excellent,2026-07-24T07:37:41.665Z
+4bf19433-801d-4778-a462-4111d1da9c7d,499.0,mosaic,R-J,8.0,amazing,2026-07-24T07:37:55.657Z
+cd24cf31-910a-4364-a115-f18e8622c135,500.0,abstract,R-J,4.0,they style remains almost unchanged,2026-07-24T07:38:08.295Z
+0f6e25f4-bfe0-4405-804c-fe0e7d9ef02d,501.0,abstract,R-J,9.0,excellent,2026-07-24T07:38:22.388Z
+b36ebaf4-03f1-4208-b8c7-9bf61836d835,0.0,minimalist,R-S,7.0,Rendering Quality is decent and the style transfer is good as well with some minor oversimplification of the structural clarity making some areas look somewhat muddy instead of being crisp.,2026-07-23T07:34:59.177Z
+3e37f4aa-60d3-4b14-b71c-fc25a40c77ca,1.0,minimalist,R-S,3.0,The resultant image is almost same as the query image showing almost no signs of the style transfer.,2026-07-23T07:37:36.345Z
+3aeb3795-f3df-4814-871e-f682b1fb5495,2.0,minimalist,R-S,2.0,Content preservation is not good. The question marks are missing and the background color is also not the same as the query image.,2026-07-23T07:39:07.335Z
+4c63f5b2-0c97-4b33-8791-0d1d541e1270,3.0,acrylic,R-S,3.0,Content preservation is not good. Faces and arms seem to be distorted.,2026-07-23T07:40:58.583Z
+ca904e88-ee5b-49df-8ad8-b83e1ecad78c,4.0,acrylic,R-S,7.0,Content preservation is good but the style transfer doesn't seems complete,2026-07-23T07:42:20.674Z
+f89c1e4a-86fb-4adb-a039-a6ddf9e63e6b,5.0,acrylic,R-S,2.0,No style transfer at all.,2026-07-23T07:43:57.715Z
+d827b0ab-7c5e-4550-8545-1236b942c837,6.0,acrylic,R-S,8.0,Good content preservation and style fidelity. Rendering quality good as well but some oversimplification of her cap and dress.,2026-07-23T07:46:05.456Z
+bcc60fa4-9382-4381-bd7b-547ef1933e49,7.0,acrylic,R-S,9.0,"Good rendering quality, style transfer and content preservation everywhere.",2026-07-23T07:47:27.342Z
+ebee5f29-bc9e-4219-8ef5-c2b5c23048c1,8.0,acrylic,R-S,4.0,Style transfer is good but the content preservation lags behind as the face is not the same.,2026-07-23T07:48:36.702Z
+20582420-44c0-4e5a-a843-c25b5c04a2df,9.0,acrylic,R-S,4.0,Style transfer is excellent but the content preservation is not so good as the faces of the people seems changed.,2026-07-23T07:49:50.169Z
+1bf9fd83-9131-4b39-a7d3-88aa29c6378c,10.0,acrylic,R-S,4.0,The content doesn't seems fully preserved although the style transfer is decent.,2026-07-23T07:51:16.686Z
+d01e0b19-f51c-4067-88d8-5fa765636295,11.0,acrylic,R-S,2.0,No content preservation at all and the style transfer is also not good enough.,2026-07-23T07:52:05.821Z
+e00eb88c-08a0-4f4b-b319-f16b1930f5fa,12.0,pencil,R-S,5.0,Content preservation is good and there are some signs of style transfer though not complete.,2026-07-23T07:53:49.904Z
+4fa40154-9f9f-48ac-9f93-b7da9f7dbdaa,13.0,pencil,R-S,7.0,Content preservation is decent with style transfer decent as well.,2026-07-23T07:54:51.835Z
+2ea42009-3767-4417-b82a-2eaa1b5ed81d,14.0,pencil,R-S,1.0,No style transfer at all.,2026-07-23T07:55:21.409Z
+436ccd65-0730-430d-bdb9-81127a7d7a73,15.0,pencil,R-S,4.0,Rendering quality is not good although content preservation is decent with some signs of style transfer.,2026-07-23T07:56:32.154Z
+3f263ee3-57b7-4b63-866b-f187934a3582,16.0,pencil,R-S,1.0,No style transfer at all.,2026-07-23T07:56:53.726Z
+d824416f-939f-4609-9267-1d27bbaa7c5e,17.0,pencil,R-S,9.0,Excellent content preservation and style transfer. Rendering quality good as well.,2026-07-23T07:57:44.145Z
+f56de628-396b-4c66-a26b-6a6b380ece19,18.0,pencil,R-S,3.0,Content seems distorted near the goalkeeper.,2026-07-23T07:58:35.939Z
+494ee915-80f5-4de9-a13c-e5fde97e38bb,19.0,pencil,R-S,3.0,Style transfer is good but in some places extra things have been added and the faces seem changed as well.,2026-07-23T07:59:43.394Z
+8a10f65d-a122-4870-879a-27a3b620c199,20.0,pop_art,R-S,7.0,Decent style transfer and good content preservation.,2026-07-23T08:02:28.984Z
+9570ac34-b71b-476a-b143-f018f1fe5f0b,21.0,pop_art,R-S,1.0,Good content preservation but no signs of style transfer whatsoever.,2026-07-23T08:02:57.191Z
+ce5dba77-0362-4343-852b-8820de4c5443,22.0,pop_art,R-S,1.0,"Faces distorted and changed, extra things added and no style transfer.",2026-07-23T08:03:53.671Z
+b984195f-8a33-4d0c-8c3b-ae38f323fb32,23.0,pop_art,R-S,2.0,Zero rendering quality with some signs of transfer.,2026-07-23T08:04:53.850Z
+ebbdc786-821a-47af-9eea-941555cd779f,24.0,pop_art,R-S,2.0,Zero rendering quality with some signs of style transfer.,2026-07-23T08:05:47.839Z
+ac7ffe12-62f7-401d-abe2-e988241c45f5,25.0,pop_art,R-S,1.0,Zero rendering quality and style transfer.,2026-07-23T08:06:29.035Z
+ff6f7f12-62ae-4255-afa9-eec2776a9118,26.0,pop_art,R-S,1.0,No style transfer and there are completely different people in the resultant image therefore no content preservation as well.,2026-07-23T08:07:08.962Z
+b58d2033-0a9c-4075-85f5-dd36617fe6e8,27.0,pop_art,R-S,6.0,Style transfer is good but the rendering quality is not that good.,2026-07-23T08:07:49.015Z
+fc5d9b64-cbb6-4ea8-ac17-bb683b7e16c0,28.0,expressive,R-S,1.0,No signs of style transfer.,2026-07-23T08:09:24.364Z
+5382248e-9ab1-434c-ae54-f99da38ddd65,29.0,expressive,R-S,1.0,No style transfer at all.,2026-07-23T08:11:01.646Z
+cfc09324-5d37-44dd-8fd9-1af1cc6e36a7,30.0,expressive,R-S,6.0,Style transfer is decent but some extra things are added and the design of the sweater has been changed as well.,2026-07-23T08:12:13.534Z
+d4d9b2ae-2099-475f-aa7c-534bf2ec2ab2,31.0,expressive,R-S,3.0,Not good content preservation. the structure of the leaves is changed with some leaves missing as well.,2026-07-23T08:13:11.301Z
+38d881ac-87c9-471a-8dbc-3bb851771a7e,32.0,expressive,R-S,7.0,Good style transfer with some distortions in the hands of the child.,2026-07-23T08:14:14.592Z
+02844f26-d5b8-4e08-b3a5-2500c741633d,33.0,expressive,R-S,3.0,The style of the sandals is changed and some signs of style transfer although not noticeable.,2026-07-23T08:15:33.724Z
+fb8cf1b8-2a5e-4d44-9a13-e57cf7407e8f,34.0,expressive,R-S,3.0,Content preservation is good but no signs of the style transfer.,2026-07-23T08:17:32.718Z
+1147b98b-cff2-47c4-b73e-bf05debf5dbd,35.0,expressive,R-S,3.0,Face and sweater has been changed therefore little content preservation.,2026-07-23T08:18:31.836Z
+b269e92b-f42b-4667-832d-9533aea07deb,36.0,gouache,R-S,1.0,Extra people in the resultant and the original person missing.,2026-07-23T08:19:20.461Z
+7fa950ed-ddee-4a18-84d6-e9f7f47d5508,37.0,gouache,R-S,7.0,content preservation is good the style seems be applied although not complete.,2026-07-23T08:21:39.180Z
+18a9bf20-e0ee-4573-9b57-503172782ebc,38.0,gouache,R-S,5.0,Good style transfer but the content seems to be somewhat changed.,2026-07-23T08:23:16.247Z
+41811d9d-9960-4868-8f9a-786fac1ea34e,39.0,gouache,R-S,9.0,Good application of the style and all content seems to be preserved as well.,2026-07-23T08:24:04.084Z
+036de0f7-36c9-43ec-97ef-e2aa7dfd6c3d,40.0,gouache,R-S,1.0,No noticeable style transfer and the content too seems to be changed,2026-07-23T08:24:57.484Z
+47c9cd3c-f51d-41ec-8bc1-3fb8e1090255,41.0,gouache,R-S,3.0,Not good content preservation but some signs for efforts for style transfer.,2026-07-23T08:25:59.144Z
+ce724250-a611-4618-99aa-5f745197c681,42.0,gouache,R-S,1.0,No visible style transfer.,2026-07-23T08:26:40.086Z
+0a3db881-48e3-4d59-a654-e6c7dcf98abb,43.0,gouache,R-S,1.0,Not a very good content preservation.,2026-07-23T08:27:14.251Z
+7615cc7b-3ac9-41d7-8107-cbb8d825247a,44.0,charcoal,R-S,1.0,No signs of style transfer. On top of that extra colors added for no reason.,2026-07-23T08:28:15.925Z
+53af05e0-3b83-4cf5-afd9-a5793eeda058,45.0,charcoal,R-S,1.0,Zero content preservation and style transfer.,2026-07-23T08:28:43.026Z
+91c25696-26bb-4565-a4eb-481404d533ac,46.0,charcoal,R-S,1.0,No signs of style transfer whatsoever.,2026-07-23T08:29:09.811Z
+c4937300-32c2-4f44-8466-815caac2edd7,47.0,charcoal,R-S,1.0,Zero style transfer.,2026-07-23T08:29:54.151Z
+ccafe80c-410d-46c0-81c6-ba56ab625da2,48.0,charcoal,R-S,2.0,Some signs of style transfer in the background but it has been changed a bit.,2026-07-23T08:30:44.896Z
+2e7e2fba-bafa-4cbd-988b-58d105d0a975,49.0,charcoal,R-S,5.0,Decent style transfer and content preservation as well.,2026-07-23T08:31:41.035Z
+8158da66-44ed-4046-a0ce-f370509e8a41,50.0,charcoal,R-S,1.0,"No visible style transfer at all.
+",2026-07-23T10:12:44.555Z
+fbca633b-016b-4f56-a438-d323d6138af2,51.0,charcoal,R-S,1.0,The style transfer doesn't look like those of the exemplars.,2026-07-23T10:14:57.305Z
+ec5c2461-27cd-4a0c-8a7f-afee8f128de6,52.0,mosaic,R-S,1.0,No visible style transfer.,2026-07-23T10:15:15.283Z
+be522711-c3cc-4476-bc96-efb953a0b56c,53.0,mosaic,R-S,1.0,No visible style transfer.,2026-07-23T10:15:33.667Z
+df4405bb-fa09-4d25-b249-c15bfe2ac993,54.0,mosaic,R-S,1.0,No style transfer and content preservation as well.,2026-07-23T10:15:53.055Z
+23780fd4-f46a-4a95-9152-1622ff30edba,55.0,mosaic,R-S,5.0,Good style transfer but lacks a bit on content preservation.,2026-07-23T10:17:42.451Z
+17237d71-156d-44fa-9ba3-ac932ef66b7e,56.0,mosaic,R-S,1.0,"Distorted faces, changed appearances, overall very little content preservation.",2026-07-23T10:18:37.150Z
+feb9307d-27d5-4b05-a8b7-b6e8b4f05267,57.0,mosaic,R-S,7.0,"Good content preservation but the color is changed in some parts of the resultant.
+style transfer good as well.",2026-07-23T10:19:28.189Z
+0f379343-a3cc-4f55-bfb9-1734e0b94144,58.0,mosaic,R-S,7.0,Color is changed in some parts of the resultant. Otherwise style transfer is good,2026-07-23T10:20:16.461Z
+4371d810-c12c-4d13-b9fe-282850ff6af8,59.0,mosaic,R-S,1.0,No visible style transfer and zero content preservation.,2026-07-23T10:20:40.787Z
+3cf5a820-cbcd-4207-910f-e7ea9e084d1f,60.0,impressionist,R-S,1.0,Extra content added and rendering quality not good as well.,2026-07-23T10:21:46.220Z
+9ce3b5a0-9823-46e0-a35e-f7c40073b4f3,61.0,impressionist,R-S,7.0,Good style transfer but the faces are changed in some parts although not noticeable.,2026-07-23T10:23:13.050Z
+71f77b6d-576b-410b-b99a-bfce688e8269,62.0,impressionist,R-S,2.0,No style transfer and content preservation.,2026-07-23T10:23:50.605Z
+d58d1b63-eae8-445c-b678-db345a44927d,63.0,impressionist,R-S,2.0,Very less content preservation with some parts having signs of style transfer.,2026-07-23T10:24:41.591Z
+80fe52bb-9314-4693-9e46-e56cabf1b953,64.0,impressionist,R-S,3.0,Very little content preservation.,2026-07-23T10:51:06.913Z
+aa14d125-e381-4336-9c44-6190f382719f,65.0,impressionist,R-S,8.0,Good style transfer and decent content preservation.,2026-07-23T10:51:53.236Z
+3c467ade-5e05-49c9-b958-6d950f2d24c8,66.0,impressionist,R-S,4.0,Extra people added but some signs of style transfer.,2026-07-23T10:52:53.944Z
+23558c4c-1540-4f7d-8fda-da9f992eff21,67.0,impressionist,R-S,2.0,Very little style transfer and change in the shape of the peas as well.,2026-07-23T10:54:13.579Z
+da8b38dc-8289-49be-aa82-8f9ed64f4d67,68.0,cubist,R-S,6.0,Decent style transfer but lacks a bit of content preservation.,2026-07-23T10:54:57.496Z
+4170cb9c-41ff-45be-b1f9-52817529021e,69.0,cubist,R-S,1.0,No signs of style transfer whatsoever.,2026-07-23T10:55:14.135Z
+1a6ddc8f-773d-4431-a511-17ea0abe9d64,70.0,cubist,R-S,4.0,Decent content preservation but the style transfer doesn't matches that of the exemplars.,2026-07-23T10:57:41.564Z
+2f939162-c537-4df1-b087-2d006a2f0460,71.0,cubist,R-S,1.0,Changed content in the resultant image.,2026-07-23T10:57:57.646Z
+df072ffe-283f-4702-be5d-11325726c356,72.0,cubist,R-S,2.0,Style transfer doesn't match that of the exemplars with some changes in the face structure.,2026-07-23T10:58:35.670Z
+cea4e458-9887-41b1-bcf3-9b5c3f02be2b,73.0,cubist,R-S,1.0,No style transfer.,2026-07-23T10:58:54.583Z
+fef78da2-848b-411a-a6bc-a3d21a705a67,74.0,cubist,R-S,2.0,Very little content preservation like the trees are completely missing.,2026-07-23T10:59:20.870Z
+3cefd884-b4ca-4bb4-b080-013a427254ca,75.0,cubist,R-S,2.0,Rendering quality not good. Style transfer in its initial stages.,2026-07-23T11:00:01.390Z
+2750c244-1122-4b46-b6bc-56bcedae46b4,76.0,minimalist,R-S,9.0,Really good style transfer like that in the exemplars and content preservation is good as well.,2026-07-23T11:00:56.591Z
+eae7e1f5-80a2-42a0-9a3d-994bf9cdd63f,77.0,minimalist,R-S,9.0,Really good style transfer and amazing content preservation.,2026-07-23T11:01:23.019Z
+99628d6e-eda8-4ba4-adf9-d51d7f674f90,78.0,minimalist,R-S,6.0,Good style transfer with some content changed.,2026-07-23T11:08:49.534Z
+2cf7f322-eabe-4c16-b26c-d886149d26e2,79.0,minimalist,R-S,2.0,All the text changed to some rubbish and the main spanner like looking thing is also distorted at some regions.,2026-07-23T11:09:41.418Z
+2e971848-0099-4754-8b81-1817172b89a7,80.0,minimalist,R-S,1.0,No trees can be seen in the resultant.,2026-07-23T11:10:10.443Z
+d2d79d00-bf11-4b89-a90c-688260400c3a,81.0,minimalist,R-S,2.0,Content preservation is really bad.,2026-07-23T11:10:32.151Z
+b1a9950c-ff23-434f-ae1b-7088c682832c,82.0,minimalist,R-S,8.0,Some content is missing otherwise the style transfer looks good.,2026-07-23T11:11:19.749Z
+aa33dc49-ca83-4203-a4d0-85e6e016445d,83.0,minimalist,R-S,6.0,Style transfer not that good and the content of the logo is also changed.,2026-07-23T11:12:15.843Z
+fc767de6-16ba-4358-a5c8-2295583ed69d,84.0,minimalist,R-S,7.0,Good style transfer with some shortcomings in the content preservation.,2026-07-23T11:13:23.789Z
+914fc68f-7705-4070-b444-5fc872bfd8a7,85.0,watercolor,R-S,2.0,No style transfer being observed and the rendering quality is also not good.,2026-07-24T10:24:16.076Z
+4f493583-746e-4c12-9061-fa18f0451acf,86.0,watercolor,R-S,6.0,Good but not enough style transfer and decent content preservation.,2026-07-24T10:26:14.583Z
+d68651e3-03bc-4730-a4d1-bf89eb0f38dd,87.0,watercolor,R-S,3.0,Good style transfer but really bad content preservation.,2026-07-24T10:27:04.273Z
+5b947914-ef32-40a3-ae74-c1f785b0b09e,88.0,watercolor,R-S,4.0,Not good enough content preservation and style transfer.Text not complete.,2026-07-24T10:29:39.075Z
+2ef9d660-4f1b-4159-bc85-6a093be4a295,89.0,watercolor,R-S,10.0,Excellent content preservation and style transfer.,2026-07-24T10:30:22.173Z
+3a2f936c-820a-4bc5-97f5-8b2fa8e35c61,90.0,watercolor,R-S,3.0,Very bad rendering quality but there are some signs of style transfer.,2026-07-24T10:31:19.926Z
+3ee6169a-6f59-4c51-9b68-1c6717e4d5ea,91.0,watercolor,R-S,2.0,Not a good rendering quality.,2026-07-24T10:31:52.364Z
+b9792ff6-1e5c-446e-9361-0ae4304c0ea2,92.0,watercolor,R-S,4.0,Not good rendering quality but there are signs of style transfer.,2026-07-24T10:32:18.113Z
+537c000a-065f-403e-a8d4-faa46f893571,93.0,watercolor,R-S,2.0,Very bad content preservation.Text not rendered properly and the faces of the people also seems to be distorted.,2026-07-24T10:33:51.887Z
+955e7941-6acf-4127-8da1-33cf2c903b33,94.0,pop_art,R-S,3.0,Extra legs added to the insect therefore not good content preservation.,2026-07-24T10:37:29.031Z
+b6d5bf52-a17e-428a-b082-4f7ebbd6ccca,95.0,pop_art,R-S,6.0,Good content preservation and decent style transfer although not complete.,2026-07-24T10:38:17.896Z
+476daf62-a14c-418e-a44c-409271c27a03,96.0,pop_art,R-S,1.0,No signs of style transfer and not good content preservation.,2026-07-24T10:38:57.096Z
+1237c15d-71ab-4427-b8d7-59373fcf0e32,97.0,pop_art,R-S,3.0,Some efforts for style transfer but extra content added therefore bringing down the content preservation.,2026-07-24T10:49:08.890Z
+9bee24db-6196-4526-ad1d-b59d9e952161,98.0,pop_art,R-S,4.0,Extra content added but decent efforts for style transfer.,2026-07-24T10:49:57.231Z
+70c35c2a-9903-4932-8e05-b5350abf3b7a,99.0,pop_art,R-S,5.0,Good content preservation but the style transfser is not complete.,2026-07-24T10:55:19.427Z

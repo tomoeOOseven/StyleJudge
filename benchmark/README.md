@@ -1,0 +1,47 @@
+# Human-rated benchmark
+
+878 human ratings of source→stylized query pairs, with the image paths needed to re-score them with any
+automatic metric. 728 rows form the seen-style benchmark used for the paper's correlation analysis;
+the other 150 are unseen-style rows (Acrylic, Pop Art).
+
+## Files
+
+| File | Description |
+|---|---|
+| `human_ratings.csv` | Raw ratings: `Row_ID, Row_Index, Style, Username, Score, Reasoning, Timestamp`. `Username` is a rater code (`R-J`, `R-A`, `R-S`). |
+| `manifest.csv` | One row per `Row_ID`: style, split, benchmark flag, rater, human score, query pair id and frame, and image paths |
+| `score_metric.py` | Scores your metric against the human ratings (Pearson, Spearman, bootstrap CI) |
+| `make_infer_csv.py` | Converts the manifest into the CSV format used by `inference/infer_batch.py` |
+
+## Manifest columns
+
+| Column | Meaning |
+|---|---|
+| `row_id` | UUID; joins to `Row_ID` in `human_ratings.csv` |
+| `style` | Target style |
+| `split` | `seen_10` (10 styles seen in training/validation) or `unseen_2` (Acrylic, Pop Art) |
+| `in_benchmark_728` | `True` for the 728 seen-style benchmark rows |
+| `rater` | Rater code |
+| `human_score` | Rating, 1–10 (same as `Score`) |
+| `query_pair_id`, `query_result_frame` | Pair folder number and morph-frame number (1 = source, 10 = fully stylized) of the query result |
+| `query_source`, `query_result` | Query pair image paths |
+| `exemplar_a_source`, `exemplar_a_target`, `exemplar_b_source`, `exemplar_b_target` | The two exemplar pairs shown to the rater |
+
+All paths start with `input_dataset/` (for example `input_dataset/extracted-strips-part-2/pop_art/79/1.png`).
+Place the image folders under a directory named `input_dataset/` and pass its parent as `--image_root` to
+`make_infer_csv.py`. The image datasets are linked from the main README; images are not stored in this repository.
+
+## Scoring a metric
+
+```bash
+# predictions.csv: columns row_id, score  (higher = better stylization; use --negate for losses)
+python score_metric.py predictions.csv
+```
+
+The script reports Pearson r and Spearman ρ with a bootstrap 95% CI on the 728 benchmark rows, the 150
+unseen-style rows, and all 878 rows.
+
+## Annotation protocol
+
+See [`docs/annotation_protocol.md`](../docs/annotation_protocol.md) for the rater methodology, briefing,
+verbatim guideline and interface. Licensed CC BY 4.0 (see the main README).

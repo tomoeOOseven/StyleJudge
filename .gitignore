@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+fixed_adapter/
+*.safetensors
+predictions*.csv
+infer_input.csv
