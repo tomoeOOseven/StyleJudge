@@ -37,7 +37,7 @@ $$W = W_0 + \Delta W = W_0 + BA, \quad B \in \mathbb{R}^{d \times r},\; A \in \m
 
 This allows lightweight style specialization without full retraining and enables rapid adapter swapping during dataset construction.
 
-**LoRA Architecture** *Low-rank decomposition matrices $B$ and $A$ are inserted into selected transformer layers. Only the adapter parameters ($\Delta W = BA$) are trained; the base weights $W_0$ remain frozen. (Figure adapted from [IBM Research](https://www.ibm.com/think/topics/lora))* 
+**LoRA architecture.** Low-rank decomposition matrices $B$ and $A$ are inserted into selected transformer layers. Only the adapter parameters ($\Delta W = BA$) are trained; the base weights $W_0$ remain frozen. For an overview, see [IBM Research's LoRA explanation](https://www.ibm.com/think/topics/lora).
 
 ### Style Adapters Used
 
