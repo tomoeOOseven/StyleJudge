@@ -55,6 +55,17 @@ python benchmark/score_metric.py my_predictions.csv     # columns: row_id, score
 
 ## Method
 
+**How it differs from conventional metrics.**
+
+| Feature | Traditional metrics (zero-shot) | StyleJudge (ICL-VLM) |
+|---|---|---|
+| Input modality | Isolated image pairs. | Multimodal context: reference pairs + query pair + text rubric. |
+| Reasoning | Fixed feature similarity (DINO, CLIP, Gram). | Dynamic joint attention over visual tokens + language embeddings. |
+| Output | Single uncalibrated scalar. | Three-metric scores + textual justification. |
+| Style adaptability | Static, treats all styles identically. | Context-adaptive, calibrates to reference examples. |
+| Score granularity | Continuous real-valued. | Discrete 1–10 integers, interpretable by humans. |
+| Human-correlation validated | Not evaluated on our benchmark prior to this work. | Yes, see [Results](#results) (N = 728). |
+
 **Evaluation protocol.** Each instance has K = 2 exemplar pairs (source → "perfect" stylized), a query pair, and
 the style's text markers ([`docs/style_definitions.md`](docs/style_definitions.md)). The model returns three
 1–10 scores in a structured XML block: Style Fidelity (SF), Content Preservation (CP) and Rendering Quality (RQ),
