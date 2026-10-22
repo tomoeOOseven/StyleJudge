@@ -10,7 +10,7 @@
 
 StyleJudge scores a stylized image the way a human rater does: it first looks at a few reference
 source→stylized pairs that define the target style, then judges the query pair against them.
-Existing metrics (Gram-matrix loss, LPIPS, CLIP-Score) score a pair in isolation and correlate poorly with human
+Existing metrics (Gram-matrix loss, LPIPS, CLIP image similarity) score a pair in isolation and correlate poorly with human
 judgment. StyleJudge is a 0.8B vision-language model distilled from a 72B teacher, and it is validated directly
 against human ratings.
 
@@ -25,15 +25,16 @@ Pearson / Spearman correlation with human ratings on the 728-pair benchmark (10 
 
 | Metric | Pearson r | Spearman ρ |
 |---|---:|---:|
-| Gram-matrix style loss | −0.404 | −0.394 |
-| LPIPS | 0.041 | 0.049 |
-| CLIP-Score | 0.168 | 0.178 |
+| Gram-matrix style loss (negated) | −0.404 | −0.394 |
+| LPIPS (negated) | 0.041 | 0.049 |
+| CLIP image similarity | 0.168 | 0.178 |
 | **StyleJudge (0.8B student)** | **0.291** | **0.325** |
 | StyleJudge teacher (72B) | 0.327 | 0.337 |
 
 On the 150 human-rated unseen-style rows (Acrylic, Pop Art) the student reaches r = 0.381 (teacher 0.408).
-Against its teacher on unseen styles, the student's exact-match accuracy rises from 1.1% (untuned base) to
-28.2% with 67.8% shorter reasoning traces. Details, confidence intervals and caveats are in [Results](#results).
+On 800 samples from the two validation styles (expressive, mosaic), held out from training, student–teacher
+exact-match accuracy rises from 1.1% (untuned base) to 28.2%, with 67.8% shorter reasoning traces. Details,
+confidence intervals and caveats are in [Results](#results).
 
 ## Quick start
 
@@ -86,22 +87,29 @@ severe failure; otherwise it reduces to style fidelity.
 2. **Graded supervision.** An SDXL-adapted FreeMorph adds 8 intermediate frames per pair, so the evaluator sees
    partial as well as complete stylization.
 3. **Teacher labels.** Qwen2.5-VL-72B labels every item (2 exemplar pairs + style markers + query) with scores and a rationale.
-4. **Distillation.** Qwen3.5-0.8B is LoRA-fine-tuned on those rationales with a score-digit-weighted loss (λ = 5).
-5. **Inference.** Two exemplar pairs + a query give SF, CP, RQ and S_final.
+4. **Failure-mode supervision.** Deliberately degraded morph sequences (raised guidance, quality-penalising
+   negative prompt, near-zero frequency-filter thresholds, Gaussian latent noise; notebook 03) let the evaluator
+   and raters see rendering and content failures.
+5. **Distillation.** Qwen3.5-0.8B is LoRA-fine-tuned on those rationales with a score-digit-weighted loss (λ = 5).
+6. **Inference.** Two exemplar pairs + a query give SF, CP, RQ and S_final.
 
 **FreeMorph: SD 2.1 → SDXL.** The original SD 2.1 pipeline drifts in structure and identity between frames.
 The SDXL port (768 → 1024 px, edit strength 0.8 → 0.6, CFG 7.5 → 6.5, 50 steps; latents slerp, embeddings lerp,
 dual CLIP-G + CLIP-L conditioning) keeps content stable. Settings and more frames: [`docs/freemorph_sdxl.md`](docs/freemorph_sdxl.md).
 
-Example 1 (top: SD 2.1, bottom: SDXL):
+**Example 1**
 
 ![SD 2.1 example 1](assets/figures/freemorph_sd21_ex1.png)
 ![SDXL example 1](assets/figures/freemorph_sdxl_ex1.png)
 
-Example 2 (top: SD 2.1, bottom: SDXL):
+*SD 2.1 FreeMorph example (top) and SDXL-adapted example (bottom); the rows show different input pairs.*
+
+**Example 2**
 
 ![SD 2.1 example 2](assets/figures/freemorph_sd21_ex2.png)
 ![SDXL example 2](assets/figures/freemorph_sdxl_ex2.png)
+
+*SD 2.1 FreeMorph example (top) and SDXL-adapted example (bottom); the rows show different input pairs.*
 
 ## Training
 
@@ -109,7 +117,7 @@ Teacher–student distillation, Qwen2.5-VL-72B → Qwen3.5-0.8B (Unsloth `FastVi
 
 | | |
 |---|---|
-| LoRA | r = 16, α = 32, dropout 0.05, rsLoRA off, all attention + MLP projections, vision + language layers |
+| LoRA | r = 16, α = 32, dropout 0.05, rsLoRA disabled, all attention + MLP projections, vision + language layers |
 | Sequence / image | 8,192 tokens, 1024 px |
 | Batch | 4 per device × 4 gradient accumulation = 16 |
 | Optimizer | Paged AdamW 8-bit, lr 2×10⁻⁴, cosine schedule, 10 warmup steps, bf16 |
@@ -122,28 +130,37 @@ Full tables: [`docs/training_hyperparameters.md`](docs/training_hyperparameters.
 
 ## Results
 
+Reproduce: `python benchmark/reproduce_paper_numbers.py`
+
 ### Correlation with human judgment
 
 Table above, plus:
 
-- **Uncertainty.** Bootstrap 95% CI (N = 728): student r ∈ [0.229, 0.354], teacher r ∈ [0.265, 0.390];
-  difference ∈ [−0.108, 0.032], so no significant student–teacher difference is detected. Per-rater student r:
-  0.333 / 0.125 / 0.109 (n = 419 / 232 / 77).
+- **Uncertainty.** Bootstrap 95% CI (N = 728): student r ∈ [0.225, 0.351], teacher r ∈ [0.258, 0.389];
+  difference ∈ [−0.112, 0.037], so no significant student–teacher difference is detected. Per-rater student r:
+  0.333 / 0.124 / 0.109 (n = 419 / 232 / 77).
 - **Unseen styles.** 150 rows (Acrylic, Pop Art; exemplars and style markers still given): student r = 0.381
   (95% CI [0.24, 0.51]), teacher 0.408. All 878 rows: student 0.297, teacher 0.341.
-- **Human agreement.** The 2-rater pilot gives r = 0.25 (n = 50, p = 0.08, Fisher 95% CI [−0.03, 0.49], which
+- **Per style.** Both models correlate positively with human ratings in all 12 styles; the student exceeds the teacher
+  in 10. After removing per-style means, the student's correlation on the 728 pairs is 0.368 (teacher 0.333); most
+  of its remaining error is style-level calibration: the student gives a 9 to 39% of pairs and 1–3 to 43%, and uses
+  the middle of the scale (4–6) for only 7%, whereas 33% of human ratings fall there.
+- **Human agreement.** The separate 2-rater project-team pilot gives r = 0.25 (n = 50, p = 0.08, Fisher 95% CI [−0.03, 0.49], which
   includes zero). It is a reference point, not a ceiling or a same-set comparison, because the 728 benchmark rows are
   single-rated. We do not claim human parity.
-- **Gram baseline.** The VGG16 Gram-matrix distance between the query result and the exemplar target is negated
-  before 1–10 scaling, so a closer style match scores higher. It still correlates at r = −0.404 (raw loss: +0.404),
-  so it is not a good metric for this task. Gram statistics measure feature divergence without penalizing semantic corruption.
+- **Traditional metrics.** Gram is the mean squared difference between Gram matrices of ImageNet-pretrained VGG16
+  features (layers 3, 8, 15, 22) of the query result and exemplar A's stylized image. LPIPS (VGG) is computed between
+  the query source and its result. CLIP image similarity is the cosine similarity of CLIP ViT-B/32 image embeddings
+  of the query result and exemplar A's stylized image. Images are resized to 256×256 (Lanczos). Gram and LPIPS are
+  negated; all three are min-max scaled to 1–10 over the benchmark pairs and rounded.
 
 More in [`docs/human_study_results.md`](docs/human_study_results.md).
 
-### Teacher imitation (800 unseen-style test samples)
+### Teacher imitation (800 validation-style samples)
 
-Exact match of S_final against the Qwen2.5-VL-72B teacher. This is an internal-consistency check; agreement with
-the teacher does not by itself establish alignment with human judgment.
+Exact match of S_final against the Qwen2.5-VL-72B teacher on 800 samples from the two validation styles
+(expressive, mosaic), held out from training. This is an internal-consistency check; agreement with the teacher
+does not by itself establish alignment with human judgment.
 
 | Model | Exact | Within ±1 | MAE | Avg. output (chars) |
 |---|---:|---:|---:|---:|
@@ -159,8 +176,12 @@ the teacher does not by itself establish alignment with human judgment.
 | **2** | **2.109** | **28.2** | **54.4** | 2,606 |
 | 3 | 2.600 | 19.6 | 44.0 | 3,527 |
 
-K = 0 is the untuned base model, while K = 1–3 use one SFT adapter trained at K = 2, so the K = 0 → 1 jump includes
-fine-tuning, and K = 3 < K = 2 may reflect the 8,192-token budget or a train/test K mismatch (untested).
+The K sweep is evaluated on the same 800 validation-style items (expressive, mosaic) for every K, drawn from the
+K=3 annotation set; the K=3 adapter was trained on 3,860 examples.
+
+K = 0 is the untuned base model; each K ≥ 1 row uses its own adapter, trained and evaluated with that K (see the
+training-loss figure). The K = 0 → 1 jump therefore includes fine-tuning; K = 3 < K = 2 may reflect the
+8,192-token budget and the smaller K=3 training set.
 The λ sweep covered {1, 2, 3, 4, 5} and selected the boundary value 5.
 
 ### Zero-shot pilot
@@ -176,11 +197,13 @@ VLM–human Pearson r = 0.19 (p = 0.18), Spearman ρ = 0.11; the VLM under-estim
 - All training data come from one generator family (FLUX.1 Kontext LoRAs); cross-generator transfer is untested.
 - The clamp threshold and λ were set heuristically; λ was swept only up to 5.
 - ArtFID (set-level) and HPSv2 (text-to-image preference) give no per-pair exemplar-conditioned score; CSD was not run.
-- 22 of 750 attempted inferences failed at generation time and were excluded from the benchmark.
+- Benchmark items were sampled with roughly uniform teacher scores, which widens the quality range compared with
+  a natural sample and may favour the teacher.
 
 ## Human-rated benchmark
 
-878 human ratings from three project-team raters (no art training, single-rated): 728 seen-style benchmark pairs
+878 human ratings from three project-team members who served as raters. They have no formal art training and each
+worked alone on a separate part of the data; pairs were single-rated. The ratings cover 728 seen-style benchmark pairs
 (10 styles) and 150 unseen-style pairs (Acrylic, Pop Art; 75 each). [`benchmark/`](benchmark/) contains the ratings,
 a manifest mapping every `Row_ID` to its image paths, style, split and benchmark flag, and the scoring script.
 Protocol and verbatim guideline: [`docs/annotation_protocol.md`](docs/annotation_protocol.md).
@@ -199,14 +222,15 @@ Source images (1024×1024, square, Lanczos-resampled; about 10K curated images) 
 | [LHQ-1024](https://www.kaggle.com/datasets/dimensi0n/lhq-1024) | Landscape scenes |
 | [Unsplash](https://unsplash.com) | Landscape scenes, atmospheric variation |
 
-Generated and derived datasets (Google Drive folder with everything: [Datasets](https://drive.google.com/drive/u/0/folders/1hzk80mSjpXRNwI5kUuDLyTcYRblOymeB)):
+Generated and derived datasets (Google Drive folder with everything: [Datasets](https://drive.google.com/drive/folders/1hzk80mSjpXRNwI5kUuDLyTcYRblOymeB)):
 
-| Dataset | Description |
-|---|---|
-| Style Rationale (110, 117) | Teacher XML rationales, batches 1 and 2: [Kaggle](https://www.kaggle.com/datasets/yatishjuneja/style-rationale-final) |
-| Extracted Morph Strips, Part 1 / Part 2 | FreeMorph-SDXL frames, styles 1–6 / 7–12: [Part 1](https://www.kaggle.com/datasets/somanshu7527/extracted-strips-part-1), [Part 2](https://www.kaggle.com/datasets/somanshu7527/extracted-strips-part-2) |
-| ImgEdit-Dev-700 | Pilot style-transfer pairs: [Hugging Face](https://huggingface.co/datasets/sysuyy/ImgEdit) |
-| Human ratings | [`benchmark/`](benchmark/) |
+| Dataset | Description | Source |
+|---|---|---|
+| Style Rationale (110, 117) | Teacher XML rationales, batches 1 and 2 | [Kaggle](https://www.kaggle.com/datasets/yatishjuneja/style-rationale-final) |
+| Extracted Morph Strips, Part 1 / Part 2 | FreeMorph-SDXL frames, styles 1–6 / 7–12 | [Part 1](https://www.kaggle.com/datasets/somanshu7527/extracted-strips-part-1), [Part 2](https://www.kaggle.com/datasets/somanshu7527/extracted-strips-part-2) |
+| ImgEdit-Dev-700 | Pilot style-transfer pairs | [Hugging Face](https://huggingface.co/datasets/sysuyy/ImgEdit) |
+| Human ratings | Released ratings and manifest | [`benchmark/`](benchmark/) |
+| input_dataset | Benchmark images referenced by `benchmark/manifest.csv` | [Kaggle](https://www.kaggle.com/datasets/sachitbansal2006/input-dataset) |
 
 Images are not stored in this repository. Check each source's license before redistributing.
 More: [`docs/dataset_sources.md`](docs/dataset_sources.md), [`docs/dataset_generation.md`](docs/dataset_generation.md).
@@ -237,3 +261,5 @@ Notebook order and descriptions: [`notebooks/README.md`](notebooks/README.md). R
 ## License
 
 Code: Apache-2.0 ([`LICENSE`](LICENSE)). Human ratings and manifest: CC BY 4.0.
+
+If you use this work, please cite our ICVGIP 2026 paper; GitHub's 'Cite this repository' button (from CITATION.cff) gives the BibTeX.

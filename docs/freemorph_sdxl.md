@@ -27,26 +27,16 @@ With `t` the frame position in [0, 1]:
 
 The SD 2.1 and SDXL pipelines are compared qualitatively only; no quantitative ablation of the retargeting is reported.
 
-## Before: SD 2.1 FreeMorph
+## FreeMorph examples
 
-![SD2.1 example 1](../assets/figures/freemorph_sd21_ex1.png)
+![SD 2.1 example 1](../assets/figures/freemorph_sd21_ex1.png)
+![SDXL-adapted example 1](../assets/figures/freemorph_sdxl_ex1.png)
 
-*Example 1. Intermediate frames show structural drift and object-level distortion (visible in frames 3–7)
-alongside stylistic change, making them unsuitable as clean style-progression supervision.*
+*SD 2.1 FreeMorph example (top) and SDXL-adapted example (bottom); the rows show different input pairs.*
 
-![SD2.1 example 2](../assets/figures/freemorph_sd21_ex2.png)
+![SD 2.1 example 2](../assets/figures/freemorph_sd21_ex2.png)
+![SDXL-adapted example 2](../assets/figures/freemorph_sdxl_ex2.png)
 
-*Example 2. Semantic content drift: subject identity changes between frames 4 and 7.*
-
-## After: SDXL-adapted FreeMorph
-
-![SDXL example 1](../assets/figures/freemorph_sdxl_ex1.png)
-
-*Example 1 (same pair as above). Dual text-encoder conditioning and reduced edit strength / guidance scale give
-a smoother, more content-consistent style progression.*
-
-![SDXL example 2](../assets/figures/freemorph_sdxl_ex2.png)
-
-*Example 2 (same pair as above). Subject identity and composition remain stable across all intermediate frames.*
+*SD 2.1 FreeMorph example (top) and SDXL-adapted example (bottom); the rows show different input pairs.*
 
 The SDXL port, a fork of FreeMorph's `freemorph.py`, is available at [FreeMorph_sdxl](https://github.com/Lokesh-102214/FreeMorph_sdxl).

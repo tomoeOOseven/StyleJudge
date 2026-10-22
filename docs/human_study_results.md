@@ -8,8 +8,10 @@
 | Unseen styles | 150 | Acrylic (75), Pop Art (75) |
 | **All released ratings** | **878** | 12 |
 
-882 ratings were collected and 4 empty rows were dropped. The 728 benchmark rows are the 750 scored seen-style
-items minus 22 that failed at generation time and were excluded; all models are compared on the same 728.
+The three raters were project-team members with no formal art training. Each worked alone on a separate part of the
+data, so each pair was single-rated. 882 ratings were collected and 4 empty rows were dropped. The 728 benchmark
+rows are the 750 sampled seen-style items minus 22 dropped before rating because the untuned model returned no score;
+all models are compared on the same 728.
 
 Human score statistics, benchmark rows (computed from `benchmark/human_ratings.csv`):
 
@@ -36,8 +38,8 @@ Per rater:
 | R-J | 419 | 5.14 | 2.31 |
 | R-S | 77 | 3.52 | 2.63 |
 
-Raters differ noticeably in their score scale (R-S rates much lower on average), and each row was rated by one
-person, so rater effects are not averaged out.
+Raters differ noticeably in their score scale (R-S rates much lower on average), and each pair was single-rated,
+so rater effects are not averaged out.
 
 ## Correlation with human ratings (reported in the paper)
 
@@ -45,21 +47,29 @@ Pearson r / Spearman ρ on the 728-pair benchmark:
 
 | Metric | Pearson r | Spearman ρ |
 |---|---:|---:|
-| Gram-matrix style loss (negated, see below) | −0.404 | −0.394 |
-| LPIPS | 0.041 | 0.049 |
-| CLIP-Score | 0.168 | 0.178 |
+| Gram-matrix style loss (negated) | −0.404 | −0.394 |
+| LPIPS (negated) | 0.041 | 0.049 |
+| CLIP image similarity | 0.168 | 0.178 |
 | StyleJudge (SFT, 0.8B student) | 0.291 | 0.325 |
 | StyleJudge (teacher, 72B) | 0.327 | 0.337 |
 
-Bootstrap 95% confidence intervals (N = 728): student r ∈ [0.229, 0.354]; teacher r ∈ [0.265, 0.390];
-difference (student − teacher) ∈ [−0.108, 0.032], so no significant difference is detected.
+Bootstrap 95% confidence intervals (N = 728): student r ∈ [0.225, 0.351]; teacher r ∈ [0.258, 0.389];
+difference (student − teacher) ∈ [−0.112, 0.037], so no significant difference is detected.
 
-Per-rater student correlation (benchmark rows): R-J 0.333 (n=419), R-A 0.125 (n=232), R-S 0.109 (n=77),
+Per-rater student correlation (benchmark rows): R-J 0.333 (n=419), R-A 0.124 (n=232), R-S 0.109 (n=77),
 positive for all three but modest.
 
 **Unseen styles (Acrylic, Pop Art; 150 rows, exemplars and style markers still given).** Student r = 0.381
 (95% CI [0.24, 0.51]), teacher r = 0.408. On all 878 rows: student 0.297, teacher 0.341. Query and training
 pairs are disjoint.
+
+### Traditional metrics
+
+Gram: mean squared difference between Gram matrices of ImageNet-pretrained VGG16 features (layers 3, 8, 15, 22)
+of the query result and exemplar A's stylized image. LPIPS (VGG) between the query source and its result.
+CLIP image similarity: cosine similarity of CLIP ViT-B/32 image embeddings of the query result and exemplar A's
+stylized image. Images are resized to 256×256 (Lanczos). Gram and LPIPS are negated; all three are min-max scaled
+to 1–10 over the benchmark pairs and rounded.
 
 ### Gram-matrix convention
 
@@ -80,8 +90,8 @@ zero-shot VLM-vs-human correlation, r = 0.19.)
 
 88 source-stylized pairs scored by Qwen2.5-VL-7B (ImgEdit-Judge weights); 50 had valid paired annotations from
 two raters. VLM mean 5.86 ± 1.66, human mean 6.62 ± 1.95; Pearson r = 0.19 (p = 0.18), Spearman ρ = 0.11
-(p = 0.46); the VLM under-estimated in 62% of cases (31/50). The pilot used two raters, one of whom also rated
-the main benchmark.
+(p = 0.46); the VLM under-estimated in 62% of cases (31/50). The separate pilot used two project-team members, one of whom also
+rated the main benchmark.
 
 ## Reproducing
 

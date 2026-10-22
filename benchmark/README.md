@@ -12,6 +12,8 @@ the other 150 are unseen-style rows (Acrylic, Pop Art).
 | `manifest.csv` | One row per `Row_ID`: style, split, benchmark flag, rater, human score, query pair id and frame, and image paths |
 | `score_metric.py` | Scores your metric against the human ratings (Pearson, Spearman, bootstrap CI) |
 | `make_infer_csv.py` | Converts the manifest into the CSV format used by `inference/infer_batch.py` |
+| `stylejudge_predictions.csv` | Student and teacher S_final scores for all 878 benchmark rows |
+| `reproduce_paper_numbers.py` | Reproduces the paper's correlation, per-rater, per-style and score-distribution numbers |
 
 ## Manifest columns
 
@@ -41,6 +43,16 @@ python score_metric.py predictions.csv
 
 The script reports Pearson r and Spearman ρ with a bootstrap 95% CI on the 728 benchmark rows, the 150
 unseen-style rows, and all 878 rows.
+
+```bash
+python score_metric.py stylejudge_predictions.csv --score_col student_final_score
+python reproduce_paper_numbers.py
+```
+
+Items were sampled with roughly uniform teacher scores (100 per score level 1-9; 78 at level 6 after 22 items
+were dropped before rating because the untuned model returned no score). Query results come from graded morph
+strips (643) and from three further generation batches, including deliberately degraded outputs (235); the source
+folder of each query is visible in its path.
 
 ## Annotation protocol
 

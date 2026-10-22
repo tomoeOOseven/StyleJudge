@@ -42,10 +42,13 @@ def main():
     print("\n" + "="*50)
     print("EVALUATION RESULTS")
     print("="*50)
-    print(f"Style Fidelity       : {metrics['sf']}/10")
-    print(f"Content Preservation : {metrics['cp']}/10")
-    print(f"Rendering Quality    : {metrics['rq']}/10")
-    print(f"Final Scaled Score   : {metrics['final_scaled_score']}/10")
+    if metrics["parsed"]:
+        print(f"Style Fidelity       : {metrics['sf']}/10")
+        print(f"Content Preservation : {metrics['cp']}/10")
+        print(f"Rendering Quality    : {metrics['rq']}/10")
+        print(f"Final Scaled Score   : {metrics['final_scaled_score']}/10")
+    else:
+        print("WARNING: Could not parse all three scores; no evaluation score is available.")
     
     print("\n" + "="*50)
     print("PERFORMANCE METRICS")

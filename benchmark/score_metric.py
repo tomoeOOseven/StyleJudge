@@ -2,7 +2,7 @@
 """Score any automatic metric against the StyleJudge human-rating benchmark.
 
 Usage:
-    python score_metric.py predictions.csv [--score_col score] [--higher_is_better]
+    python score_metric.py predictions.csv [--score_col score] [--negate]
 
 `predictions.csv` needs a `row_id` column (matching manifest.csv) and one numeric
 score column (default name: `score`). Reports Pearson r and Spearman rho with a

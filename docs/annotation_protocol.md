@@ -6,10 +6,9 @@ rating files.
 
 ## 1. Rater methodology
 
-Three independent human raters took part. They are members of the project team (and co-authors of the paper),
-none with formal art training. Each dataset row was **single-rated** (one rater per row); this differs from the
-2-rater paired pilot described in §4.1 of the main paper. Raters worked independently and did not consult or
-influence each other. Each rater was assigned an individual fraction of the dataset.
+Three project-team members served as raters; none had formal art training. Each worked alone on a separate part
+of the data, and each dataset pair was **single-rated** (one rater per pair). This differs from the 2-rater paired
+pilot described in §4.1 of the main paper.
 
 Raters are identified by code in the released files (`R-J`, `R-A`, `R-S`).
 

@@ -11,7 +11,7 @@ see the main README for the dataset links.
 | `04a_teacher_rationales_batch1.ipynb` | Qwen2.5-VL-72B (AWQ, vLLM) structured rationales, batch 1 |
 | `04b_teacher_rationales_batch2.ipynb` | Teacher rationales, batch 2 (checkpointed, resumable) |
 | `05_sft_train.ipynb` | LoRA SFT of Qwen3.5-0.8B with the score-weighted loss (Unsloth) |
-| `06_base_vs_adapter.ipynb` | Untuned base vs. SFT adapter on the unseen-style test set |
+| `06_eval_val_k2.ipynb` | K=2 student vs. the 72B teacher on 800 samples from the two validation styles (expressive, mosaic), the same items used for every K in the ablation: 28.2% exact, 54.4% within ±1, MAE 2.109, 2,606 characters |
 | `teacher_system_prompt.txt` | Teacher system prompt |
 | `future_work/grpo.ipynb` | Exploratory GRPO fine-tuning; not part of the reported results |
 

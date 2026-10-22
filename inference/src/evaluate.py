@@ -68,26 +68,17 @@ def get_hardware_info():
     return info
 
 def extract_multi_metrics(llm_output: str) -> Dict[str, any]:
-    """Parse 3 integer scores from XML output and compute the final scaled score."""
-    raw = {"sf": 0, "cp": 0, "rq": 0}
-    
-    sf_m = re.search(r'Style Fidelity:\s*([0-9]+)', llm_output, re.I)
-    cp_m = re.search(r'Content Preservation:\s*([0-9]+)', llm_output, re.I)
-    rq_m = re.search(r'Rendering Quality:\s*([0-9]+)', llm_output, re.I)
-    
-    raw["sf"] = max(1, min(10, int(sf_m.group(1)))) if sf_m else 0
-    raw["cp"] = max(1, min(10, int(cp_m.group(1)))) if cp_m else 0
-    raw["rq"] = max(1, min(10, int(rq_m.group(1)))) if rq_m else 0
+    """Parse SF/CP/RQ from the XML output and compute S_final (Eq. 1).
+    If any score is missing, returns parsed=False and final_scaled_score=None."""
+    def grab(name):
+        m = re.search(rf'{name}:\s*([0-9]+)', llm_output, re.I)
+        return max(1, min(10, int(m.group(1)))) if m else None
 
-    final_scaled_score = min(raw["rq"], raw["cp"]) if (raw["rq"] <= 3 or raw["cp"] <= 3) else max(1, min(10, raw["sf"]))
-
-    return {
-        "sf": raw["sf"], 
-        "cp": raw["cp"], 
-        "rq": raw["rq"], 
-        "final_scaled_score": final_scaled_score,
-        "raw_extraction": raw
-    }
+    sf, cp, rq = grab("Style Fidelity"), grab("Content Preservation"), grab("Rendering Quality")
+    parsed = None not in (sf, cp, rq)
+    final = (min(rq, cp) if (rq <= 3 or cp <= 3) else sf) if parsed else None
+    return {"sf": sf, "cp": cp, "rq": rq, "parsed": parsed,
+            "final_scaled_score": final, "raw_extraction": {"sf": sf, "cp": cp, "rq": rq}}
 
 def run_inference(model, tokenizer, user_content: list, return_perf: bool = False):
     messages = [

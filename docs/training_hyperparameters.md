@@ -37,3 +37,6 @@ Qwen2.5-VL-72B teacher rationales (§3.3 of the paper).
 The λ sweep stopped at 5 (the boundary value was selected).
 
 ![Training loss](../assets/figures/training_loss.jpg)
+
+The K sweep is evaluated on the same 800 validation-style items (expressive, mosaic) for every K, drawn from the
+K=3 annotation set; the K=3 adapter was trained on 3,860 examples.

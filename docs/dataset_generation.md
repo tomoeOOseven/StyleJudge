@@ -150,4 +150,4 @@ extracted-strips-part-*/
 ```
 
 For users who prefer to download the full dataset at once or outside of the Kaggle environment, the complete 22 GB collection is mirrored on Google Drive.
-[📁 Datasets (Google Drive)](https://drive.google.com/drive/u/0/folders/1hzk80mSjpXRNwI5kUuDLyTcYRblOymeB)
+[📁 Datasets (Google Drive)](https://drive.google.com/drive/folders/1hzk80mSjpXRNwI5kUuDLyTcYRblOymeB)

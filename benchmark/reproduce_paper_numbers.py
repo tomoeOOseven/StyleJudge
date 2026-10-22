@@ -48,3 +48,8 @@ for col in (H, S, T):
     c[col] = c[col] - c.groupby("style")[col].transform("mean")
 print(f"\nwithin-style r on seen_728 (style means removed): student {pearsonr(c[S], c[H])[0]:.3f}, "
       f"teacher {pearsonr(c[T], c[H])[0]:.3f}")
+
+print("\n== Score counts (all 878 pairs; levels 1..10)")
+for name, col in [("human", H), ("student", S), ("teacher", T)]:
+    counts = df[col].value_counts().reindex(range(1, 11), fill_value=0).astype(int)
+    print(f"{name:8s}" + "".join(f" {counts[score]:3d}" for score in range(1, 11)))

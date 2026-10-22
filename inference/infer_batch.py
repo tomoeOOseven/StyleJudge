@@ -48,7 +48,8 @@ def main():
             raw_output, perf = run_inference(model, tokenizer, user_content, return_perf=True)
             metrics = extract_multi_metrics(raw_output)
             
-            gt_score = int(row.get("final_score", 0)) if not pd.isna(row.get("final_score")) else None
+            gt_value = row.get("final_score")
+            gt_score = int(gt_value) if not pd.isna(gt_value) else None
             
             pred_record = {
                 "sample_idx": idx,
@@ -59,6 +60,7 @@ def main():
                 "pred_cp": metrics["cp"],
                 "pred_rq": metrics["rq"],
                 "pred_final_score": metrics["final_scaled_score"],
+                "parse_failed": not metrics["parsed"],
                 "ttft_sec": perf["ttft_sec"],
                 "tpot_sec": perf["tpot_sec"],
                 "prefill_time_sec": perf["prefill_time_sec"],
@@ -76,6 +78,17 @@ def main():
     out_df = pd.DataFrame(predictions)
     out_df.to_csv(args.output_path, index=False)
     print(f"\nSaved {len(out_df)} predictions to {args.output_path}")
+
+    if not out_df.empty:
+        scored = out_df.loc[~out_df["parse_failed"]].dropna(subset=["gt_final_score", "pred_final_score"])
+        if not scored.empty:
+            errors = (scored["pred_final_score"] - scored["gt_final_score"]).abs()
+            print(f"Accuracy (parsed rows): {(errors == 0).mean():.1%}")
+            print(f"Within ±1 (parsed rows): {(errors <= 1).mean():.1%}")
+            print(f"MAE (parsed rows): {errors.mean():.3f}")
+
+    parse_failures = int(out_df["parse_failed"].sum()) if not out_df.empty else 0
+    print(f"Parse failures: {parse_failures}")
 
 if __name__ == "__main__":
     main()

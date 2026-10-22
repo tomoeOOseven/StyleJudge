@@ -46,6 +46,9 @@ PY
 python ../benchmark/score_metric.py scores.csv
 ```
 
+Rows with unparseable model output are marked `parse_failed=True` and have a blank predicted score; the scoring
+script ignores those missing scores.
+
 The input CSV needs: `style`, `ex_a_src_path`, `ex_a_dst_path`, `ex_b_src_path`, `ex_b_dst_path`,
 `q_src_path`, `q_res_path`, and optionally `final_score` (ground truth) and `row_id`.
 
