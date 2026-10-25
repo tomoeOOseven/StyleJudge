@@ -1,39 +1,51 @@
 # References
-1. **Gatys, L. A., Ecker, A. S., & Bethge, M.** (2016). A neural algorithm of artistic style. *Journal of Vision*, 16(12), 326.
-2. **Johnson, J., Alahi, A., & Fei-Fei, L.** (2016). Perceptual losses for real-time style transfer and super-resolution. In *ECCV*.
-3. **Huang, X., & Belongie, S.** (2017). Arbitrary style transfer in real-time with adaptive instance normalization. In *ICCV*.
-4. **Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., & Chen, W.** (2022). LoRA: Low-rank adaptation of large language models. In *ICLR*.
-5. **Kalajdzievski, D.** (2023). A rank stabilization scaling factor for fine-tuning with LoRA. *arXiv preprint arXiv:2312.03732*.
-6. **Zhang, R., Isola, P., A. Efros, A., Shechtman, E., & Wang, O.** (2018). The unreasonable effectiveness of deep features as a perceptual metric. In *CVPR*.
-7. **Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., et al.** (2021). Learning transferable visual models from natural language supervision. In *ICML*.
-8. **Caron, M., Touvron, H., Misra, I., Jégou, H., Mairal, J., Bojanowski, P., & Joulin, A.** (2021). Emerging properties in self-supervised vision transformers. In *ICCV*.
-9. **Wang, P., et al.** (2024). Qwen2-VL: Enhancing vision-language model's perception of the world at any resolution. *arXiv preprint arXiv:2409.12191*.
-10. **Heusel, M., Ramsauer, H., Unterthiner, T., Nessler, B., & Hochreiter, S.** (2017). GANs trained by a two time-scale update rule converge to a local Nash equilibrium. In *NeurIPS*.
-11. **Wang, Z., Bovik, A. C., Sheikh, H. R., & Simoncelli, E. P.** (2004). Image quality assessment: from error visibility to structural similarity. *IEEE TIP*, 13(4), 600–612.
-12. **Wang, J., Chan, J., & Loy, C. C.** (2023). Exploring CLIP for assessing the look and feel of images. In *AAAI*.
-13. **Ku, M., Jones, T., Stefanidis, A., Wang, Z., Fu, Y., & Yu, W.** (2023). VIEScore: Towards explainable metrics for conditional image synthesis evaluation. *arXiv preprint arXiv:2312.14867*.
-14. **Wu, X., et al.** (2023). Human preference score v2: A solid benchmark for evaluating human preferences of text-to-image synthesis. *arXiv preprint arXiv:2306.09341*.
-15. **Shi, S., et al.** (2024). ImgEdit: A unified image editing dataset and benchmark. *arXiv preprint arXiv:2503.14910*.
-16. **Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Li, Z., Li, D., Xing, E. P., Zhang, H., Gonzalez, J. E., & Stoica, I.** (2023). Judging LLM-as-a-judge with MT-bench and chatbot arena. In *NeurIPS*.
-17. **Brown, T. B., et al.** (2020). Language models are few-shot learners. In *NeurIPS*.
-18. **Su, Y., et al.** (2023). PandaGPT: One model to instruction-follow them all. *arXiv preprint arXiv:2305.16355*.
-19. **Liu, H., Li, C., Wu, Q., & Lee, Y. J.** (2023). Visual instruction tuning. In *NeurIPS*.
-20. **Ho, J., et al.** (2022). Large language models are reasoning teachers. *arXiv preprint arXiv:2212.08410*.
-21. **West, P., et al.** (2022). Symbolic knowledge distillation: from general language models to commonsense models. In *NAACL*.
-22. **Black Forest Labs.** (2024). FLUX.1: A family of flow-matching text-to-image models. Available at [Black Forest Labs](https://blackforestlabs.ai).
-23. **Ye, H., Jack, Z., Liu, S., Han, X., & Yang, W.** (2023). IP-Adapter: Text compatible image prompt adapter for text-to-image diffusion models. *arXiv preprint arXiv:2308.06721*.
-24. **Avrahami, Y., et al.** (2024). FreeMorph: Tuning-free image morphing with diffusion models. *arXiv preprint arXiv:2411.01410*.
-25. **IBM Research.** (2024). What is LoRA? *IBM Think*. Available at [IBM Topics](https://www.ibm.com/think/topics/lora).
-26. **Avrahami, Y., et al.** (2025). FreeMorph: Tuning-free generalized image morphing with diffusion models. *arXiv preprint arXiv:2507.01953*. Core implementation available at [freemorph.py](https://github.com/yukangcao/FreeMorph/blob/main/freemorph.py).
-27. **Lokesh-102214.** (2026). FreeMorph-SDXL: Port of FreeMorph to Stable Diffusion XL. Repository available at [FreeMorph_sdxl](https://github.com/Lokesh-102214/FreeMorph_sdxl).
-28. **Chen, S., et al.** (2025). ADIEE: Automatic Dataset Creation and Scorer for Instruction-Guided Image Editing Evaluation. In *ICCV*.
-29. **Baraldi, L., et al.** (2025). What Changed? Detecting and Evaluating Instruction-Guided Image Edits with Multimodal Large Language Models. In *ICCV*.
-30. **Jiao, Q., et al.** (2025). Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models. In *CVPR*.
-31. **Alibaba Cloud.** (2025). Qwen2.5-VL: Vision-Language Model family. Used for zero-shot scoring (7B) and teacher rationale generation (72B-AWQ). Qwen3.5-0.8B is used for student fine-tuning.
-32. **Bai, S., et al.** (2025). Qwen2.5-VL technical report. *arXiv preprint arXiv:2502.13923*.
-33. **Qwen Team.** (2026). Qwen3.5. Available at [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B).
-34. **Podell, D., et al.** (2023). SDXL: Improving latent diffusion models for high-resolution image synthesis. *arXiv preprint arXiv:2307.01952*.
-35. **Hessel, J., Holtzman, A., Forbes, M., Le Bras, R., & Choi, Y.** (2021). CLIPScore: A reference-free evaluation metric for image captioning. In *EMNLP*.
-36. **de Wynter, A.** (2025). Is in-context learning learning? *arXiv preprint arXiv:2509.10414*.
 
----
+Reference list of the camera-ready paper (ICVGIP 2026); numbering matches the paper.
+
+1. **Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr, Yana Hasson, Karel Lenc, Arthur Mensch, Katie Millican, Malcolm Reynolds, Roman Ring, Eliza Rutherford, Serkan Cabi, Tengda Han, Zhitao Gong, Sina Samangooei, Marianne Monteiro, Jacob Menick, Sebastian Borgeaud, Andy Brock, Aida Nematzadeh, Sahand Sharifzadeh, Mikołaj Bińkowski, Ricardo Barreira, Oriol Vinyals, Andrew Zisserman, and Karen Simonyan.** 2022. Flamingo: a Visual Language Model for Few-Shot Learning. *Advances in Neural Information Processing Systems (NeurIPS)*.
+2. **Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Sibo Song, Kai Dang, Peng Wang, Shijie Wang, Jun Tang, Humen Zhong, Yuanzhi Zhu, Mingkun Yang, Zhaohai Li, Jianqiang Wan, Pengfei Wang, Wei Ding, Zheren Fu, Yiheng Xu, Jiabo Ye, Xi Zhang, Tianbao Xie, Zesen Cheng, Hang Zhang, Zhibo Yang, Haiyang Xu, and Junyang Lin.** 2025. Qwen2.5-VL Technical Report. *arXiv preprint arXiv:2502.13923*.
+3. **Black Forest Labs.** 2025. FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space. *arXiv preprint arXiv:2506.15742*.
+4. **Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei.** 2020. Language Models are Few-Shot Learners. *Advances in Neural Information Processing Systems (NeurIPS)*, 1877–1901.
+5. **Yukang Cao, Chenyang Si, Jinghao Wang, and Ziwei Liu.** 2025. FreeMorph: Tuning-Free Generalized Image Morphing with Diffusion Model. *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 18111–18120.
+6. **Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, and Armand Joulin.** 2021. Emerging Properties in Self-Supervised Vision Transformers. *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 9650–9660.
+7. **chandavandann.** 2024. Global Fish Species Image Dataset (iNaturalist). *https://www.kaggle.com/datasets/chandavandann/global-fish-species-image-dataset-inaturalist*.
+8. **Adrian de Wynter.** 2025. Is In-Context Learning Learning?. *arXiv preprint arXiv:2509.10414*.
+9. **dimensi0n.** 2023. LHQ-1024: Large High-Quality Image Dataset. *https://www.kaggle.com/datasets/dimensi0n/lhq-1024*.
+10. **fal.ai.** 2025. Kontext Dev LoRA Collection. *https://huggingface.co/collections/fal/kontext-dev-loras*.
+11. **Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge.** 2016. Image Style Transfer Using Convolutional Neural Networks. *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2414–2423.
+12. **Jiawei Gu, Xuhui Jiang, Zhichao Shi, Hexiang Tan, Xuehao Zhai, Chengjin Xu, Wei Li, Yinghan Shen, Shengjie Ma, Honghao Liu, Yuanzhuo Wang, and Jian Guo.** 2024. A Survey on LLM-as-a-Judge. *arXiv preprint arXiv:2411.15594*.
+13. **Jack Hessel, Ari Holtzman, Maxwell Forbes, Ronan Le Bras, and Yejin Choi.** 2021. CLIPScore: A Reference-free Evaluation Metric for Image Captioning. *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 7514–7528.
+14. **Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and Sepp Hochreiter.** 2017. GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium. *Advances in Neural Information Processing Systems (NeurIPS)*, 6626–6637.
+15. **Namgyu Ho, Laura Schmid, and Se-Young Yun.** 2023. Large Language Models Are Reasoning Teachers. *Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL)*, 14852–14882.
+16. **Grant Van Horn, Oisin Mac Aodha, Yang Song, Yin Cui, Chen Sun, Alex Shepard, Hartwig Adam, Pietro Perona, and Serge Belongie.** 2018. The iNaturalist Species Classification and Detection Dataset. *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 8769–8778.
+17. **Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen.** 2022. LoRA: Low-Rank Adaptation of Large Language Models. *International Conference on Learning Representations (ICLR)*, 1–13.
+18. **Xun Huang, and Serge Belongie.** 2017. Arbitrary Style Transfer in Real-Time with Adaptive Instance Normalization. *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 1501–1510.
+19. **Justin Johnson, Alexandre Alahi, and Li Fei-Fei.** 2016. Perceptual Losses for Real-Time Style Transfer and Super-Resolution. *Proceedings of the European Conference on Computer Vision (ECCV)*, 694–711.
+20. **Yuval Kirstain, Adam Polyak, Uriel Singer, Shahbuland Matiana, Joe Penna, and Omer Levy.** 2023. Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation. *Advances in Neural Information Processing Systems (NeurIPS)*, 36652–36663.
+21. **Max Ku, Dongfu Jiang, Cong Wei, Xiang Yue, and Wenhu Chen.** 2024. VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation. *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)*, 12268–12290.
+22. **Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee.** 2023. Visual Instruction Tuning. *Advances in Neural Information Processing Systems (NeurIPS)*, 34892–34916.
+23. **Lokesh, Pramukto Mandal, Somanshu Juneja, Jashnoor Singh, Amit Kumar, Pranav Adlinge, Richa Thakur, Kunal Swami, and Aditya Nigam.** 2026. StyleJudge: Code, Weights, Human-Rating Benchmark and Supplementary Material. *https://github.com/tomoeOOseven/StyleJudge*.
+24. **OpenDiffusionAI.** 2024. LAION-2B Squarish 1024px Dataset. *https://huggingface.co/datasets/opendiffusionai/laion2b-squareish-1024px*.
+25. **Pexels.** 2024. Pexels: Free Stock Photos. *https://www.pexels.com*.
+26. **Dustin Podell, Zion English, Kyle Lacey, Andreas Blattmann, Tim Dockhorn, Jonas Müller, Joe Penna, and Robin Rombach.** 2023. SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis. *arXiv preprint arXiv:2307.01952*.
+27. **Qwen Team.** 2026. Qwen3.5. *https://huggingface.co/Qwen/Qwen3.5-0.8B*.
+28. **Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, and Ilya Sutskever.** 2021. Learning Transferable Visual Models from Natural Language Supervision. *Proceedings of the International Conference on Machine Learning (ICML)*, 8748–8763.
+29. **Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, Patrick Schramowski, Srivatsa Kundurthy, Katherine Crowson, Ludwig Schmidt, Robert Kaczmarczyk, and Jenia Jitsev.** 2022. LAION-5B: An Open Large-Scale Dataset for Training Next Generation Image-Text Models. *Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track*.
+30. **sharansmenon.** 2021. iNat2021 Birds Dataset. *https://www.kaggle.com/datasets/sharansmenon/inat2021birds*.
+31. **Ivan Skorokhodov, Grigorii Kornilov, and Mohamed Elhoseiny.** 2021. Aligning Latent and Image Spaces to Connect the Unconnectable. *arXiv preprint arXiv:2104.06954*.
+32. **Gowthami Somepalli, Anubhav Gupta, Kamal Gupta, Shramay Palta, Micah Goldblum, Jonas Geiping, Abhinav Shrivastava, and Tom Goldstein.** 2024. Investigating Style Similarity in Diffusion Models. *Proceedings of the European Conference on Computer Vision (ECCV)*, 143–160.
+33. **Yiren Song, Cheng Liu, and Mike Zheng Shou.** 2025. OmniConsistency: Learning Style-Agnostic Consistency from Paired Stylization Data. *Advances in Neural Information Processing Systems (NeurIPS)*.
+34. **Yixuan Su, Tian Lan, Huayang Li, Jialu Xu, Yan Wang, and Deng Cai.** 2023. PandaGPT: One Model to Instruction-Follow Them All. *arXiv preprint arXiv:2305.16355*.
+35. **Unsplash.** 2024. Unsplash: Beautiful Free Images & Pictures. *https://unsplash.com*.
+36. **Jianyi Wang, Kelvin C.K. Chan, and Chen Change Loy.** 2023. Exploring CLIP for Assessing the Look and Feel of Images. *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, 2555–2563.
+37. **Zhou Wang, Alan C. Bovik, Hamid R. Sheikh, and Eero P. Simoncelli.** 2004. Image Quality Assessment: From Error Visibility to Structural Similarity. *IEEE Transactions on Image Processing*, 13(4), 600–612.
+38. **Peter West, Chandra Bhagavatula, Jack Hessel, Jena D. Hwang, Liwei Jiang, Ronan Le Bras, Ximing Lu, Sean Welleck, and Yejin Choi.** 2022. Symbolic Knowledge Distillation: From General Language Models to Commonsense Models. *Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*, 4602–4625.
+39. **Matthias Wright, and Björn Ommer.** 2022. ArtFID: Quantitative Evaluation of Neural Style Transfer. *Pattern Recognition: 44th DAGM German Conference (GCPR)*, 560–576.
+40. **Xiaoshi Wu, Yiming Hao, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, and Hongsheng Li.** 2023. Human Preference Score v2: A Solid Benchmark for Evaluating Human Preferences of Text-to-Image Synthesis. *arXiv preprint arXiv:2306.09341*.
+41. **Jiazheng Xu, Xiao Liu, Yuchen Wu, Yuxuan Tong, Qinkai Li, Ming Ding, Jie Tang, and Yuxiao Dong.** 2023. ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation. *Advances in Neural Information Processing Systems (NeurIPS)*, 15903–15935.
+42. **Qinhong Yang, Dongdong Chen, Zhentao Tan, Qiankun Liu, Qi Chu, Jianmin Bao, Lu Yuan, Gang Hua, and Nenghai Yu.** 2023. HQ-50K: A Large-scale, High-quality Dataset for Image Restoration. *arXiv preprint arXiv:2306.05390*.
+43. **Hu Ye, Jun Zhang, Sibo Liu, Xiao Han, and Wei Yang.** 2023. IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models. *arXiv preprint arXiv:2308.06721*.
+44. **Yang Ye, Xianyi He, Zongjian Li, Bin Lin, Shenghai Yuan, Zhiyuan Yan, Bohan Hou, and Li Yuan.** 2025. ImgEdit: A Unified Image Editing Dataset and Benchmark. *Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track*.
+45. **yoanndev90.** 2023. iNaturalist Insects Dataset. *https://www.kaggle.com/datasets/yoanndev90/inaturalist-insects*.
+46. **Richard Zhang, Phillip Isola, Alexei A. Efros, Eli Shechtman, and Oliver Wang.** 2018. The Unreasonable Effectiveness of Deep Features as a Perceptual Metric. *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 586–595.
+47. **Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.** 2023. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. *Advances in Neural Information Processing Systems (NeurIPS)*, 46595–46623.

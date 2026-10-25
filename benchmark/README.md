@@ -55,7 +55,8 @@ python score_metric.py base_zeroshot_predictions.csv
 python reproduce_paper_numbers.py
 ```
 
-100 items per teacher-score level 1-9, except 78 at level 6, because 22 sampled items at that level were not rated.
+Across all 878 pairs, items were sampled with roughly uniform teacher scores: 100 per teacher-score level 1-9, except
+78 at level 6, because 22 sampled items at that level were not rated.
 Query results come from graded morph strips (643) and from three further generation batches, including deliberately
 degraded outputs (235); the source folder of each query is visible in its path.
 

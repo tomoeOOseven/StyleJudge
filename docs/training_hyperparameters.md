@@ -33,7 +33,7 @@ Qwen2.5-VL-72B teacher rationales (§3.3 of the paper).
 | Save steps | 100 | Checkpoint frequency |
 | Random seed | 42 | Shuffling and initialization |
 
-The λ sweep stopped at 5 (the boundary value was selected).
+λ was swept only over 1–5, without an unweighted (λ = 0) run.
 
 Images are loaded at 1024 px and resized to 512 px by Unsloth's vision pipeline.
 

@@ -196,8 +196,10 @@ The K sweep uses the same 800 validation-style items (expressive, mosaic) for ev
 teacher's labels in the K=3 annotation set; the K=3 adapter was trained on 3,860 examples.
 
 K = 0 is the untuned base model; each K ≥ 1 row uses its own adapter, trained and evaluated with that K (see the
-training-loss figure). The K = 0 → 1 jump therefore includes fine-tuning; K = 3 < K = 2 may reflect the
-8,192-token budget and the smaller K=3 training set.
+training-loss figure). The K = 0 → 1 jump therefore includes fine-tuning; K = 3 < K = 2: with 512-px images a
+third exemplar pair adds only several hundred tokens, so the 8,192-token budget is unlikely to be the main cause;
+the K=3 adapter was trained on fewer examples (3,860 vs. 5,614) and writes longer outputs, so the sweep does not
+isolate K alone.
 The λ sweep covered {1, 2, 3, 4, 5} and selected the boundary value 5.
 
 ### Zero-shot pilot
@@ -211,7 +213,7 @@ VLM–human Pearson r = 0.19 (p = 0.18), Spearman ρ = 0.11; the VLM under-estim
   matches the teacher without recognizing the failure.
 - Attention rollout is illustrative, not causal evidence ([`docs/attention_rollout.md`](docs/attention_rollout.md)).
 - All training data come from one generator family (FLUX.1 Kontext LoRAs); cross-generator transfer is untested.
-- The clamp threshold and λ were set heuristically; λ was swept only up to 5.
+- The clamp threshold and λ were set heuristically; λ was swept only over 1–5, without an unweighted (λ = 0) run.
 - ArtFID (set-level) and HPSv2 (text-to-image preference) give no per-pair exemplar-conditioned score; CSD was not run.
 - Benchmark items were sampled with roughly uniform teacher scores, which widens the quality range compared with
   a natural sample and may favour the teacher.
@@ -270,8 +272,8 @@ Notebook order and descriptions: [`notebooks/README.md`](notebooks/README.md). R
 
 ## Future work
 
-- **GRPO / RLHF-style use.** Optimizing the judge with Group Relative Policy Optimization against human-alignment
-  rewards, and using it in an inference or model-selection loop for stylization models. An exploratory notebook is in
+- **GRPO / reward signal.** StyleJudge could serve as a reward signal for training stylization models (e.g. with Group
+  Relative Policy Optimization). An exploratory notebook is in
   [`notebooks/future_work/`](notebooks/future_work/); none of this is part of the reported results.
 - Longer SFT, larger-scale human preference data, and broader baselines (DINO, PickScore, CSD, ArtFID) scored on the released benchmark.
 

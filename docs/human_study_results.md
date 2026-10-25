@@ -9,9 +9,10 @@
 | **All released ratings** | **878** | 12 |
 
 The three raters were project-team members with no formal art training. Each worked alone on a separate part of the
-data, so each pair was single-rated. 882 ratings were collected and 4 empty rows were dropped. The benchmark contains
-728 seen-style pairs: 100 items per teacher-score level 1-9, except 78 at level 6, because 22 sampled items at that
-level were not rated. All models are compared on the same 728.
+data, so each pair was single-rated. 882 ratings were collected and 4 empty rows were dropped. The 878 released pairs
+(728 seen-style, 150 unseen-style) were sampled with roughly uniform teacher scores: 100 per teacher-score level 1-9,
+except 78 at level 6, because 22 sampled items at that level were not rated. All models are compared on the same
+728 seen-style pairs.
 
 Human score statistics, benchmark rows (computed from `benchmark/human_ratings.csv`):
 

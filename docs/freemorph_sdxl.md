@@ -1,7 +1,7 @@
 # FreeMorph: SD 2.1 baseline vs. SDXL adaptation
 
 Graded intermediate supervision comes from an image-morphing pipeline adapted from
-[FreeMorph](https://arxiv.org/abs/2411.01410). For every source→stylized pair, 8 interpolated frames are
+[FreeMorph](https://arxiv.org/abs/2507.01953) (Cao et al., ICCV 2025). For every source→stylized pair, 8 interpolated frames are
 generated between the source (frame 1) and the stylized target (frame 10).
 
 The original SD 2.1 pipeline changes object shape and composition alongside style, which is unsuitable for
