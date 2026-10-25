@@ -53,3 +53,24 @@ print("\n== Score counts (all 878 pairs; levels 1..10)")
 for name, col in [("human", H), ("student", S), ("teacher", T)]:
     counts = df[col].value_counts().reindex(range(1, 11), fill_value=0).astype(int)
     print(f"{name:8s}" + "".join(f" {counts[score]:3d}" for score in range(1, 11)))
+
+baseline_path = os.path.join(HERE, "baseline_metric_scores.csv")
+zeroshot_path = os.path.join(HERE, "base_zeroshot_predictions.csv")
+if os.path.exists(baseline_path) and os.path.exists(zeroshot_path):
+    print("\n== Traditional metrics and untuned base (seen_728; missing scores skipped)")
+    baseline = pd.read_csv(baseline_path)
+    zeroshot = pd.read_csv(zeroshot_path)
+    seen_ids = seen[["row_id", H]]
+    evaluations = [
+        ("Gram (negated, scaled)", baseline, "gram_negated_scaled"),
+        ("LPIPS (negated, scaled)", baseline, "lpips_negated_scaled"),
+        ("CLIP image similarity", baseline, "clip_scaled"),
+        ("Untuned base (zero-shot)", zeroshot, "score"),
+    ]
+    for name, scores, score_col in evaluations:
+        scored = seen_ids.merge(scores[["row_id", score_col]], on="row_id", how="left", validate="one_to_one")
+        scored[score_col] = pd.to_numeric(scored[score_col], errors="coerce")
+        scored = scored.dropna(subset=[score_col, H])
+        r = pearsonr(scored[score_col], scored[H])[0]
+        rho = spearmanr(scored[score_col], scored[H])[0]
+        print(f"{name:26s} n={len(scored):3d} r={r:.3f} rho={rho:.3f}")

@@ -9,9 +9,9 @@
 | **All released ratings** | **878** | 12 |
 
 The three raters were project-team members with no formal art training. Each worked alone on a separate part of the
-data, so each pair was single-rated. 882 ratings were collected and 4 empty rows were dropped. The 728 benchmark
-rows are the 750 sampled seen-style items minus 22 dropped before rating because the untuned model returned no score;
-all models are compared on the same 728.
+data, so each pair was single-rated. 882 ratings were collected and 4 empty rows were dropped. The benchmark contains
+728 seen-style pairs: 100 items per teacher-score level 1-9, except 78 at level 6, because 22 sampled items at that
+level were not rated. All models are compared on the same 728.
 
 Human score statistics, benchmark rows (computed from `benchmark/human_ratings.csv`):
 
@@ -47,11 +47,17 @@ Pearson r / Spearman ρ on the 728-pair benchmark:
 
 | Metric | Pearson r | Spearman ρ |
 |---|---:|---:|
-| Gram-matrix style loss (negated) | −0.404 | −0.394 |
-| LPIPS (negated) | 0.041 | 0.049 |
+| Gram-matrix style loss (negated) | 0.041 | 0.049 |
+| LPIPS (negated) | −0.404 | −0.394 |
 | CLIP image similarity | 0.168 | 0.178 |
+| Untuned base (0.8B, zero-shot)* | 0.019 | 0.017 |
 | StyleJudge (SFT, 0.8B student) | 0.291 | 0.325 |
 | StyleJudge (teacher, 72B) | 0.327 | 0.337 |
+
+\* Scored on the 711 of 728 pairs for which it returned a parseable score.
+
+The untuned base model is uncorrelated with human ratings zero-shot (r = 0.019 on the 711 pairs it scores), so the
+gain comes from fine-tuning.
 
 Bootstrap 95% confidence intervals (N = 728): student r ∈ [0.225, 0.351]; teacher r ∈ [0.258, 0.389];
 difference (student − teacher) ∈ [−0.112, 0.037], so no significant difference is detected.
@@ -71,13 +77,12 @@ CLIP image similarity: cosine similarity of CLIP ViT-B/32 image embeddings of th
 stylized image. Images are resized to 256×256 (Lanczos). Gram and LPIPS are negated; all three are min-max scaled
 to 1–10 over the benchmark pairs and rounded.
 
-### Gram-matrix convention
+### Baseline interpretation
 
-The Gram baseline is the VGG16 Gram-matrix distance between the query result and the exemplar target. It is
-negated before 1–10 scaling, so a closer style match gets a higher score, which is the direction in which a
-metric should rise with human ratings. It correlates at r = −0.404 (the raw loss correlates at +0.404), so on this
-benchmark Gram loss is not a good metric for the task. Gram statistics measure feature divergence without
-penalising semantic corruption, so this should not be read as a general claim about Gram loss.
+LPIPS (source vs. result) is negatively correlated: its distance grows with stylization strength along the morph
+strips (Spearman rho = 0.66 with frame index), which raters reward. Gram-matrix loss is essentially uncorrelated
+(r = 0.041). An unsigned stylization-strength proxy such as raw LPIPS distance (r = 0.405) is therefore a strong
+baseline on this benchmark, because most queries come from graded morph strips.
 
 ### Human agreement
 

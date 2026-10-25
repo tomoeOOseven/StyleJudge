@@ -28,7 +28,6 @@ Qwen2.5-VL-72B teacher rationales (§3.3 of the paper).
 | Warmup steps | 10 | Linear warmup |
 | Optimizer | Paged AdamW 8-bit | Memory-efficient optimizer |
 | Precision | bfloat16 | Mixed precision |
-| Image size | 1024 | Resolution limit (constrains visual token count) |
 | Custom loss (score weight λ) | 5.0 | Extra weight on score-digit tokens (Eq. 2 of the paper); swept over λ ∈ {1, 2, 3, 4, 5} |
 | Evaluation steps | 25 | Validation frequency |
 | Save steps | 100 | Checkpoint frequency |
@@ -36,7 +35,9 @@ Qwen2.5-VL-72B teacher rationales (§3.3 of the paper).
 
 The λ sweep stopped at 5 (the boundary value was selected).
 
+Images are loaded at 1024 px and resized to 512 px by Unsloth's vision pipeline.
+
 ![Training loss](../assets/figures/training_loss.jpg)
 
-The K sweep is evaluated on the same 800 validation-style items (expressive, mosaic) for every K, drawn from the
-K=3 annotation set; the K=3 adapter was trained on 3,860 examples.
+The K sweep uses the same 800 validation-style items (expressive, mosaic) for every K, all scored against the
+teacher's labels in the K=3 annotation set; the K=3 adapter was trained on 3,860 examples.

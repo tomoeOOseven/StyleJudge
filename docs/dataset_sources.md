@@ -2,10 +2,10 @@
 
 ## Source collections
 
-Source images were aggregated from seven collections (Table 4 of the paper), listed below. Only square images were kept and
-all were standardised to 1024×1024 px with Lanczos resampling (HQ-50K: sides in [800, 1024) px are upscaled;
-other sources: [1000, 1024) px; larger images are downscaled; smaller ones are discarded), giving a curated
-pool of about 10K images.
+Source images come from the seven public collections listed below (Table 4 of the paper). The curated source-image
+pool is not released. Only square images were kept and all were standardised to 1024×1024 px with Lanczos
+resampling (HQ-50K: sides in [800, 1024) px are upscaled; other sources: [1000, 1024) px; larger images are
+downscaled; smaller ones are discarded).
 
 | Source | Contribution |
 |---|---|

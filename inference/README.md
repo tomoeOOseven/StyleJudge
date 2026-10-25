@@ -4,6 +4,9 @@ Inference code for the **Qwen3.5-0.8B + LoRA** StyleJudge student (teacher: Qwen
 Given two exemplar source→stylized pairs and a query pair, the model returns Style Fidelity (SF),
 Content Preservation (CP), Rendering Quality (RQ) and the composite score `S_final` (Eq. 1 of the paper).
 
+On a single NVIDIA T4, StyleJudge scores a pair in 39 s (median over 900 pairs: the 878 rated pairs plus 22 unrated
+ones) with 2.5 GB of peak GPU memory.
+
 ## Weights
 
 The LoRA adapter is hosted on Hugging Face (not stored in this repo):

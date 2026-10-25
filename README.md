@@ -15,7 +15,7 @@ judgment. StyleJudge is a 0.8B vision-language model distilled from a 72B teache
 against human ratings.
 
 - **Reference-conditioned.** Two exemplar pairs (K = 2) turn evaluation into a visual analogy task.
-- **Compact.** A Qwen3.5-0.8B + LoRA student that runs on a single consumer GPU; teacher is Qwen2.5-VL-72B.
+- **Compact.** A Qwen3.5-0.8B + LoRA student that runs on a single 16 GB GPU (NVIDIA T4); teacher is Qwen2.5-VL-72B.
 - **Human-validated.** Released benchmark of 878 human ratings (728 seen-style pairs + 150 unseen-style pairs).
 - **Reusable.** Score any future metric on the same pairs with [`benchmark/score_metric.py`](benchmark/score_metric.py).
 
@@ -25,11 +25,17 @@ Pearson / Spearman correlation with human ratings on the 728-pair benchmark (10 
 
 | Metric | Pearson r | Spearman ρ |
 |---|---:|---:|
-| Gram-matrix style loss (negated) | −0.404 | −0.394 |
-| LPIPS (negated) | 0.041 | 0.049 |
+| Gram-matrix style loss (negated) | 0.041 | 0.049 |
+| LPIPS (negated) | −0.404 | −0.394 |
 | CLIP image similarity | 0.168 | 0.178 |
+| Untuned base (0.8B, zero-shot)* | 0.019 | 0.017 |
 | **StyleJudge (0.8B student)** | **0.291** | **0.325** |
 | StyleJudge teacher (72B) | 0.327 | 0.337 |
+
+\* Scored on the 711 of 728 pairs for which it returned a parseable score.
+
+The untuned base model is uncorrelated with human ratings zero-shot (r = 0.019 on the 711 pairs it scores), so the
+gain comes from fine-tuning.
 
 On the 150 human-rated unseen-style rows (Acrylic, Pop Art) the student reaches r = 0.381 (teacher 0.408).
 On 800 samples from the two validation styles (expressive, mosaic), held out from training, student–teacher
@@ -53,6 +59,9 @@ The adapter is downloaded from Hugging Face automatically. Batch evaluation is d
 ```bash
 python benchmark/score_metric.py my_predictions.csv     # columns: row_id, score
 ```
+
+On a single NVIDIA T4, StyleJudge scores a pair in 39 s (median over 900 pairs: the 878 rated pairs plus 22 unrated
+ones) with 2.5 GB of peak GPU memory.
 
 ## Method
 
@@ -83,7 +92,7 @@ severe failure; otherwise it reduces to style fidelity.
 
 **Pipeline.**
 
-1. **Pairs.** About 10K curated 1024×1024 source images are stylized with FLUX.1-dev Kontext and 12 style LoRAs.
+1. **Pairs.** Source images from seven public collections are stylized with FLUX.1-dev Kontext and 12 style LoRAs.
 2. **Graded supervision.** An SDXL-adapted FreeMorph adds 8 intermediate frames per pair, so the evaluator sees
    partial as well as complete stylization.
 3. **Teacher labels.** Qwen2.5-VL-72B labels every item (2 exemplar pairs + style markers + query) with scores and a rationale.
@@ -118,11 +127,13 @@ Teacher–student distillation, Qwen2.5-VL-72B → Qwen3.5-0.8B (Unsloth `FastVi
 | | |
 |---|---|
 | LoRA | r = 16, α = 32, dropout 0.05, rsLoRA disabled, all attention + MLP projections, vision + language layers |
-| Sequence / image | 8,192 tokens, 1024 px |
+| Sequence length | 8,192 tokens |
 | Batch | 4 per device × 4 gradient accumulation = 16 |
 | Optimizer | Paged AdamW 8-bit, lr 2×10⁻⁴, cosine schedule, 10 warmup steps, bf16 |
 | Score-weighted loss | λ = 5.0 on score-digit tokens (Eq. 2) |
 | Splits | 5,614 train (8 styles) / 1,326 val (2 styles) / 800 test (unseen: Acrylic, Pop Art) |
+
+Images are loaded at 1024 px and resized to 512 px by Unsloth's vision pipeline.
 
 Full tables: [`docs/training_hyperparameters.md`](docs/training_hyperparameters.md).
 
@@ -141,7 +152,8 @@ Table above, plus:
   0.333 / 0.124 / 0.109 (n = 419 / 232 / 77).
 - **Unseen styles.** 150 rows (Acrylic, Pop Art; exemplars and style markers still given): student r = 0.381
   (95% CI [0.24, 0.51]), teacher 0.408. All 878 rows: student 0.297, teacher 0.341.
-- **Per style.** Both models correlate positively with human ratings in all 12 styles; the student exceeds the teacher
+- **Per style.** Both models have positive point estimates in all 12 styles (the 95% intervals for mosaic, and for the
+  teacher on minimalist, include zero); the student exceeds the teacher
   in 10. After removing per-style means, the student's correlation on the 728 pairs is 0.368 (teacher 0.333); most
   of its remaining error is style-level calibration: the student gives a 9 to 39% of pairs and 1–3 to 43%, and uses
   the middle of the scale (4–6) for only 7%, whereas 33% of human ratings fall there.
@@ -153,6 +165,10 @@ Table above, plus:
   the query source and its result. CLIP image similarity is the cosine similarity of CLIP ViT-B/32 image embeddings
   of the query result and exemplar A's stylized image. Images are resized to 256×256 (Lanczos). Gram and LPIPS are
   negated; all three are min-max scaled to 1–10 over the benchmark pairs and rounded.
+- **Baseline interpretation.** LPIPS (source vs. result) is negatively correlated: its distance grows with stylization
+  strength along the morph strips (Spearman rho = 0.66 with frame index), which raters reward. Gram-matrix loss is
+  essentially uncorrelated (r = 0.041). An unsigned stylization-strength proxy such as raw LPIPS distance (r = 0.405)
+  is therefore a strong baseline on this benchmark, because most queries come from graded morph strips.
 
 More in [`docs/human_study_results.md`](docs/human_study_results.md).
 
@@ -176,8 +192,8 @@ does not by itself establish alignment with human judgment.
 | **2** | **2.109** | **28.2** | **54.4** | 2,606 |
 | 3 | 2.600 | 19.6 | 44.0 | 3,527 |
 
-The K sweep is evaluated on the same 800 validation-style items (expressive, mosaic) for every K, drawn from the
-K=3 annotation set; the K=3 adapter was trained on 3,860 examples.
+The K sweep uses the same 800 validation-style items (expressive, mosaic) for every K, all scored against the
+teacher's labels in the K=3 annotation set; the K=3 adapter was trained on 3,860 examples.
 
 K = 0 is the untuned base model; each K ≥ 1 row uses its own adapter, trained and evaluated with that K (see the
 training-loss figure). The K = 0 → 1 jump therefore includes fine-tuning; K = 3 < K = 2 may reflect the
@@ -210,7 +226,8 @@ Protocol and verbatim guideline: [`docs/annotation_protocol.md`](docs/annotation
 
 ## Data
 
-Source images (1024×1024, square, Lanczos-resampled; about 10K curated images) come from seven collections:
+Source images (1024×1024, square, Lanczos-resampled) come from the public collections listed below. The curated
+source-image pool is not released.
 
 | Source | Contribution |
 |---|---|
@@ -222,7 +239,7 @@ Source images (1024×1024, square, Lanczos-resampled; about 10K curated images) 
 | [LHQ-1024](https://www.kaggle.com/datasets/dimensi0n/lhq-1024) | Landscape scenes |
 | [Unsplash](https://unsplash.com) | Landscape scenes, atmospheric variation |
 
-Generated and derived datasets (Google Drive folder with everything: [Datasets](https://drive.google.com/drive/folders/1hzk80mSjpXRNwI5kUuDLyTcYRblOymeB)):
+Generated and derived datasets (Google Drive folder with generated and derived assets: [Datasets](https://drive.google.com/drive/folders/1hzk80mSjpXRNwI5kUuDLyTcYRblOymeB)):
 
 | Dataset | Description | Source |
 |---|---|---|
@@ -254,7 +271,7 @@ Notebook order and descriptions: [`notebooks/README.md`](notebooks/README.md). R
 ## Future work
 
 - **GRPO / RLHF-style use.** Optimizing the judge with Group Relative Policy Optimization against human-alignment
-  rewards, and using it as a reward signal when training stylization models. An exploratory notebook is in
+  rewards, and using it in an inference or model-selection loop for stylization models. An exploratory notebook is in
   [`notebooks/future_work/`](notebooks/future_work/); none of this is part of the reported results.
 - Longer SFT, larger-scale human preference data, and broader baselines (DINO, PickScore, CSD, ArtFID) scored on the released benchmark.
 
